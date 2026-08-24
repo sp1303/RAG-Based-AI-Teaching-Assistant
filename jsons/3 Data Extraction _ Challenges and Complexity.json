@@ -1,0 +1,1391 @@
+{
+  "chunks": [
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 0.0,
+      "end": 2.0,
+      "text": " Dear students, welcome to Gatesmeasures."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 2.0,
+      "end": 4.0,
+      "text": " In today's video, I am going to explain"
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 4.0,
+      "end": 6.0,
+      "text": " the data extraction process"
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 6.0,
+      "end": 8.0,
+      "text": " and what all challenges it faces"
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 8.0,
+      "end": 11.0,
+      "text": " whenever companies extract data."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 11.0,
+      "end": 13.0,
+      "text": " In the last video, I told you"
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 13.0,
+      "end": 17.0,
+      "text": " about ETL, Extract, Transform and Loading of Data."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 17.0,
+      "end": 19.0,
+      "text": " So, in these three phases,"
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 19.0,
+      "end": 23.0,
+      "text": " the first phase is to extract data."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 23.0,
+      "end": 25.0,
+      "text": " What all challenges it faces?"
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 25.0,
+      "end": 28.0,
+      "text": " Is this process easy or difficult?"
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 28.0,
+      "end": 31.0,
+      "text": " It looks easy and it feels easy to say"
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 31.0,
+      "end": 33.0,
+      "text": " that data has to be extracted"
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 33.0,
+      "end": 36.0,
+      "text": " and collected from multiple sites."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 36.0,
+      "end": 40.0,
+      "text": " But guys, when we talk about real-life environment"
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 40.0,
+      "end": 42.0,
+      "text": " and when it has to be executed,"
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 42.0,
+      "end": 45.0,
+      "text": " there are huge number of challenges."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 45.0,
+      "end": 47.0,
+      "text": " I will explain this with an example."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 47.0,
+      "end": 49.0,
+      "text": " Let's take the example of Nike."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 49.0,
+      "end": 51.0,
+      "text": " If we take the example of Nike,"
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 51.0,
+      "end": 54.0,
+      "text": " then you know that Nike has a lot of products."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 54.0,
+      "end": 57.0,
+      "text": " How do they sell these products?"
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 57.0,
+      "end": 60.0,
+      "text": " Either they have outlets in their malls"
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 60.0,
+      "end": 62.0,
+      "text": " or in their cities or outside."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 62.0,
+      "end": 64.0,
+      "text": " There are many outlets."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 64.0,
+      "end": 67.0,
+      "text": " And second thing is that Nike also sells online."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 67.0,
+      "end": 69.0,
+      "text": " That means there are two modes."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 69.0,
+      "end": 71.0,
+      "text": " One is online and the other is offline."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 71.0,
+      "end": 75.0,
+      "text": " Now, this online mode has a lot of transactions."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 75.0,
+      "end": 77.0,
+      "text": " There is a lot of database here"
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 77.0,
+      "end": 79.0,
+      "text": " because there are many different types of shoes."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 79.0,
+      "end": 82.0,
+      "text": " They have a lot of products other than shoes."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 82.0,
+      "end": 84.0,
+      "text": " Different types of customers come"
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 84.0,
+      "end": 85.0,
+      "text": " who buy the products."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 85.0,
+      "end": 87.0,
+      "text": " So managing this amount of data"
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 87.0,
+      "end": 89.0,
+      "text": " is a challenge in itself."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 89.0,
+      "end": 92.0,
+      "text": " And where is this data stored quickly?"
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 92.0,
+      "end": 93.0,
+      "text": " On servers."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 93.0,
+      "end": 95.0,
+      "text": " So you can say one thing here"
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 95.0,
+      "end": 97.0,
+      "text": " that all my data is online."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 97.0,
+      "end": 99.0,
+      "text": " All the online work"
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 99.0,
+      "end": 101.0,
+      "text": " I have web servers here."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 101.0,
+      "end": 103.0,
+      "text": " My data is stored on those web servers."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 103.0,
+      "end": 105.0,
+      "text": " And my site or application"
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 105.0,
+      "end": 107.0,
+      "text": " through mobile application"
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 107.0,
+      "end": 109.0,
+      "text": " whatever customer is purchasing"
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 109.0,
+      "end": 110.0,
+      "text": " or even visiting,"
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 110.0,
+      "end": 112.0,
+      "text": " its data comes somewhere"
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 112.0,
+      "end": 114.0,
+      "text": " and gets saved on these servers."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 114.0,
+      "end": 116.0,
+      "text": " So the data on those servers"
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 116.0,
+      "end": 118.0,
+      "text": " can be extracted."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 118.0,
+      "end": 121.0,
+      "text": " But the first challenge in it is"
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 121.0,
+      "end": 125.0,
+      "text": " that your application programming interfaces"
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 125.0,
+      "end": 127.0,
+      "text": " should be properly working."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 127.0,
+      "end": 129.0,
+      "text": " Your JDBC, ODBC connections"
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 129.0,
+      "end": 131.0,
+      "text": " should work properly."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 131.0,
+      "end": 134.0,
+      "text": " Your connectors should work properly."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 134.0,
+      "end": 137.0,
+      "text": " Only then you can easily fetch data."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 137.0,
+      "end": 139.0,
+      "text": " Maybe the warehouse you have made"
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 139.0,
+      "end": 141.0,
+      "text": " where you are collecting data"
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 141.0,
+      "end": 143.0,
+      "text": " is in your let's suppose Delhi."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 143.0,
+      "end": 145.0,
+      "text": " Now the centers are not all in Delhi."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 145.0,
+      "end": 147.0,
+      "text": " Nike is all over India."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 147.0,
+      "end": 149.0,
+      "text": " Even outside India."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 149.0,
+      "end": 151.0,
+      "text": " But if I talk only about India,"
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 151.0,
+      "end": 153.0,
+      "text": " then bringing data at one place"
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 153.0,
+      "end": 156.0,
+      "text": " is a challenge in itself."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 156.0,
+      "end": 158.0,
+      "text": " And if we talk about outlets,"
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 158.0,
+      "end": 160.0,
+      "text": " these outlets have data"
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 160.0,
+      "end": 162.0,
+      "text": " on these outlets."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 162.0,
+      "end": 164.0,
+      "text": " Point of sale."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 164.0,
+      "end": 166.0,
+      "text": " This is called POS system."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 166.0,
+      "end": 169.0,
+      "text": " Data is saved in those POS systems."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 169.0,
+      "end": 170.0,
+      "text": " Now from these systems,"
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 170.0,
+      "end": 172.0,
+      "text": " means the system that is kept locally"
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 172.0,
+      "end": 173.0,
+      "text": " and at the end of the day,"
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 173.0,
+      "end": 175.0,
+      "text": " all the data is collected"
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 175.0,
+      "end": 177.0,
+      "text": " and stored at one place."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 177.0,
+      "end": 179.0,
+      "text": " So the first thing that comes here"
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 179.0,
+      "end": 181.0,
+      "text": " is the complexity of data source."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 181.0,
+      "end": 183.0,
+      "text": " That the sources we have"
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 183.0,
+      "end": 184.0,
+      "text": " from where the data will come,"
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 184.0,
+      "end": 186.0,
+      "text": " whether it is POS system,"
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 186.0,
+      "end": 187.0,
+      "text": " whether it is servers,"
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 187.0,
+      "end": 189.0,
+      "text": " whether it is inventory management servers."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 189.0,
+      "end": 190.0,
+      "text": " Because in the backend,"
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 190.0,
+      "end": 192.0,
+      "text": " inventory also has to be managed."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 192.0,
+      "end": 194.0,
+      "text": " It is not that you are going to outlets"
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 194.0,
+      "end": 195.0,
+      "text": " and you are not getting shoes there."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 195.0,
+      "end": 197.0,
+      "text": " Or you are looking for a particular thing,"
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 197.0,
+      "end": 198.0,
+      "text": " you are not getting there."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 198.0,
+      "end": 201.0,
+      "text": " So they manage the inventory beforehand."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 201.0,
+      "end": 202.0,
+      "text": " So there are so many systems,"
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 202.0,
+      "end": 204.0,
+      "text": " there are so many online systems."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 204.0,
+      "end": 206.0,
+      "text": " Collecting data from those systems"
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 206.0,
+      "end": 208.0,
+      "text": " is a major challenge in itself."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 208.0,
+      "end": 210.0,
+      "text": " Because there is data of different formats."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 210.0,
+      "end": 212.0,
+      "text": " Combining it and bringing it"
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 212.0,
+      "end": 213.0,
+      "text": " is also a challenge."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 213.0,
+      "end": 216.0,
+      "text": " Then real-time data extraction."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 216.0,
+      "end": 218.0,
+      "text": " Now the data that is being extracted,"
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 218.0,
+      "end": 220.0,
+      "text": " it is not that once a month,"
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 220.0,
+      "end": 222.0,
+      "text": " once every two months."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 222.0,
+      "end": 224.0,
+      "text": " If I have so many transactions"
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 224.0,
+      "end": 225.0,
+      "text": " on a daily basis,"
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 225.0,
+      "end": 227.0,
+      "text": " then what do I have to do with data?"
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 227.0,
+      "end": 228.0,
+      "text": " Real time means"
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 228.0,
+      "end": 230.0,
+      "text": " your work is also going on."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 230.0,
+      "end": 231.0,
+      "text": " Your app is also running,"
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 231.0,
+      "end": 233.0,
+      "text": " your outlets are also running."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 233.0,
+      "end": 234.0,
+      "text": " And at the same time,"
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 234.0,
+      "end": 236.0,
+      "text": " your data is also being extracted."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 236.0,
+      "end": 239.0,
+      "text": " So this work is done in real time."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 239.0,
+      "end": 240.0,
+      "text": " Means your application,"
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 240.0,
+      "end": 241.0,
+      "text": " each and everything is working."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 241.0,
+      "end": 242.0,
+      "text": " And at the same time,"
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 242.0,
+      "end": 243.0,
+      "text": " your data is being extracted."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 243.0,
+      "end": 245.0,
+      "text": " And what happens in real time,"
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 245.0,
+      "end": 247.0,
+      "text": " sometimes if any point is missed,"
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 247.0,
+      "end": 249.0,
+      "text": " if any data is left loose,"
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 249.0,
+      "end": 251.0,
+      "text": " if any data is spoiled in the middle,"
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 251.0,
+      "end": 253.0,
+      "text": " then somewhere it goes to the backend"
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 253.0,
+      "end": 254.0,
+      "text": " and creates a problem."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 254.0,
+      "end": 256.0,
+      "text": " So extracting data in real time"
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 256.0,
+      "end": 257.0,
+      "text": " because at that time,"
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 257.0,
+      "end": 259.0,
+      "text": " maybe transactions are running."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 259.0,
+      "end": 261.0,
+      "text": " And you are extracting data from the middle."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 261.0,
+      "end": 264.0,
+      "text": " So proper analysis can be affected somewhere."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 264.0,
+      "end": 266.0,
+      "text": " So that's why this is also a big challenge in itself."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 266.0,
+      "end": 268.0,
+      "text": " Then volume and velocity of data."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 268.0,
+      "end": 270.0,
+      "text": " Now what is this data?"
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 270.0,
+      "end": 271.0,
+      "text": " Is it a fixed amount of data?"
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 271.0,
+      "end": 273.0,
+      "text": " Is its size one?"
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 273.0,
+      "end": 276.0,
+      "text": " No, that data is also increasing on a daily basis."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 276.0,
+      "end": 277.0,
+      "text": " Because there are a huge number of transactions"
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 277.0,
+      "end": 278.0,
+      "text": " on a daily basis."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 278.0,
+      "end": 280.0,
+      "text": " Sometimes there is a time of sale."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 280.0,
+      "end": 282.0,
+      "text": " Like sales come on Diwali etc."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 282.0,
+      "end": 283.0,
+      "text": " Or sales come on New Year."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 283.0,
+      "end": 284.0,
+      "text": " So what happens there?"
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 284.0,
+      "end": 286.0,
+      "text": " That your data volume increases."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 286.0,
+      "end": 287.0,
+      "text": " Velocity means speed."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 287.0,
+      "end": 288.0,
+      "text": " Speed will also increase."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 288.0,
+      "end": 289.0,
+      "text": " It can be in a day."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 289.0,
+      "end": 291.0,
+      "text": " Earlier there were 1000 transactions."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 291.0,
+      "end": 292.0,
+      "text": " Now in a day there are 100,000."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 292.0,
+      "end": 293.0,
+      "text": " Because you have put a sale."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 293.0,
+      "end": 295.0,
+      "text": " So with these factors,"
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 295.0,
+      "end": 297.0,
+      "text": " the volume of your data,"
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 297.0,
+      "end": 298.0,
+      "text": " the size also increases."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 298.0,
+      "end": 301.0,
+      "text": " And your velocity speed also increases."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 301.0,
+      "end": 303.0,
+      "text": " There are so many transactions."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 303.0,
+      "end": 306.0,
+      "text": " So bringing all the data to those transactions"
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 306.0,
+      "end": 308.0,
+      "text": " is a challenge in itself."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 308.0,
+      "end": 310.0,
+      "text": " Then access and security permission."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 310.0,
+      "end": 312.0,
+      "text": " This is also not that"
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 312.0,
+      "end": 313.0,
+      "text": " anyone is accessing the data"
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 313.0,
+      "end": 315.0,
+      "text": " and extracting any data."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 315.0,
+      "end": 317.0,
+      "text": " For that, you need proper skilled people."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 317.0,
+      "end": 319.0,
+      "text": " You should have proper software."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 319.0,
+      "end": 322.0,
+      "text": " And permissions are also important in this."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 322.0,
+      "end": 324.0,
+      "text": " Security permission, access permission."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 324.0,
+      "end": 326.0,
+      "text": " Why? Because there is so much competition."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 326.0,
+      "end": 328.0,
+      "text": " The data of the customers is the top priority"
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 328.0,
+      "end": 330.0,
+      "text": " for every company."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 330.0,
+      "end": 332.0,
+      "text": " That it should be kept secure."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 332.0,
+      "end": 333.0,
+      "text": " Because there is so much competition."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 333.0,
+      "end": 334.0,
+      "text": " Let's suppose Nike's data."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 334.0,
+      "end": 335.0,
+      "text": " Sometimes it comes like this"
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 335.0,
+      "end": 338.0,
+      "text": " that the data of this particular bank has been breached."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 338.0,
+      "end": 340.0,
+      "text": " So it can create a lot of problems."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 340.0,
+      "end": 342.0,
+      "text": " So if a company's data is breached,"
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 342.0,
+      "end": 344.0,
+      "text": " it is possible that rival companies"
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 344.0,
+      "end": 346.0,
+      "text": " can take advantage of that data."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 346.0,
+      "end": 348.0,
+      "text": " You are giving a 40% discount."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 348.0,
+      "end": 350.0,
+      "text": " They say that we give you 50, 60."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 350.0,
+      "end": 352.0,
+      "text": " So somewhere we can shift in that thing."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 352.0,
+      "end": 354.0,
+      "text": " So these things matter a lot."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 354.0,
+      "end": 356.0,
+      "text": " There are challenges."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 356.0,
+      "end": 358.0,
+      "text": " Then data quality and consistency."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 358.0,
+      "end": 360.0,
+      "text": " The data that is coming to you,"
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 360.0,
+      "end": 362.0,
+      "text": " by extracting it, you are bringing it from these sources."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 362.0,
+      "end": 364.0,
+      "text": " Is that data better?"
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 364.0,
+      "end": 366.0,
+      "text": " I mean, is that data qualitative or not?"
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 366.0,
+      "end": 369.0,
+      "text": " Will any of it come out in the future or not?"
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 369.0,
+      "end": 371.0,
+      "text": " Is that data consistent or not?"
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 371.0,
+      "end": 373.0,
+      "text": " What is the relevancy of that data?"
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 373.0,
+      "end": 376.0,
+      "text": " All these things are checked in validation rules somewhere."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 376.0,
+      "end": 378.0,
+      "text": " So that's why these challenges are"
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 378.0,
+      "end": 380.0,
+      "text": " it just seems theoretical to say."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 380.0,
+      "end": 382.0,
+      "text": " But if you take this scenario"
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 382.0,
+      "end": 384.0,
+      "text": " that if you are really running such a company,"
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 384.0,
+      "end": 386.0,
+      "text": " then in that company,"
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 386.0,
+      "end": 389.0,
+      "text": " if we try to extract data first,"
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 389.0,
+      "end": 392.0,
+      "text": " then such challenges definitely come."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 392.0,
+      "end": 395.0,
+      "text": " And this can be asked many times in exam or interview."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 395.0,
+      "end": 396.0,
+      "text": " So you can easily give the answer."
+    },
+    {
+      "number": "3",
+      "title": "Data Extraction _ Challenges and Complexity",
+      "start": 396.0,
+      "end": 398.0,
+      "text": " Thank you."
+    }
+  ],
+  "text": " Dear students, welcome to Gatesmeasures. In today's video, I am going to explain the data extraction process and what all challenges it faces whenever companies extract data. In the last video, I told you about ETL, Extract, Transform and Loading of Data. So, in these three phases, the first phase is to extract data. What all challenges it faces? Is this process easy or difficult? It looks easy and it feels easy to say that data has to be extracted and collected from multiple sites. But guys, when we talk about real-life environment and when it has to be executed, there are huge number of challenges. I will explain this with an example. Let's take the example of Nike. If we take the example of Nike, then you know that Nike has a lot of products. How do they sell these products? Either they have outlets in their malls or in their cities or outside. There are many outlets. And second thing is that Nike also sells online. That means there are two modes. One is online and the other is offline. Now, this online mode has a lot of transactions. There is a lot of database here because there are many different types of shoes. They have a lot of products other than shoes. Different types of customers come who buy the products. So managing this amount of data is a challenge in itself. And where is this data stored quickly? On servers. So you can say one thing here that all my data is online. All the online work I have web servers here. My data is stored on those web servers. And my site or application through mobile application whatever customer is purchasing or even visiting, its data comes somewhere and gets saved on these servers. So the data on those servers can be extracted. But the first challenge in it is that your application programming interfaces should be properly working. Your JDBC, ODBC connections should work properly. Your connectors should work properly. Only then you can easily fetch data. Maybe the warehouse you have made where you are collecting data is in your let's suppose Delhi. Now the centers are not all in Delhi. Nike is all over India. Even outside India. But if I talk only about India, then bringing data at one place is a challenge in itself. And if we talk about outlets, these outlets have data on these outlets. Point of sale. This is called POS system. Data is saved in those POS systems. Now from these systems, means the system that is kept locally and at the end of the day, all the data is collected and stored at one place. So the first thing that comes here is the complexity of data source. That the sources we have from where the data will come, whether it is POS system, whether it is servers, whether it is inventory management servers. Because in the backend, inventory also has to be managed. It is not that you are going to outlets and you are not getting shoes there. Or you are looking for a particular thing, you are not getting there. So they manage the inventory beforehand. So there are so many systems, there are so many online systems. Collecting data from those systems is a major challenge in itself. Because there is data of different formats. Combining it and bringing it is also a challenge. Then real-time data extraction. Now the data that is being extracted, it is not that once a month, once every two months. If I have so many transactions on a daily basis, then what do I have to do with data? Real time means your work is also going on. Your app is also running, your outlets are also running. And at the same time, your data is also being extracted. So this work is done in real time. Means your application, each and everything is working. And at the same time, your data is being extracted. And what happens in real time, sometimes if any point is missed, if any data is left loose, if any data is spoiled in the middle, then somewhere it goes to the backend and creates a problem. So extracting data in real time because at that time, maybe transactions are running. And you are extracting data from the middle. So proper analysis can be affected somewhere. So that's why this is also a big challenge in itself. Then volume and velocity of data. Now what is this data? Is it a fixed amount of data? Is its size one? No, that data is also increasing on a daily basis. Because there are a huge number of transactions on a daily basis. Sometimes there is a time of sale. Like sales come on Diwali etc. Or sales come on New Year. So what happens there? That your data volume increases. Velocity means speed. Speed will also increase. It can be in a day. Earlier there were 1000 transactions. Now in a day there are 100,000. Because you have put a sale. So with these factors, the volume of your data, the size also increases. And your velocity speed also increases. There are so many transactions. So bringing all the data to those transactions is a challenge in itself. Then access and security permission. This is also not that anyone is accessing the data and extracting any data. For that, you need proper skilled people. You should have proper software. And permissions are also important in this. Security permission, access permission. Why? Because there is so much competition. The data of the customers is the top priority for every company. That it should be kept secure. Because there is so much competition. Let's suppose Nike's data. Sometimes it comes like this that the data of this particular bank has been breached. So it can create a lot of problems. So if a company's data is breached, it is possible that rival companies can take advantage of that data. You are giving a 40% discount. They say that we give you 50, 60. So somewhere we can shift in that thing. So these things matter a lot. There are challenges. Then data quality and consistency. The data that is coming to you, by extracting it, you are bringing it from these sources. Is that data better? I mean, is that data qualitative or not? Will any of it come out in the future or not? Is that data consistent or not? What is the relevancy of that data? All these things are checked in validation rules somewhere. So that's why these challenges are it just seems theoretical to say. But if you take this scenario that if you are really running such a company, then in that company, if we try to extract data first, then such challenges definitely come. And this can be asked many times in exam or interview. So you can easily give the answer. Thank you."
+}

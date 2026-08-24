@@ -1,0 +1,1027 @@
+{
+  "chunks": [
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 0.0,
+      "end": 3.64,
+      "text": " Dear students, welcome to Gate Smashers."
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 3.64,
+      "end": 10.32,
+      "text": " In today's video, I am going to explain what are anomalies or outliers and what are their types."
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 10.32,
+      "end": 15.280000000000001,
+      "text": " Actually, the sooner the outliers are detected, the better."
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 15.280000000000001,
+      "end": 19.2,
+      "text": " And especially when we do data pre-processing, data cleaning etc."
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 19.2,
+      "end": 24.8,
+      "text": " At the same time, if we detect outliers and remove them from our data set,"
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 24.8,
+      "end": 30.560000000000002,
+      "text": " then our results are better and more optimized."
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 30.560000000000002,
+      "end": 36.8,
+      "text": " The simple reason for this is that outliers are such data points"
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 36.8,
+      "end": 41.760000000000005,
+      "text": " that deviate significantly from the normal patterns in the data set."
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 41.760000000000005,
+      "end": 48.480000000000004,
+      "text": " Let's suppose my maximum data point is lying on a particular point."
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 48.480000000000004,
+      "end": 52.480000000000004,
+      "text": " But there is one data point which is far away from all these."
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 52.48,
+      "end": 58.879999999999995,
+      "text": " So, if you remove any mean, median or mode, then obviously, this will also participate."
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 58.879999999999995,
+      "end": 66.47999999999999,
+      "text": " When this will participate, then the result can go bad."
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 66.47999999999999,
+      "end": 74.96,
+      "text": " That's why we want you to know what are outliers and remove them as soon as possible from your data set."
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 74.96,
+      "end": 79.84,
+      "text": " So that you can find your patterns on the correct data."
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 79.92,
+      "end": 81.92,
+      "text": " So, always remember this point."
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 81.92,
+      "end": 88.48,
+      "text": " Now, if we talk about anomalies or outliers, then the first thing that comes is point anomaly."
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 88.48,
+      "end": 90.0,
+      "text": " It's a very simple topic."
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 90.0,
+      "end": 93.28,
+      "text": " There is no big concept in this."
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 93.28,
+      "end": 95.28,
+      "text": " No, it's very easy."
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 95.28,
+      "end": 97.28,
+      "text": " It's also called global outlier."
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 97.28,
+      "end": 98.0,
+      "text": " What does it mean?"
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 98.0,
+      "end": 102.48,
+      "text": " It's a single data point that is very different from the rest of the data."
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 102.48,
+      "end": 107.12,
+      "text": " As I told you in the diagram, maximum data point is lying here and one is lying separately."
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 107.2,
+      "end": 119.60000000000001,
+      "text": " Let's say, the electricity bill of your house is between 1000-5000."
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 119.60000000000001,
+      "end": 122.32000000000001,
+      "text": " But, in a month, it comes to 50,000."
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 122.32000000000001,
+      "end": 124.32000000000001,
+      "text": " Now, this is an outlier."
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 124.32000000000001,
+      "end": 126.32000000000001,
+      "text": " It will get triggered suddenly."
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 126.32000000000001,
+      "end": 130.8,
+      "text": " Now, you will also get wrong triggered that how did this come to 50,000?"
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 130.8,
+      "end": 133.36,
+      "text": " Maybe something went wrong there."
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 133.44000000000003,
+      "end": 135.44000000000003,
+      "text": " So, what is that thing called?"
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 135.44000000000003,
+      "end": 138.88000000000002,
+      "text": " It's called point anomaly or global outlier."
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 138.88000000000002,
+      "end": 140.88000000000002,
+      "text": " Means, all the other points are close."
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 140.88000000000002,
+      "end": 144.72000000000003,
+      "text": " One went so far that your system got messed up."
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 144.72000000000003,
+      "end": 146.72000000000003,
+      "text": " So, it's important to point out this."
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 146.72000000000003,
+      "end": 152.24,
+      "text": " Then comes your contextual anomaly which is called conditional outlier."
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 152.24,
+      "end": 154.24,
+      "text": " What does conditional outlier mean?"
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 154.24,
+      "end": 156.96,
+      "text": " It will be fine in one condition."
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 156.96,
+      "end": 159.92000000000002,
+      "text": " In the other condition, it may seem wrong to you."
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 160.0,
+      "end": 167.2,
+      "text": " It means that if the temperature is 30 degrees in summers,"
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 167.2,
+      "end": 169.2,
+      "text": " then you will find it normal."
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 169.2,
+      "end": 171.6,
+      "text": " 30 is less, it can be more than this."
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 171.6,
+      "end": 174.95999999999998,
+      "text": " But, if the temperature is 30 degrees in winters,"
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 174.95999999999998,
+      "end": 178.72,
+      "text": " then you will find it abnormal or outlier."
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 178.72,
+      "end": 180.72,
+      "text": " So, it means contextual."
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 180.72,
+      "end": 184.88,
+      "text": " In context, it is fine in one context and in the other context, it is wrong."
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 184.88,
+      "end": 187.11999999999998,
+      "text": " For example, take the example of heartbeat."
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 187.12,
+      "end": 190.32,
+      "text": " You are running a marathon or doing a simple sprint."
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 190.32,
+      "end": 193.28,
+      "text": " At that time, your heartbeat will reach 130-135."
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 193.28,
+      "end": 194.4,
+      "text": " Then it will seem normal."
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 194.4,
+      "end": 197.04,
+      "text": " But, you are sleeping and it reaches that time,"
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 197.04,
+      "end": 199.68,
+      "text": " then somewhere you will feel that something is wrong."
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 199.68,
+      "end": 204.08,
+      "text": " So, that is the thing that you should know."
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 204.08,
+      "end": 206.48000000000002,
+      "text": " And note one more important point here."
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 206.48000000000002,
+      "end": 209.6,
+      "text": " If you want to detect point anomaly,"
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 209.6,
+      "end": 211.76,
+      "text": " then which methods are used?"
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 211.76,
+      "end": 213.92000000000002,
+      "text": " Like z-score is a method."
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 213.92000000000002,
+      "end": 215.44,
+      "text": " I will make it in full detail."
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 215.52,
+      "end": 216.72,
+      "text": " For now, note the name."
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 216.72,
+      "end": 217.76,
+      "text": " It is z-score method."
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 217.76,
+      "end": 222.48,
+      "text": " Or we can detect it through box plot."
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 222.48,
+      "end": 224.72,
+      "text": " If I talk about contextual anomaly,"
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 224.72,
+      "end": 226.96,
+      "text": " now what is the important point here?"
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 226.96,
+      "end": 227.92,
+      "text": " Time anomaly."
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 227.92,
+      "end": 230.24,
+      "text": " Means when you were running in the morning,"
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 230.24,
+      "end": 232.24,
+      "text": " then your heart beat, BPM was fine."
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 232.24,
+      "end": 233.28,
+      "text": " While sleeping at night."
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 233.28,
+      "end": 235.44,
+      "text": " Means there is a concept of time here."
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 235.44,
+      "end": 237.76,
+      "text": " In summers, 30 degrees seemed right."
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 237.76,
+      "end": 239.76,
+      "text": " But in winters, it seemed 30 degrees bad."
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 239.76,
+      "end": 240.88,
+      "text": " What is the problem here?"
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 240.88,
+      "end": 242.07999999999998,
+      "text": " The problem is time."
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 242.16000000000003,
+      "end": 246.64000000000001,
+      "text": " Here you have to apply time series analysis."
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 246.64000000000001,
+      "end": 248.64000000000001,
+      "text": " Because here, because of time,"
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 248.64000000000001,
+      "end": 252.4,
+      "text": " you are getting to know that there is an outlier."
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 252.4,
+      "end": 253.68,
+      "text": " There is some problem."
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 253.68,
+      "end": 254.96,
+      "text": " So, time series analysis,"
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 254.96,
+      "end": 257.28000000000003,
+      "text": " even the various methods of clustering,"
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 257.28000000000003,
+      "end": 258.56,
+      "text": " K-mean clustering,"
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 258.56,
+      "end": 260.16,
+      "text": " or hierarchical clustering,"
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 260.16,
+      "end": 261.12,
+      "text": " DB scan,"
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 261.12,
+      "end": 264.40000000000003,
+      "text": " can also be used to detect them."
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 264.40000000000003,
+      "end": 268.32,
+      "text": " Then, last we have collective anomalies."
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 268.32,
+      "end": 270.64,
+      "text": " Which is called group outliers."
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 270.64,
+      "end": 272.64,
+      "text": " In simple language, I am telling you,"
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 272.64,
+      "end": 275.76,
+      "text": " that if a lot of values are coming,"
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 275.76,
+      "end": 277.76,
+      "text": " then we will feel that it is wrong."
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 277.76,
+      "end": 280.4,
+      "text": " But if individual 1 or 2 entities are coming,"
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 280.4,
+      "end": 281.91999999999996,
+      "text": " then I will feel that it is normal."
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 281.91999999999996,
+      "end": 283.03999999999996,
+      "text": " Simple means,"
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 283.03999999999996,
+      "end": 285.36,
+      "text": " if you get a message that"
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 285.36,
+      "end": 288.47999999999996,
+      "text": " login attempt has been done in your account."
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 288.47999999999996,
+      "end": 289.84,
+      "text": " 1 or 2 attempts have been done."
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 289.84,
+      "end": 291.36,
+      "text": " Then you will feel that it is possible that"
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 291.36,
+      "end": 292.32,
+      "text": " my wife has done it,"
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 292.32,
+      "end": 293.12,
+      "text": " friend has done it,"
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 293.12,
+      "end": 293.84,
+      "text": " family has done it,"
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 293.84,
+      "end": 294.64,
+      "text": " then you will feel normal."
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 294.64,
+      "end": 296.08,
+      "text": " But if suddenly it comes that"
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 296.08,
+      "end": 297.28,
+      "text": " 10 attempts have been done,"
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 297.28,
+      "end": 298.56,
+      "text": " 15 attempts have been done,"
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 298.56,
+      "end": 300.24,
+      "text": " from different locations,"
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 300.24,
+      "end": 301.28000000000003,
+      "text": " then you will feel that"
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 301.28000000000003,
+      "end": 303.92,
+      "text": " it can be some cyber attack."
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 303.92,
+      "end": 305.04,
+      "text": " So what does it mean to say?"
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 305.04,
+      "end": 306.08,
+      "text": " That here,"
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 306.08,
+      "end": 309.36,
+      "text": " group of points are anomalies for you."
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 309.36,
+      "end": 310.8,
+      "text": " It can be individual value,"
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 310.8,
+      "end": 312.08,
+      "text": " you will feel that it is individual,"
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 312.08,
+      "end": 312.64,
+      "text": " so it is normal."
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 312.64,
+      "end": 313.84000000000003,
+      "text": " Means from your account,"
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 313.84000000000003,
+      "end": 315.6,
+      "text": " or from a credit card, debit card,"
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 315.6,
+      "end": 317.04,
+      "text": " 1 or 2 transactions are happening."
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 317.04,
+      "end": 318.32,
+      "text": " So you will feel normal."
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 318.32,
+      "end": 319.44,
+      "text": " It is possible that my parents,"
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 319.44,
+      "end": 320.0,
+      "text": " family members,"
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 320.0,
+      "end": 321.12,
+      "text": " someone has done it."
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 321.12,
+      "end": 323.36,
+      "text": " But if suddenly transactions happen,"
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 323.36,
+      "end": 324.56,
+      "text": " 10, 15,"
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 324.56,
+      "end": 327.12,
+      "text": " that in 1 minute or in 10 minutes,"
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 327.12,
+      "end": 329.12,
+      "text": " 15 transactions will happen from your card."
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 329.12,
+      "end": 330.16,
+      "text": " Then you will feel that"
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 330.16,
+      "end": 331.44,
+      "text": " something or the other can be fraud."
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 331.44,
+      "end": 332.96,
+      "text": " So what is here?"
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 332.96,
+      "end": 334.64,
+      "text": " Group of data points"
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 334.64,
+      "end": 336.64,
+      "text": " that together shows the anomaly,"
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 336.64,
+      "end": 338.0,
+      "text": " showing the problem."
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 338.0,
+      "end": 339.52,
+      "text": " But it can be individual"
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 339.52,
+      "end": 341.04,
+      "text": " that you feel it is normal."
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 341.04,
+      "end": 342.64,
+      "text": " So this is generally used a lot"
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 342.64,
+      "end": 344.72,
+      "text": " in cyber attacks, fraud detection."
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 344.72,
+      "end": 346.16,
+      "text": " So this point is for you."
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 346.16,
+      "end": 348.4,
+      "text": " In this, especially graph-based analysis,"
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 348.4,
+      "end": 350.24,
+      "text": " anomaly detection is used."
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 350.24,
+      "end": 351.68,
+      "text": " Because it is network-based."
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 351.68,
+      "end": 352.56,
+      "text": " It is network-based."
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 352.56,
+      "end": 354.16,
+      "text": " We will have to find out"
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 354.16,
+      "end": 356.8,
+      "text": " where particular values are coming."
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 356.8,
+      "end": 357.84000000000003,
+      "text": " And according to that,"
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 357.84000000000003,
+      "end": 360.56,
+      "text": " we will have to detect the anomalies."
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 360.56,
+      "end": 362.08,
+      "text": " So it is a very simple topic."
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 362.08,
+      "end": 364.0,
+      "text": " Note all these points one by one."
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 364.0,
+      "end": 365.44,
+      "text": " And after this, we will see"
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 365.44,
+      "end": 366.56,
+      "text": " Z-score, Boxplot,"
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 366.56,
+      "end": 367.92,
+      "text": " all these points,"
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 367.92,
+      "end": 370.88,
+      "text": " how they help in detecting outliers."
+    },
+    {
+      "number": "20",
+      "title": "Anomalies_Outliers in Data Mining",
+      "start": 370.88,
+      "end": 371.68,
+      "text": " Thank you."
+    }
+  ],
+  "text": " Dear students, welcome to Gate Smashers. In today's video, I am going to explain what are anomalies or outliers and what are their types. Actually, the sooner the outliers are detected, the better. And especially when we do data pre-processing, data cleaning etc. At the same time, if we detect outliers and remove them from our data set, then our results are better and more optimized. The simple reason for this is that outliers are such data points that deviate significantly from the normal patterns in the data set. Let's suppose my maximum data point is lying on a particular point. But there is one data point which is far away from all these. So, if you remove any mean, median or mode, then obviously, this will also participate. When this will participate, then the result can go bad. That's why we want you to know what are outliers and remove them as soon as possible from your data set. So that you can find your patterns on the correct data. So, always remember this point. Now, if we talk about anomalies or outliers, then the first thing that comes is point anomaly. It's a very simple topic. There is no big concept in this. No, it's very easy. It's also called global outlier. What does it mean? It's a single data point that is very different from the rest of the data. As I told you in the diagram, maximum data point is lying here and one is lying separately. Let's say, the electricity bill of your house is between 1000-5000. But, in a month, it comes to 50,000. Now, this is an outlier. It will get triggered suddenly. Now, you will also get wrong triggered that how did this come to 50,000? Maybe something went wrong there. So, what is that thing called? It's called point anomaly or global outlier. Means, all the other points are close. One went so far that your system got messed up. So, it's important to point out this. Then comes your contextual anomaly which is called conditional outlier. What does conditional outlier mean? It will be fine in one condition. In the other condition, it may seem wrong to you. It means that if the temperature is 30 degrees in summers, then you will find it normal. 30 is less, it can be more than this. But, if the temperature is 30 degrees in winters, then you will find it abnormal or outlier. So, it means contextual. In context, it is fine in one context and in the other context, it is wrong. For example, take the example of heartbeat. You are running a marathon or doing a simple sprint. At that time, your heartbeat will reach 130-135. Then it will seem normal. But, you are sleeping and it reaches that time, then somewhere you will feel that something is wrong. So, that is the thing that you should know. And note one more important point here. If you want to detect point anomaly, then which methods are used? Like z-score is a method. I will make it in full detail. For now, note the name. It is z-score method. Or we can detect it through box plot. If I talk about contextual anomaly, now what is the important point here? Time anomaly. Means when you were running in the morning, then your heart beat, BPM was fine. While sleeping at night. Means there is a concept of time here. In summers, 30 degrees seemed right. But in winters, it seemed 30 degrees bad. What is the problem here? The problem is time. Here you have to apply time series analysis. Because here, because of time, you are getting to know that there is an outlier. There is some problem. So, time series analysis, even the various methods of clustering, K-mean clustering, or hierarchical clustering, DB scan, can also be used to detect them. Then, last we have collective anomalies. Which is called group outliers. In simple language, I am telling you, that if a lot of values are coming, then we will feel that it is wrong. But if individual 1 or 2 entities are coming, then I will feel that it is normal. Simple means, if you get a message that login attempt has been done in your account. 1 or 2 attempts have been done. Then you will feel that it is possible that my wife has done it, friend has done it, family has done it, then you will feel normal. But if suddenly it comes that 10 attempts have been done, 15 attempts have been done, from different locations, then you will feel that it can be some cyber attack. So what does it mean to say? That here, group of points are anomalies for you. It can be individual value, you will feel that it is individual, so it is normal. Means from your account, or from a credit card, debit card, 1 or 2 transactions are happening. So you will feel normal. It is possible that my parents, family members, someone has done it. But if suddenly transactions happen, 10, 15, that in 1 minute or in 10 minutes, 15 transactions will happen from your card. Then you will feel that something or the other can be fraud. So what is here? Group of data points that together shows the anomaly, showing the problem. But it can be individual that you feel it is normal. So this is generally used a lot in cyber attacks, fraud detection. So this point is for you. In this, especially graph-based analysis, anomaly detection is used. Because it is network-based. It is network-based. We will have to find out where particular values are coming. And according to that, we will have to detect the anomalies. So it is a very simple topic. Note all these points one by one. And after this, we will see Z-score, Boxplot, all these points, how they help in detecting outliers. Thank you."
+}

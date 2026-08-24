@@ -1,0 +1,1034 @@
+{
+  "chunks": [
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 0.0,
+      "end": 2.0,
+      "text": " Dear students, Welcome to GITsmeasures"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 2.0,
+      "end": 4.0,
+      "text": " In today's video I am going to explain OLTP"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 4.0,
+      "end": 6.0,
+      "text": " that is Online Transaction Processing"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 6.0,
+      "end": 8.0,
+      "text": " See, you can understand from the name"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 8.0,
+      "end": 10.0,
+      "text": " that we are performing"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 10.0,
+      "end": 12.0,
+      "text": " transactions online"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 12.0,
+      "end": 14.0,
+      "text": " Like as an example"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 14.0,
+      "end": 16.0,
+      "text": " if you want to purchase a product on Amazon"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 16.0,
+      "end": 18.0,
+      "text": " then what you do? You open Amazon's website"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 18.0,
+      "end": 20.0,
+      "text": " or mobile application"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 20.0,
+      "end": 22.0,
+      "text": " in that you search"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 22.0,
+      "end": 24.0,
+      "text": " a particular product, after searching"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 24.0,
+      "end": 26.0,
+      "text": " you will get many items in it"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 26.0,
+      "end": 28.0,
+      "text": " You select a particular product"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 28.0,
+      "end": 30.0,
+      "text": " you put it in the cart, you make the payment"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 30.0,
+      "end": 32.0,
+      "text": " shipment will be generated, it will come to you"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 32.0,
+      "end": 34.0,
+      "text": " in 2-4 days"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 34.0,
+      "end": 36.0,
+      "text": " The whole system that is made"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 36.0,
+      "end": 38.0,
+      "text": " that is actually the OLTP system"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 38.0,
+      "end": 40.0,
+      "text": " You can take any other example"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 40.0,
+      "end": 42.0,
+      "text": " Let's suppose, take the example of banking"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 42.0,
+      "end": 44.0,
+      "text": " You are using Paytm, SBI"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 44.0,
+      "end": 46.0,
+      "text": " So what are you doing online?"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 46.0,
+      "end": 48.0,
+      "text": " You are performing a transaction"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 48.0,
+      "end": 50.0,
+      "text": " You are performing some task, you are making a payment"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 50.0,
+      "end": 52.0,
+      "text": " from here to there, that is what"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 52.0,
+      "end": 54.0,
+      "text": " OLTP, Online Transaction Processing"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 54.0,
+      "end": 56.0,
+      "text": " Or you take an example"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 56.0,
+      "end": 58.0,
+      "text": " Let's say, the example of healthcare, telecommunication"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 58.0,
+      "end": 60.0,
+      "text": " education"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 60.0,
+      "end": 62.0,
+      "text": " Like you are paying your fees"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 62.0,
+      "end": 64.0,
+      "text": " Let's say, you have a college or university fee"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 64.0,
+      "end": 66.0,
+      "text": " If you are paying it online"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 66.0,
+      "end": 68.0,
+      "text": " That is also what?"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 68.0,
+      "end": 70.0,
+      "text": " OLTP, Online Transaction Processing"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 70.0,
+      "end": 72.0,
+      "text": " Now the interesting thing in this is"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 72.0,
+      "end": 74.0,
+      "text": " what components are getting involved in this"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 74.0,
+      "end": 76.0,
+      "text": " See for yourself"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 76.0,
+      "end": 78.0,
+      "text": " First of all, what is happening? User is getting involved"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 78.0,
+      "end": 80.0,
+      "text": " in this. What is the user doing?"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 80.0,
+      "end": 82.0,
+      "text": " He is opening some desktop application or mobile application"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 82.0,
+      "end": 84.0,
+      "text": " and then"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 84.0,
+      "end": 86.0,
+      "text": " in a similar way, user interface is done"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 86.0,
+      "end": 88.0,
+      "text": " Through user interface, he is selecting"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 88.0,
+      "end": 90.0,
+      "text": " those particular things"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 90.0,
+      "end": 92.0,
+      "text": " If I want to book a hotel"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 92.0,
+      "end": 94.0,
+      "text": " I will go to MMT or Goibibo and check the hotel"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 94.0,
+      "end": 96.0,
+      "text": " If I want to purchase a product"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 96.0,
+      "end": 98.0,
+      "text": " I will go to Amazon and purchase it"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 98.0,
+      "end": 100.0,
+      "text": " So that means, on the basis of UI"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 100.0,
+      "end": 102.0,
+      "text": " I am searching the first item"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 102.0,
+      "end": 104.0,
+      "text": " and then finally"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 104.0,
+      "end": 106.0,
+      "text": " I put it in the cart"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 106.0,
+      "end": 108.0,
+      "text": " Now the application you are using, whether it is a desktop"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 108.0,
+      "end": 110.0,
+      "text": " or mobile, it will be somewhere"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 110.0,
+      "end": 112.0,
+      "text": " on some server"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 112.0,
+      "end": 114.0,
+      "text": " and that is your application server"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 114.0,
+      "end": 116.0,
+      "text": " So this application server"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 116.0,
+      "end": 118.0,
+      "text": " may be you have kept it on-premises"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 118.0,
+      "end": 120.0,
+      "text": " Means you have installed a server in your company"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 120.0,
+      "end": 122.0,
+      "text": " The application is kept inside it"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 122.0,
+      "end": 124.0,
+      "text": " or cloud-based"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 124.0,
+      "end": 126.0,
+      "text": " which is used a lot"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 126.0,
+      "end": 128.0,
+      "text": " Like Google App Engine, AWS"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 128.0,
+      "end": 130.0,
+      "text": " services are used"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 130.0,
+      "end": 132.0,
+      "text": " So all of these can be cloud-based"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 132.0,
+      "end": 134.0,
+      "text": " So you have kept the application on it"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 134.0,
+      "end": 136.0,
+      "text": " and what is in the backend?"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 136.0,
+      "end": 138.0,
+      "text": " Database"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 138.0,
+      "end": 140.0,
+      "text": " You are opening Amazon and searching some item"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 140.0,
+      "end": 142.0,
+      "text": " How is the search going on?"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 142.0,
+      "end": 144.0,
+      "text": " First they must have put something on the backend"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 144.0,
+      "end": 146.0,
+      "text": " then only you can see"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 146.0,
+      "end": 148.0,
+      "text": " That is what a database is"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 148.0,
+      "end": 150.0,
+      "text": " So remember these three main components"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 150.0,
+      "end": 152.0,
+      "text": " OLTP's database"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 152.0,
+      "end": 154.0,
+      "text": " application and user interface"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 154.0,
+      "end": 156.0,
+      "text": " and on the basis of this"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 156.0,
+      "end": 158.0,
+      "text": " a transaction is performed"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 158.0,
+      "end": 160.0,
+      "text": " Database which is on the backend"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 160.0,
+      "end": 162.0,
+      "text": " like MySQL or Oracle"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 162.0,
+      "end": 164.0,
+      "text": " or SQL Server"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 164.0,
+      "end": 166.0,
+      "text": " There are many different softwares of yours"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 166.0,
+      "end": 168.0,
+      "text": " through which the database is managed"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 168.0,
+      "end": 170.0,
+      "text": " Application server as I told you earlier"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 170.0,
+      "end": 172.0,
+      "text": " It can be on-premises"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 172.0,
+      "end": 174.0,
+      "text": " or you have taken cloud services"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 174.0,
+      "end": 176.0,
+      "text": " through which your application"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 176.0,
+      "end": 178.0,
+      "text": " and user interface is your frontend"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 178.0,
+      "end": 180.0,
+      "text": " in a way which is used by HTML, CSS"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 180.0,
+      "end": 182.0,
+      "text": " or multiple techniques"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 182.0,
+      "end": 184.0,
+      "text": " is made"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 184.0,
+      "end": 186.0,
+      "text": " So somewhere this whole system"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 186.0,
+      "end": 188.0,
+      "text": " is made so that user"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 188.0,
+      "end": 190.0,
+      "text": " can easily perform transactions"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 190.0,
+      "end": 192.0,
+      "text": " and when user performs a transaction"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 192.0,
+      "end": 194.0,
+      "text": " then it creates a data"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 194.0,
+      "end": 196.0,
+      "text": " and it is very important to save that data"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 196.0,
+      "end": 198.0,
+      "text": " Why?"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 198.0,
+      "end": 200.0,
+      "text": " Today it may be my transaction"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 200.0,
+      "end": 202.0,
+      "text": " after 10 days, 15 days, 20 days"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 202.0,
+      "end": 204.0,
+      "text": " Will I need it?"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 204.0,
+      "end": 206.0,
+      "text": " Maybe I don't need it"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 206.0,
+      "end": 208.0,
+      "text": " But the companies on the backend"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 208.0,
+      "end": 210.0,
+      "text": " Companies use that data"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 210.0,
+      "end": 212.0,
+      "text": " Like you bought a lot on Amazon"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 212.0,
+      "end": 214.0,
+      "text": " You have been using it for 1-2 years"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 214.0,
+      "end": 216.0,
+      "text": " So if you have bought something 2 years ago"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 216.0,
+      "end": 218.0,
+      "text": " Maybe you don't know"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 218.0,
+      "end": 220.0,
+      "text": " You will never need that data"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 220.0,
+      "end": 222.0,
+      "text": " But those companies need it a lot"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 222.0,
+      "end": 224.0,
+      "text": " They will check your entire pattern"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 224.0,
+      "end": 226.0,
+      "text": " Like what item you purchased"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 226.0,
+      "end": 228.0,
+      "text": " How did the sale go up or down"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 228.0,
+      "end": 230.0,
+      "text": " How do they extract all those things"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 230.0,
+      "end": 232.0,
+      "text": " on the basis of data"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 232.0,
+      "end": 234.0,
+      "text": " So that's why OLTP generates data"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 234.0,
+      "end": 236.0,
+      "text": " Day to day business"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 236.0,
+      "end": 238.0,
+      "text": " that is being performed"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 238.0,
+      "end": 240.0,
+      "text": " in business"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 240.0,
+      "end": 242.0,
+      "text": " is performed through OLTP"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 242.0,
+      "end": 244.0,
+      "text": " And when these transactions are performed"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 244.0,
+      "end": 246.0,
+      "text": " They are finally saved in warehouses"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 246.0,
+      "end": 248.0,
+      "text": " And then all app services"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 248.0,
+      "end": 250.0,
+      "text": " Online analytical processing"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 250.0,
+      "end": 252.0,
+      "text": " works"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 252.0,
+      "end": 254.0,
+      "text": " All transactions are"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 254.0,
+      "end": 256.0,
+      "text": " analysed on the backend"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 256.0,
+      "end": 258.0,
+      "text": " Like who bought what, in how much"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 258.0,
+      "end": 260.0,
+      "text": " Why didn't I buy it"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 260.0,
+      "end": 262.0,
+      "text": " Or what sale did I have"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 262.0,
+      "end": 264.0,
+      "text": " Did I actually profit or loss"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 264.0,
+      "end": 266.0,
+      "text": " All those things come out"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 266.0,
+      "end": 268.0,
+      "text": " when I perform transactions through OLTP"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 268.0,
+      "end": 270.0,
+      "text": " I save that data"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 270.0,
+      "end": 272.0,
+      "text": " So this is the actual story"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 272.0,
+      "end": 274.0,
+      "text": " of OLTP"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 274.0,
+      "end": 276.0,
+      "text": " So you are using it on a daily basis"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 276.0,
+      "end": 278.0,
+      "text": " This is not something"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 278.0,
+      "end": 280.0,
+      "text": " that you are just using it for no reason"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 280.0,
+      "end": 282.0,
+      "text": " You are using it on a daily basis"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 282.0,
+      "end": 284.0,
+      "text": " You are not using Paytm or Google Pay"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 284.0,
+      "end": 286.0,
+      "text": " It is a system"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 286.0,
+      "end": 288.0,
+      "text": " that user comes to that system"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 288.0,
+      "end": 290.0,
+      "text": " and performs his transactions easily"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 290.0,
+      "end": 292.0,
+      "text": " That is what the"
+    },
+    {
+      "number": "6",
+      "title": "Introduction to OLTP _ Online Transaction Processing",
+      "start": 292.0,
+      "end": 294.0,
+      "text": " OLTP system is"
+    }
+  ],
+  "text": " Dear students, Welcome to GITsmeasures In today's video I am going to explain OLTP that is Online Transaction Processing See, you can understand from the name that we are performing transactions online Like as an example if you want to purchase a product on Amazon then what you do? You open Amazon's website or mobile application in that you search a particular product, after searching you will get many items in it You select a particular product you put it in the cart, you make the payment shipment will be generated, it will come to you in 2-4 days The whole system that is made that is actually the OLTP system You can take any other example Let's suppose, take the example of banking You are using Paytm, SBI So what are you doing online? You are performing a transaction You are performing some task, you are making a payment from here to there, that is what OLTP, Online Transaction Processing Or you take an example Let's say, the example of healthcare, telecommunication education Like you are paying your fees Let's say, you have a college or university fee If you are paying it online That is also what? OLTP, Online Transaction Processing Now the interesting thing in this is what components are getting involved in this See for yourself First of all, what is happening? User is getting involved in this. What is the user doing? He is opening some desktop application or mobile application and then in a similar way, user interface is done Through user interface, he is selecting those particular things If I want to book a hotel I will go to MMT or Goibibo and check the hotel If I want to purchase a product I will go to Amazon and purchase it So that means, on the basis of UI I am searching the first item and then finally I put it in the cart Now the application you are using, whether it is a desktop or mobile, it will be somewhere on some server and that is your application server So this application server may be you have kept it on-premises Means you have installed a server in your company The application is kept inside it or cloud-based which is used a lot Like Google App Engine, AWS services are used So all of these can be cloud-based So you have kept the application on it and what is in the backend? Database You are opening Amazon and searching some item How is the search going on? First they must have put something on the backend then only you can see That is what a database is So remember these three main components OLTP's database application and user interface and on the basis of this a transaction is performed Database which is on the backend like MySQL or Oracle or SQL Server There are many different softwares of yours through which the database is managed Application server as I told you earlier It can be on-premises or you have taken cloud services through which your application and user interface is your frontend in a way which is used by HTML, CSS or multiple techniques is made So somewhere this whole system is made so that user can easily perform transactions and when user performs a transaction then it creates a data and it is very important to save that data Why? Today it may be my transaction after 10 days, 15 days, 20 days Will I need it? Maybe I don't need it But the companies on the backend Companies use that data Like you bought a lot on Amazon You have been using it for 1-2 years So if you have bought something 2 years ago Maybe you don't know You will never need that data But those companies need it a lot They will check your entire pattern Like what item you purchased How did the sale go up or down How do they extract all those things on the basis of data So that's why OLTP generates data Day to day business that is being performed in business is performed through OLTP And when these transactions are performed They are finally saved in warehouses And then all app services Online analytical processing works All transactions are analysed on the backend Like who bought what, in how much Why didn't I buy it Or what sale did I have Did I actually profit or loss All those things come out when I perform transactions through OLTP I save that data So this is the actual story of OLTP So you are using it on a daily basis This is not something that you are just using it for no reason You are using it on a daily basis You are not using Paytm or Google Pay It is a system that user comes to that system and performs his transactions easily That is what the OLTP system is"
+}

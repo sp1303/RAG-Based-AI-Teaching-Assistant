@@ -1,0 +1,2770 @@
+{
+  "chunks": [
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 0.0,
+      "end": 3.0,
+      "text": " Dear students, welcome to the class"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 3.0,
+      "end": 5.0,
+      "text": " In today's class, I am going to explain"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 5.0,
+      "end": 7.0,
+      "text": " LZW coding technique"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 7.0,
+      "end": 9.0,
+      "text": " And we use this coding technique"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 9.0,
+      "end": 11.0,
+      "text": " In data compression"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 11.0,
+      "end": 13.0,
+      "text": " So the topic we have"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 13.0,
+      "end": 15.0,
+      "text": " Data compression, why do we use it?"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 15.0,
+      "end": 18.0,
+      "text": " To decrease the size of our file"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 18.0,
+      "end": 20.0,
+      "text": " In file transformation"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 20.0,
+      "end": 22.0,
+      "text": " This is our method"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 22.0,
+      "end": 24.0,
+      "text": " In compression, mainly"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 24.0,
+      "end": 26.0,
+      "text": " It is done in two ways"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 26.0,
+      "end": 29.0,
+      "text": " Either it is your lossless compression"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 29.0,
+      "end": 31.0,
+      "text": " Or it is your lossy compression"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 31.0,
+      "end": 33.0,
+      "text": " Lossless compression means"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 33.0,
+      "end": 35.0,
+      "text": " You compressed a file"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 35.0,
+      "end": 37.0,
+      "text": " You removed the duplication"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 37.0,
+      "end": 39.0,
+      "text": " You used any method"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 39.0,
+      "end": 41.0,
+      "text": " And you compressed that file"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 41.0,
+      "end": 43.0,
+      "text": " After that, when you compress"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 43.0,
+      "end": 45.0,
+      "text": " And checked that file again"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 45.0,
+      "end": 47.0,
+      "text": " It should not happen that your data"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 47.0,
+      "end": 49.0,
+      "text": " Is getting lost a lot"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 49.0,
+      "end": 51.0,
+      "text": " The technique used in lossy"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 51.0,
+      "end": 53.0,
+      "text": " It loses the data somewhere"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 53.0,
+      "end": 55.0,
+      "text": " And here we"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 55.0,
+      "end": 57.0,
+      "text": " Use it less"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 57.0,
+      "end": 59.0,
+      "text": " In data integrity"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 59.0,
+      "end": 61.0,
+      "text": " The values of the data are very important"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 61.0,
+      "end": 63.0,
+      "text": " So there lossless"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 63.0,
+      "end": 65.0,
+      "text": " Is used specially"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 65.0,
+      "end": 67.0,
+      "text": " And here we have a technique"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 67.0,
+      "end": 69.0,
+      "text": " LZW coding technique"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 69.0,
+      "end": 71.0,
+      "text": " Like Huffman coding technique"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 71.0,
+      "end": 73.0,
+      "text": " We have LZW"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 73.0,
+      "end": 75.0,
+      "text": " How does it work?"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 75.0,
+      "end": 77.0,
+      "text": " I will explain you with an example"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 77.0,
+      "end": 79.0,
+      "text": " Your question in data transformation"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 79.0,
+      "end": 81.0,
+      "text": " Can come directly on the compression topic"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 81.0,
+      "end": 83.0,
+      "text": " So note carefully"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 83.0,
+      "end": 85.0,
+      "text": " How does LZW work?"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 85.0,
+      "end": 87.0,
+      "text": " How does Huffman coding work?"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 87.0,
+      "end": 89.0,
+      "text": " You have got a separate video on it"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 89.0,
+      "end": 91.0,
+      "text": " But how does LZW work?"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 91.0,
+      "end": 93.0,
+      "text": " I will tell you in this video"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 93.0,
+      "end": 95.0,
+      "text": " Note carefully"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 95.0,
+      "end": 97.0,
+      "text": " First of all, this method"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 97.0,
+      "end": 99.0,
+      "text": " This data compression technique"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 99.0,
+      "end": 101.0,
+      "text": " Which helps in removing duplicate data"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 101.0,
+      "end": 103.0,
+      "text": " Means you repeatedly"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 103.0,
+      "end": 105.0,
+      "text": " Take duplicate data in coding"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 105.0,
+      "end": 107.0,
+      "text": " You use it in this way"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 107.0,
+      "end": 109.0,
+      "text": " The data that is being repeated again and again"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 109.0,
+      "end": 111.0,
+      "text": " You run it with a single code"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 111.0,
+      "end": 113.0,
+      "text": " Like here I have"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 113.0,
+      "end": 115.0,
+      "text": " And this is specially"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 115.0,
+      "end": 117.0,
+      "text": " GIF, TIFF"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 117.0,
+      "end": 119.0,
+      "text": " It is used a lot on them"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 119.0,
+      "end": 121.0,
+      "text": " Here"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 121.0,
+      "end": 123.0,
+      "text": " First of all, we have to do"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 123.0,
+      "end": 125.0,
+      "text": " The whole value, the sequence of values"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 125.0,
+      "end": 127.0,
+      "text": " What do we have to do?"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 127.0,
+      "end": 129.0,
+      "text": " Encode it"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 129.0,
+      "end": 131.0,
+      "text": " To encode it, first of all"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 131.0,
+      "end": 133.0,
+      "text": " We have here"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 133.0,
+      "end": 135.0,
+      "text": " Make a table like this"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 135.0,
+      "end": 137.0,
+      "text": " What do we have? Index value"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 137.0,
+      "end": 139.0,
+      "text": " Which we have to assign"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 139.0,
+      "end": 141.0,
+      "text": " Index value to each value"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 141.0,
+      "end": 143.0,
+      "text": " It works like a dictionary"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 143.0,
+      "end": 145.0,
+      "text": " Dictionary method is used"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 145.0,
+      "end": 147.0,
+      "text": " Like in dictionary, each value has an index"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 147.0,
+      "end": 149.0,
+      "text": " For A, there is an index"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 149.0,
+      "end": 151.0,
+      "text": " For B, there is a separate index"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 151.0,
+      "end": 153.0,
+      "text": " Like we have this value"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 153.0,
+      "end": 155.0,
+      "text": " And the third one we have"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 155.0,
+      "end": 157.0,
+      "text": " Encoding"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 157.0,
+      "end": 159.0,
+      "text": " In this way, we have three columns"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 159.0,
+      "end": 161.0,
+      "text": " First of all, index, value"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 161.0,
+      "end": 163.0,
+      "text": " And encoding"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 163.0,
+      "end": 165.0,
+      "text": " So here, whatever sequence is given to you"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 165.0,
+      "end": 167.0,
+      "text": " Like you have this sequence"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 167.0,
+      "end": 169.0,
+      "text": " A, B, B, A, in this way"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 169.0,
+      "end": 171.0,
+      "text": " First of all, you see"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 171.0,
+      "end": 173.0,
+      "text": " Which unique characters are there in it"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 173.0,
+      "end": 175.0,
+      "text": " Like here, if you see from the starting"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 175.0,
+      "end": 177.0,
+      "text": " Till the end, you will see two unique characters"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 177.0,
+      "end": 179.0,
+      "text": " That is A and B"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 179.0,
+      "end": 181.0,
+      "text": " So here, you have A and B"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 181.0,
+      "end": 183.0,
+      "text": " Two unique values"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 183.0,
+      "end": 185.0,
+      "text": " So you can index them by default"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 185.0,
+      "end": 187.0,
+      "text": " 1 and 2"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 187.0,
+      "end": 189.0,
+      "text": " You can do B and A also, as you wish"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 189.0,
+      "end": 191.0,
+      "text": " It doesn't matter"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 191.0,
+      "end": 193.0,
+      "text": " But the main thing is, whatever unique it is"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 193.0,
+      "end": 195.0,
+      "text": " Let's suppose, if you put C in this sequence"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 195.0,
+      "end": 197.0,
+      "text": " Or D"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 197.0,
+      "end": 199.0,
+      "text": " First of all, write them"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 199.0,
+      "end": 201.0,
+      "text": " And assign their index value"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 201.0,
+      "end": 203.0,
+      "text": " Simple, with 1 and 2"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 203.0,
+      "end": 205.0,
+      "text": " Now, when this case is done"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 205.0,
+      "end": 207.0,
+      "text": " Now, what we have to do"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 207.0,
+      "end": 209.0,
+      "text": " From the starting"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 209.0,
+      "end": 211.0,
+      "text": " We have to start from the first value"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 211.0,
+      "end": 213.0,
+      "text": " To make our sequences"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 213.0,
+      "end": 215.0,
+      "text": " Watch carefully, it will look a bit difficult in the first time"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 215.0,
+      "end": 217.0,
+      "text": " But when you will listen carefully"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 217.0,
+      "end": 219.0,
+      "text": " And watch it again, you will find it easy"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 219.0,
+      "end": 221.0,
+      "text": " Which is the first character? A"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 221.0,
+      "end": 223.0,
+      "text": " Means, my pointer is pointing to A"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 223.0,
+      "end": 225.0,
+      "text": " So what you have to do"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 225.0,
+      "end": 227.0,
+      "text": " We have to make a sequence for A"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 227.0,
+      "end": 229.0,
+      "text": " So, what I got first? A"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 229.0,
+      "end": 231.0,
+      "text": " So, in the list"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 231.0,
+      "end": 233.0,
+      "text": " In this table"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 233.0,
+      "end": 235.0,
+      "text": " Is there an index for A in this table?"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 235.0,
+      "end": 237.0,
+      "text": " Yes, there is"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 237.0,
+      "end": 239.0,
+      "text": " We made it earlier, because we traversed"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 239.0,
+      "end": 241.0,
+      "text": " And gave the numbering to A and B, which were unique"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 241.0,
+      "end": 243.0,
+      "text": " So, is there an index for A?"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 243.0,
+      "end": 245.0,
+      "text": " Yes, there is"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 245.0,
+      "end": 247.0,
+      "text": " Done. After that, what you have to do"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 247.0,
+      "end": 249.0,
+      "text": " Go to the other character"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 249.0,
+      "end": 251.0,
+      "text": " Because there is nothing for A"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 251.0,
+      "end": 253.0,
+      "text": " So, now hold A"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 253.0,
+      "end": 255.0,
+      "text": " And make a sequence"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 255.0,
+      "end": 257.0,
+      "text": " So, there is an index for A"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 257.0,
+      "end": 259.0,
+      "text": " But when we went from A to next, what I got? B"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 259.0,
+      "end": 261.0,
+      "text": " Now, what is this?"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 261.0,
+      "end": 263.0,
+      "text": " A-B sequence is made"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 263.0,
+      "end": 265.0,
+      "text": " Now, watch carefully"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 265.0,
+      "end": 267.0,
+      "text": " Is there any index value for A-B?"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 267.0,
+      "end": 269.0,
+      "text": " No, there is not"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 269.0,
+      "end": 271.0,
+      "text": " So, what you have to do"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 271.0,
+      "end": 273.0,
+      "text": " You have to write A-B here"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 273.0,
+      "end": 275.0,
+      "text": " And for this, you have to assign an index value 3"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 275.0,
+      "end": 277.0,
+      "text": " So, this means"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 277.0,
+      "end": 279.0,
+      "text": " My sequence is complete"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 279.0,
+      "end": 281.0,
+      "text": " Till when do we have to run the sequence?"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 281.0,
+      "end": 283.0,
+      "text": " Till the time"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 283.0,
+      "end": 285.0,
+      "text": " The value is not present in this list"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 285.0,
+      "end": 287.0,
+      "text": " Till the time the value is present, keep increasing the value"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 287.0,
+      "end": 289.0,
+      "text": " Like, now this is for A-B"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 289.0,
+      "end": 291.0,
+      "text": " I have put an index value here"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 291.0,
+      "end": 293.0,
+      "text": " Now, this is over"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 293.0,
+      "end": 295.0,
+      "text": " Now, my sequence is over"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 295.0,
+      "end": 297.0,
+      "text": " Where was I standing at last? I was standing at B"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 297.0,
+      "end": 299.0,
+      "text": " So, whatever sequence you are making"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 299.0,
+      "end": 301.0,
+      "text": " Pick up the last character of it"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 301.0,
+      "end": 303.0,
+      "text": " So, now you start running from B"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 303.0,
+      "end": 305.0,
+      "text": " Start running from B"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 305.0,
+      "end": 307.0,
+      "text": " See, first of all B"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 307.0,
+      "end": 309.0,
+      "text": " Do I have B? Yes, in this table"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 309.0,
+      "end": 311.0,
+      "text": " I don't want to bother you, for that we have already assigned the value"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 311.0,
+      "end": 313.0,
+      "text": " After B, which is next?"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 313.0,
+      "end": 315.0,
+      "text": " After B, next is B-B"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 315.0,
+      "end": 317.0,
+      "text": " Is there any value assigned for B-B?"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 317.0,
+      "end": 319.0,
+      "text": " Is there any index value assigned?"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 319.0,
+      "end": 321.0,
+      "text": " No, it is not assigned"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 321.0,
+      "end": 325.0,
+      "text": " So, for B-B, I have to assign the value"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 325.0,
+      "end": 327.0,
+      "text": " Now, what happened?"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 327.0,
+      "end": 329.0,
+      "text": " Here, I assigned the value for B-B"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 329.0,
+      "end": 331.0,
+      "text": " So, B-B's work is over"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 331.0,
+      "end": 333.0,
+      "text": " So, where were we standing?"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 333.0,
+      "end": 335.0,
+      "text": " Which was the last character? B"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 335.0,
+      "end": 337.0,
+      "text": " So, whatever was the last character of your sequence"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 337.0,
+      "end": 339.0,
+      "text": " And start running from there"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 339.0,
+      "end": 341.0,
+      "text": " So, what is next for me? B"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 341.0,
+      "end": 343.0,
+      "text": " B is alone, for B, there is already a value assigned"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 343.0,
+      "end": 345.0,
+      "text": " So, what came after B? A"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 345.0,
+      "end": 347.0,
+      "text": " What came after B? A"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 347.0,
+      "end": 349.0,
+      "text": " Is there any value assigned for B-A?"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 349.0,
+      "end": 351.0,
+      "text": " No, there is no value assigned for B-A"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 351.0,
+      "end": 353.0,
+      "text": " So, what we did?"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 353.0,
+      "end": 355.0,
+      "text": " For B-A, we assigned value 5"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 355.0,
+      "end": 357.0,
+      "text": " Simple, just keep increasing the sequence"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 357.0,
+      "end": 359.0,
+      "text": " Now, let's say"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 359.0,
+      "end": 361.0,
+      "text": " That here, for B-A"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 361.0,
+      "end": 363.0,
+      "text": " There is already a value assigned on top"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 363.0,
+      "end": 365.0,
+      "text": " So, I would have added the next character in this sequence"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 365.0,
+      "end": 367.0,
+      "text": " That's all you have to do"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 367.0,
+      "end": 369.0,
+      "text": " Now, look, for B-A"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 369.0,
+      "end": 371.0,
+      "text": " We assigned value 5"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 371.0,
+      "end": 373.0,
+      "text": " The work of the sequence is over"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 373.0,
+      "end": 375.0,
+      "text": " Now, where were we standing?"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 375.0,
+      "end": 377.0,
+      "text": " Which was the last element in this sequence? A"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 377.0,
+      "end": 379.0,
+      "text": " So, we are standing on A"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 379.0,
+      "end": 381.0,
+      "text": " Now, you come from A"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 381.0,
+      "end": 383.0,
+      "text": " So, for A, the value is already assigned"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 383.0,
+      "end": 385.0,
+      "text": " So, put next on the sequence of A"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 385.0,
+      "end": 387.0,
+      "text": " What is B? What is the sequence now? A-B"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 387.0,
+      "end": 389.0,
+      "text": " Is there a value assigned for A-B? Yes, there are 3 values assigned for A-B"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 389.0,
+      "end": 391.0,
+      "text": " So, keep increasing the sequence"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 391.0,
+      "end": 393.0,
+      "text": " What is the next value? A"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 393.0,
+      "end": 395.0,
+      "text": " So, A-B-A is done"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 395.0,
+      "end": 397.0,
+      "text": " There is no value assigned for A-B-A"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 397.0,
+      "end": 399.0,
+      "text": " So, what you will do?"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 399.0,
+      "end": 401.0,
+      "text": " For A-B-A, assign 6 values"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 401.0,
+      "end": 403.0,
+      "text": " Or assign the new index value"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 403.0,
+      "end": 405.0,
+      "text": " Now, look"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 405.0,
+      "end": 407.0,
+      "text": " Here, we assigned for this"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 407.0,
+      "end": 409.0,
+      "text": " So, the work of the sequence is over"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 409.0,
+      "end": 411.0,
+      "text": " Which was the last character of this sequence?"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 411.0,
+      "end": 413.0,
+      "text": " The last character of A-B-A was A"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 413.0,
+      "end": 415.0,
+      "text": " That means, you are standing on A"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 415.0,
+      "end": 417.0,
+      "text": " Now, start making sequence from A"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 417.0,
+      "end": 419.0,
+      "text": " A will make friends again"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 419.0,
+      "end": 421.0,
+      "text": " We have already assigned value for A"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 421.0,
+      "end": 423.0,
+      "text": " So, which was next from A?"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 423.0,
+      "end": 425.0,
+      "text": " Next from A is B"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 425.0,
+      "end": 427.0,
+      "text": " What was next from A? B"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 427.0,
+      "end": 429.0,
+      "text": " Now, for A-B, the value is already assigned"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 429.0,
+      "end": 431.0,
+      "text": " So, this is already its friend"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 431.0,
+      "end": 433.0,
+      "text": " We have assigned value to it"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 433.0,
+      "end": 435.0,
+      "text": " So, take next from it"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 435.0,
+      "end": 437.0,
+      "text": " What is next from it? B"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 437.0,
+      "end": 439.0,
+      "text": " Now, let's suppose, next from it is A"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 439.0,
+      "end": 441.0,
+      "text": " So, A-B-A is done"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 441.0,
+      "end": 443.0,
+      "text": " And for A-B-A, the value was already assigned"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 443.0,
+      "end": 445.0,
+      "text": " So, we take next from it and make sequence of 4"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 445.0,
+      "end": 447.0,
+      "text": " Just keep this in mind"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 447.0,
+      "end": 449.0,
+      "text": " Now, what I have?"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 449.0,
+      "end": 451.0,
+      "text": " A-B-B is done"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 451.0,
+      "end": 453.0,
+      "text": " But, there is no value assigned for A-B-B"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 453.0,
+      "end": 455.0,
+      "text": " So, assign 7 value for A-B-B"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 455.0,
+      "end": 457.0,
+      "text": " And, the work of the sequence is over"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 457.0,
+      "end": 459.0,
+      "text": " Which was the last character of this sequence?"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 459.0,
+      "end": 461.0,
+      "text": " B"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 461.0,
+      "end": 463.0,
+      "text": " That means, you are standing on B"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 463.0,
+      "end": 465.0,
+      "text": " Again, for B, I have already assigned 2 value"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 465.0,
+      "end": 467.0,
+      "text": " Next, what is next from A?"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 467.0,
+      "end": 469.0,
+      "text": " A-B-A is done"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 469.0,
+      "end": 471.0,
+      "text": " Look at B-A"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 471.0,
+      "end": 473.0,
+      "text": " B-A is already there"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 473.0,
+      "end": 475.0,
+      "text": " So, next from it is"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 475.0,
+      "end": 477.0,
+      "text": " B-A is already there"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 477.0,
+      "end": 479.0,
+      "text": " So, A was B-A-A"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 479.0,
+      "end": 481.0,
+      "text": " Is B-A-A? No, it is not B-A-A"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 481.0,
+      "end": 483.0,
+      "text": " So, for B-A-A"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 483.0,
+      "end": 485.0,
+      "text": " 8 value will be assigned"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 485.0,
+      "end": 487.0,
+      "text": " So, the major work is"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 487.0,
+      "end": 489.0,
+      "text": " to keep giving numbering"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 489.0,
+      "end": 491.0,
+      "text": " according to the sequence"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 491.0,
+      "end": 493.0,
+      "text": " When your numbering is complete"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 493.0,
+      "end": 495.0,
+      "text": " Means, all the maximum work is completed"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 495.0,
+      "end": 497.0,
+      "text": " Now, you just have to do encoding"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 497.0,
+      "end": 499.0,
+      "text": " So, when we do encoding, it is fixed"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 499.0,
+      "end": 501.0,
+      "text": " I have not made this"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 501.0,
+      "end": 503.0,
+      "text": " The scientist who made this"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 503.0,
+      "end": 505.0,
+      "text": " He fixed it that it has to be done in this way"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 505.0,
+      "end": 507.0,
+      "text": " Now, look"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 507.0,
+      "end": 509.0,
+      "text": " Initially, A and B were already unique characters"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 509.0,
+      "end": 511.0,
+      "text": " Initially, these were unique"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 511.0,
+      "end": 513.0,
+      "text": " 2 characters A and B"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 513.0,
+      "end": 515.0,
+      "text": " So, there is no need to encode this"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 515.0,
+      "end": 517.0,
+      "text": " These will remain as it is"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 517.0,
+      "end": 519.0,
+      "text": " Do not encode this"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 519.0,
+      "end": 521.0,
+      "text": " If A-B-C-D was there, you would have kept A-B-C-D empty"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 521.0,
+      "end": 523.0,
+      "text": " Do not do that"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 523.0,
+      "end": 525.0,
+      "text": " Where to start encoding? From here"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 525.0,
+      "end": 527.0,
+      "text": " Because you started making its sequence"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 527.0,
+      "end": 529.0,
+      "text": " So, when you made sequence of A-B"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 529.0,
+      "end": 531.0,
+      "text": " So, whom did you see first?"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 531.0,
+      "end": 533.0,
+      "text": " You saw A, and B was attached with A"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 533.0,
+      "end": 535.0,
+      "text": " A was alone, and B was attached with it"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 535.0,
+      "end": 537.0,
+      "text": " So, you gave 3 to A-B"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 537.0,
+      "end": 539.0,
+      "text": " So, in giving 3 to A-B"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 539.0,
+      "end": 541.0,
+      "text": " Who has the right to give 3 to A-B?"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 541.0,
+      "end": 543.0,
+      "text": " A has the right"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 543.0,
+      "end": 545.0,
+      "text": " So, you have to give value 1 here"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 545.0,
+      "end": 547.0,
+      "text": " Simple, see again"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 547.0,
+      "end": 549.0,
+      "text": " A-B"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 549.0,
+      "end": 551.0,
+      "text": " When you were here"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 551.0,
+      "end": 553.0,
+      "text": " When A came alone, you assigned 1 value to A"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 553.0,
+      "end": 555.0,
+      "text": " So, you assigned B with A"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 555.0,
+      "end": 557.0,
+      "text": " Combined"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 557.0,
+      "end": 559.0,
+      "text": " Then you gave 3 to A-B"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 559.0,
+      "end": 561.0,
+      "text": " So, A-B"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 561.0,
+      "end": 563.0,
+      "text": " Why B was attached with A?"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 563.0,
+      "end": 565.0,
+      "text": " Because A alone"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 565.0,
+      "end": 567.0,
+      "text": " was assigned value"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 567.0,
+      "end": 569.0,
+      "text": " So, who helped A-B in giving value 3?"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 569.0,
+      "end": 571.0,
+      "text": " Who helped in giving value new?"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 571.0,
+      "end": 573.0,
+      "text": " 1 helped"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 573.0,
+      "end": 575.0,
+      "text": " So, 1 will remain here"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 575.0,
+      "end": 577.0,
+      "text": " See again"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 577.0,
+      "end": 579.0,
+      "text": " B-B"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 579.0,
+      "end": 581.0,
+      "text": " Why did you assign 4 value to B-B?"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 581.0,
+      "end": 583.0,
+      "text": " Because when B came alone"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 583.0,
+      "end": 585.0,
+      "text": " So, its value was 2"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 585.0,
+      "end": 587.0,
+      "text": " So, when B came with another B, we assigned 4 value"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 587.0,
+      "end": 589.0,
+      "text": " So, who helped B-B in assigning 4 value?"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 589.0,
+      "end": 591.0,
+      "text": " Only B helped"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 591.0,
+      "end": 593.0,
+      "text": " So, its value will be 2"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 593.0,
+      "end": 595.0,
+      "text": " Similarly, B-A"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 595.0,
+      "end": 597.0,
+      "text": " Now, when B came alone"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 597.0,
+      "end": 599.0,
+      "text": " In sequence, when we were alone"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 599.0,
+      "end": 601.0,
+      "text": " at a point"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 601.0,
+      "end": 603.0,
+      "text": " So, we have already assigned value to it"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 603.0,
+      "end": 605.0,
+      "text": " So, when we assigned A with B"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 605.0,
+      "end": 607.0,
+      "text": " Then I got 5 value"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 607.0,
+      "end": 609.0,
+      "text": " So, why did B-A get 5 value?"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 609.0,
+      "end": 611.0,
+      "text": " Because only B's 2 value"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 611.0,
+      "end": 613.0,
+      "text": " is already assigned"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 613.0,
+      "end": 615.0,
+      "text": " So, it helped B alone"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 615.0,
+      "end": 617.0,
+      "text": " Similarly, A-B-A"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 617.0,
+      "end": 619.0,
+      "text": " First, you put A"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 619.0,
+      "end": 621.0,
+      "text": " A came with B"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 621.0,
+      "end": 623.0,
+      "text": " When B came with A"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 623.0,
+      "end": 625.0,
+      "text": " So, A also got combined"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 625.0,
+      "end": 627.0,
+      "text": " But A also combined, so my value was already assigned 3"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 627.0,
+      "end": 629.0,
+      "text": " But when A-B-A came"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 629.0,
+      "end": 631.0,
+      "text": " So, we assigned new value"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 631.0,
+      "end": 633.0,
+      "text": " So, who helped A-B-A in assigning new value?"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 633.0,
+      "end": 635.0,
+      "text": " A-B helped"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 635.0,
+      "end": 637.0,
+      "text": " So, value of A-B is 3"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 637.0,
+      "end": 639.0,
+      "text": " Now, don't say that"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 639.0,
+      "end": 641.0,
+      "text": " Instead of taking value of A-B here"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 641.0,
+      "end": 643.0,
+      "text": " You can't take 1 value of A alone"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 643.0,
+      "end": 645.0,
+      "text": " That got updated"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 645.0,
+      "end": 647.0,
+      "text": " After that, when B came with A"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 647.0,
+      "end": 649.0,
+      "text": " So, value of A-B got updated"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 649.0,
+      "end": 651.0,
+      "text": " And value of A-B was already assigned 3"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 651.0,
+      "end": 653.0,
+      "text": " So, when A came next"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 653.0,
+      "end": 655.0,
+      "text": " Then we assigned new value to it"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 655.0,
+      "end": 657.0,
+      "text": " So, A-B-A got assigned 6 value"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 657.0,
+      "end": 659.0,
+      "text": " A-B alone got assigned"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 659.0,
+      "end": 661.0,
+      "text": " That is 3"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 661.0,
+      "end": 663.0,
+      "text": " So, that's why 3 came here"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 663.0,
+      "end": 665.0,
+      "text": " Similarly, A-B-B"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 665.0,
+      "end": 667.0,
+      "text": " When A-B-B came, so first"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 667.0,
+      "end": 669.0,
+      "text": " A came, whose value was already assigned"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 669.0,
+      "end": 671.0,
+      "text": " Then you assigned value of A-B"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 671.0,
+      "end": 673.0,
+      "text": " to 3"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 673.0,
+      "end": 675.0,
+      "text": " Now, when next value"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 675.0,
+      "end": 677.0,
+      "text": " A-B-A got added"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 677.0,
+      "end": 679.0,
+      "text": " Then you assigned new value 7"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 679.0,
+      "end": 681.0,
+      "text": " So, who got assigned?"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 681.0,
+      "end": 683.0,
+      "text": " You saw 3"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 683.0,
+      "end": 685.0,
+      "text": " Similarly, when B came alone"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 685.0,
+      "end": 687.0,
+      "text": " You assigned 2 value"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 687.0,
+      "end": 689.0,
+      "text": " But when A came with B"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 689.0,
+      "end": 691.0,
+      "text": " You saw that B-A"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 691.0,
+      "end": 693.0,
+      "text": " Already got assigned 5 value"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 693.0,
+      "end": 695.0,
+      "text": " So, you assigned 5 value to B-A"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 695.0,
+      "end": 697.0,
+      "text": " But when again"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 697.0,
+      "end": 699.0,
+      "text": " A-B-A got added"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 699.0,
+      "end": 701.0,
+      "text": " Then you assigned new value"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 701.0,
+      "end": 703.0,
+      "text": " So, whose hand is this?"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 703.0,
+      "end": 705.0,
+      "text": " B-A's hand"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 705.0,
+      "end": 707.0,
+      "text": " So, you assigned value of B-A to 5"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 707.0,
+      "end": 709.0,
+      "text": " So, this is how your encoding will be"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 709.0,
+      "end": 711.0,
+      "text": " So, now here"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 711.0,
+      "end": 713.0,
+      "text": " If we ask you"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 713.0,
+      "end": 715.0,
+      "text": " Let's suppose"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 715.0,
+      "end": 717.0,
+      "text": " If I apply LZW coding technique on this data"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 717.0,
+      "end": 719.0,
+      "text": " What will be the encoding at the end?"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 719.0,
+      "end": 721.0,
+      "text": " So, what will be the encoding at the end?"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 721.0,
+      "end": 723.0,
+      "text": " Simply start writing from here"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 723.0,
+      "end": 727.0,
+      "text": " 1, 2, 2, 3, 3, 5"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 727.0,
+      "end": 729.0,
+      "text": " Now, here"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 729.0,
+      "end": 731.0,
+      "text": " Remember one thing"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 731.0,
+      "end": 733.0,
+      "text": " Encoding always ends with"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 733.0,
+      "end": 735.0,
+      "text": " The last character in your sequence"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 735.0,
+      "end": 737.0,
+      "text": " Which last character?"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 737.0,
+      "end": 739.0,
+      "text": " A"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 739.0,
+      "end": 741.0,
+      "text": " A's coding was 1"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 741.0,
+      "end": 743.0,
+      "text": " So, you have to add 1 at the end"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 743.0,
+      "end": 745.0,
+      "text": " This is an extra point"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 745.0,
+      "end": 747.0,
+      "text": " Because it helps in decoding"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 747.0,
+      "end": 749.0,
+      "text": " Whatever encoding you did, stick it as it is"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 749.0,
+      "end": 751.0,
+      "text": " But at the end, you have to add one value"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 751.0,
+      "end": 753.0,
+      "text": " Which is ending from the number"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 753.0,
+      "end": 755.0,
+      "text": " Which is ending from the variable"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 755.0,
+      "end": 757.0,
+      "text": " If it is ending from A, then assign 1"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 757.0,
+      "end": 759.0,
+      "text": " If it is ending from B, then assign 2"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 759.0,
+      "end": 761.0,
+      "text": " So, this is how"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 761.0,
+      "end": 763.0,
+      "text": " Your entire encoding will be"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 763.0,
+      "end": 765.0,
+      "text": " And this encoding"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 765.0,
+      "end": 767.0,
+      "text": " Finally helps in data"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 767.0,
+      "end": 769.0,
+      "text": " Compilation"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 769.0,
+      "end": 771.0,
+      "text": " And then we can decode it and"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 771.0,
+      "end": 773.0,
+      "text": " Get this code again"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 773.0,
+      "end": 775.0,
+      "text": " I will tell you decoding in the next video"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 775.0,
+      "end": 777.0,
+      "text": " But, once you see the encoding"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 777.0,
+      "end": 779.0,
+      "text": " How we have encoded"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 779.0,
+      "end": 781.0,
+      "text": " And if you have any doubt"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 781.0,
+      "end": 783.0,
+      "text": " Then you can watch this video again"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 783.0,
+      "end": 785.0,
+      "text": " You will understand easily"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 785.0,
+      "end": 787.0,
+      "text": " Thank you for watching it"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 787.0,
+      "end": 789.0,
+      "text": " If you like the video, then please subscribe to my channel"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 789.0,
+      "end": 791.0,
+      "text": " And, if you have any doubts, then please comment below"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 791.0,
+      "end": 793.0,
+      "text": " I will try to answer all your questions"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 793.0,
+      "end": 795.0,
+      "text": " Till then, bye"
+    },
+    {
+      "number": "15",
+      "title": "LZW Algorithm With Example _ Data Warehouse",
+      "start": 795.0,
+      "end": 797.0,
+      "text": " Bye"
+    }
+  ],
+  "text": " Dear students, welcome to the class In today's class, I am going to explain LZW coding technique And we use this coding technique In data compression So the topic we have Data compression, why do we use it? To decrease the size of our file In file transformation This is our method In compression, mainly It is done in two ways Either it is your lossless compression Or it is your lossy compression Lossless compression means You compressed a file You removed the duplication You used any method And you compressed that file After that, when you compress And checked that file again It should not happen that your data Is getting lost a lot The technique used in lossy It loses the data somewhere And here we Use it less In data integrity The values of the data are very important So there lossless Is used specially And here we have a technique LZW coding technique Like Huffman coding technique We have LZW How does it work? I will explain you with an example Your question in data transformation Can come directly on the compression topic So note carefully How does LZW work? How does Huffman coding work? You have got a separate video on it But how does LZW work? I will tell you in this video Note carefully First of all, this method This data compression technique Which helps in removing duplicate data Means you repeatedly Take duplicate data in coding You use it in this way The data that is being repeated again and again You run it with a single code Like here I have And this is specially GIF, TIFF It is used a lot on them Here First of all, we have to do The whole value, the sequence of values What do we have to do? Encode it To encode it, first of all We have here Make a table like this What do we have? Index value Which we have to assign Index value to each value It works like a dictionary Dictionary method is used Like in dictionary, each value has an index For A, there is an index For B, there is a separate index Like we have this value And the third one we have Encoding In this way, we have three columns First of all, index, value And encoding So here, whatever sequence is given to you Like you have this sequence A, B, B, A, in this way First of all, you see Which unique characters are there in it Like here, if you see from the starting Till the end, you will see two unique characters That is A and B So here, you have A and B Two unique values So you can index them by default 1 and 2 You can do B and A also, as you wish It doesn't matter But the main thing is, whatever unique it is Let's suppose, if you put C in this sequence Or D First of all, write them And assign their index value Simple, with 1 and 2 Now, when this case is done Now, what we have to do From the starting We have to start from the first value To make our sequences Watch carefully, it will look a bit difficult in the first time But when you will listen carefully And watch it again, you will find it easy Which is the first character? A Means, my pointer is pointing to A So what you have to do We have to make a sequence for A So, what I got first? A So, in the list In this table Is there an index for A in this table? Yes, there is We made it earlier, because we traversed And gave the numbering to A and B, which were unique So, is there an index for A? Yes, there is Done. After that, what you have to do Go to the other character Because there is nothing for A So, now hold A And make a sequence So, there is an index for A But when we went from A to next, what I got? B Now, what is this? A-B sequence is made Now, watch carefully Is there any index value for A-B? No, there is not So, what you have to do You have to write A-B here And for this, you have to assign an index value 3 So, this means My sequence is complete Till when do we have to run the sequence? Till the time The value is not present in this list Till the time the value is present, keep increasing the value Like, now this is for A-B I have put an index value here Now, this is over Now, my sequence is over Where was I standing at last? I was standing at B So, whatever sequence you are making Pick up the last character of it So, now you start running from B Start running from B See, first of all B Do I have B? Yes, in this table I don't want to bother you, for that we have already assigned the value After B, which is next? After B, next is B-B Is there any value assigned for B-B? Is there any index value assigned? No, it is not assigned So, for B-B, I have to assign the value Now, what happened? Here, I assigned the value for B-B So, B-B's work is over So, where were we standing? Which was the last character? B So, whatever was the last character of your sequence And start running from there So, what is next for me? B B is alone, for B, there is already a value assigned So, what came after B? A What came after B? A Is there any value assigned for B-A? No, there is no value assigned for B-A So, what we did? For B-A, we assigned value 5 Simple, just keep increasing the sequence Now, let's say That here, for B-A There is already a value assigned on top So, I would have added the next character in this sequence That's all you have to do Now, look, for B-A We assigned value 5 The work of the sequence is over Now, where were we standing? Which was the last element in this sequence? A So, we are standing on A Now, you come from A So, for A, the value is already assigned So, put next on the sequence of A What is B? What is the sequence now? A-B Is there a value assigned for A-B? Yes, there are 3 values assigned for A-B So, keep increasing the sequence What is the next value? A So, A-B-A is done There is no value assigned for A-B-A So, what you will do? For A-B-A, assign 6 values Or assign the new index value Now, look Here, we assigned for this So, the work of the sequence is over Which was the last character of this sequence? The last character of A-B-A was A That means, you are standing on A Now, start making sequence from A A will make friends again We have already assigned value for A So, which was next from A? Next from A is B What was next from A? B Now, for A-B, the value is already assigned So, this is already its friend We have assigned value to it So, take next from it What is next from it? B Now, let's suppose, next from it is A So, A-B-A is done And for A-B-A, the value was already assigned So, we take next from it and make sequence of 4 Just keep this in mind Now, what I have? A-B-B is done But, there is no value assigned for A-B-B So, assign 7 value for A-B-B And, the work of the sequence is over Which was the last character of this sequence? B That means, you are standing on B Again, for B, I have already assigned 2 value Next, what is next from A? A-B-A is done Look at B-A B-A is already there So, next from it is B-A is already there So, A was B-A-A Is B-A-A? No, it is not B-A-A So, for B-A-A 8 value will be assigned So, the major work is to keep giving numbering according to the sequence When your numbering is complete Means, all the maximum work is completed Now, you just have to do encoding So, when we do encoding, it is fixed I have not made this The scientist who made this He fixed it that it has to be done in this way Now, look Initially, A and B were already unique characters Initially, these were unique 2 characters A and B So, there is no need to encode this These will remain as it is Do not encode this If A-B-C-D was there, you would have kept A-B-C-D empty Do not do that Where to start encoding? From here Because you started making its sequence So, when you made sequence of A-B So, whom did you see first? You saw A, and B was attached with A A was alone, and B was attached with it So, you gave 3 to A-B So, in giving 3 to A-B Who has the right to give 3 to A-B? A has the right So, you have to give value 1 here Simple, see again A-B When you were here When A came alone, you assigned 1 value to A So, you assigned B with A Combined Then you gave 3 to A-B So, A-B Why B was attached with A? Because A alone was assigned value So, who helped A-B in giving value 3? Who helped in giving value new? 1 helped So, 1 will remain here See again B-B Why did you assign 4 value to B-B? Because when B came alone So, its value was 2 So, when B came with another B, we assigned 4 value So, who helped B-B in assigning 4 value? Only B helped So, its value will be 2 Similarly, B-A Now, when B came alone In sequence, when we were alone at a point So, we have already assigned value to it So, when we assigned A with B Then I got 5 value So, why did B-A get 5 value? Because only B's 2 value is already assigned So, it helped B alone Similarly, A-B-A First, you put A A came with B When B came with A So, A also got combined But A also combined, so my value was already assigned 3 But when A-B-A came So, we assigned new value So, who helped A-B-A in assigning new value? A-B helped So, value of A-B is 3 Now, don't say that Instead of taking value of A-B here You can't take 1 value of A alone That got updated After that, when B came with A So, value of A-B got updated And value of A-B was already assigned 3 So, when A came next Then we assigned new value to it So, A-B-A got assigned 6 value A-B alone got assigned That is 3 So, that's why 3 came here Similarly, A-B-B When A-B-B came, so first A came, whose value was already assigned Then you assigned value of A-B to 3 Now, when next value A-B-A got added Then you assigned new value 7 So, who got assigned? You saw 3 Similarly, when B came alone You assigned 2 value But when A came with B You saw that B-A Already got assigned 5 value So, you assigned 5 value to B-A But when again A-B-A got added Then you assigned new value So, whose hand is this? B-A's hand So, you assigned value of B-A to 5 So, this is how your encoding will be So, now here If we ask you Let's suppose If I apply LZW coding technique on this data What will be the encoding at the end? So, what will be the encoding at the end? Simply start writing from here 1, 2, 2, 3, 3, 5 Now, here Remember one thing Encoding always ends with The last character in your sequence Which last character? A A's coding was 1 So, you have to add 1 at the end This is an extra point Because it helps in decoding Whatever encoding you did, stick it as it is But at the end, you have to add one value Which is ending from the number Which is ending from the variable If it is ending from A, then assign 1 If it is ending from B, then assign 2 So, this is how Your entire encoding will be And this encoding Finally helps in data Compilation And then we can decode it and Get this code again I will tell you decoding in the next video But, once you see the encoding How we have encoded And if you have any doubt Then you can watch this video again You will understand easily Thank you for watching it If you like the video, then please subscribe to my channel And, if you have any doubts, then please comment below I will try to answer all your questions Till then, bye Bye"
+}

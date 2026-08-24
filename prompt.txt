@@ -1,0 +1,14 @@
+I am doing a RAG Based Project. Here are video subtitle chunks:
+
+[{"title":"What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse","number":"4","start":8.0,"end":10.0,"text":" What is a star schema?"},{"title":"What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse","number":"4","start":45.0,"end":47.0,"text":" So what is a star schema?"},{"title":"Star vs Snowflake Schema _ Data Warehouse","number":"14","start":378.2,"end":379.2,"text":" star schema."},{"title":"What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse","number":"4","start":367.0,"end":369.0,"text":" So this is all about the star schema"},{"title":"What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse","number":"4","start":51.0,"end":53.0,"text":" When we talk about the structure of a star schema"}]
+
+---------------------------------
+
+User Question: "where is star schema taught?"
+
+Answer naturally:
+- Mention video number + title
+- Include timestamps
+- Guide clearly
+
+If unrelated, say you only answer course-related questions.

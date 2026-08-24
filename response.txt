@@ -1,0 +1,7 @@
+I'd be happy to help you with your project.
+
+You've provided subtitle chunks for a video titled "Introduction to Data Warehouse with Examples". I noticed you're interested in understanding OLAP vs OLTP. Let me guide you on where to find that information.
+
+The concept of OLAP (Online Analytical Processing) and OLTP (Online Transactional Processing) is introduced in the first video of this series, which is titled "Introduction to Data Warehouse with Examples". Specifically, the relevant content can be found starting from approximately 127 seconds into the video. You can try playing the video from that point to learn more about ETL, EXTRACT, TRANSFORMATION, and LOADING.
+
+If you have any further questions or need clarification on this topic, feel free to ask! However, please note that I can only provide guidance on course-related topics. If your question is unrelated to the course material, I'd be happy to try and assist you as much as possible within those boundaries.

@@ -1,0 +1,1370 @@
+{
+  "chunks": [
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 0.0,
+      "end": 2.0,
+      "text": " Dear students, Welcome to GITsmeasures"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 2.0,
+      "end": 4.0,
+      "text": " In today's video I am going to explain"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 4.0,
+      "end": 6.0,
+      "text": " Star Schema in Data Warehouse"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 6.0,
+      "end": 8.0,
+      "text": " So the first important line is"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 8.0,
+      "end": 10.0,
+      "text": " What is a star schema?"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 10.0,
+      "end": 12.0,
+      "text": " It is a data model"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 12.0,
+      "end": 14.0,
+      "text": " It is a way to represent and organize data"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 14.0,
+      "end": 18.0,
+      "text": " How data is represented in a data warehouse"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 18.0,
+      "end": 21.0,
+      "text": " For example, when we talk about RDBMS"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 21.0,
+      "end": 24.0,
+      "text": " We represent data in the form of tables"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 24.0,
+      "end": 26.0,
+      "text": " When we talk about big data"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 26.0,
+      "end": 29.0,
+      "text": " We say that we represent data in the form of columns or graphs"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 29.0,
+      "end": 32.0,
+      "text": " Similarly, when we talk about data warehouse"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 32.0,
+      "end": 35.0,
+      "text": " How to represent data, how to organize it"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 35.0,
+      "end": 37.0,
+      "text": " How to manage it, in which form"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 37.0,
+      "end": 39.0,
+      "text": " So we call it a data model"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 39.0,
+      "end": 41.0,
+      "text": " And in which form we do it"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 41.0,
+      "end": 43.0,
+      "text": " One is you have a star schema"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 43.0,
+      "end": 45.0,
+      "text": " And the second is you have a snowflake"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 45.0,
+      "end": 47.0,
+      "text": " So what is a star schema?"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 47.0,
+      "end": 49.0,
+      "text": " I will tell you the whole story in this video"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 49.0,
+      "end": 51.0,
+      "text": " With example, see"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 51.0,
+      "end": 53.0,
+      "text": " When we talk about the structure of a star schema"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 53.0,
+      "end": 55.0,
+      "text": " How it is made, then two things come in it"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 55.0,
+      "end": 57.0,
+      "text": " One is your fact table"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 57.0,
+      "end": 59.0,
+      "text": " And the second is dimension table"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 59.0,
+      "end": 62.0,
+      "text": " Remember fact table is only one in the center"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 62.0,
+      "end": 64.0,
+      "text": " Like how the shape of a star is"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 64.0,
+      "end": 66.0,
+      "text": " Generally we represent a star like this"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 66.0,
+      "end": 68.0,
+      "text": " Like this we are that star"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 68.0,
+      "end": 70.0,
+      "text": " So this center is a fact table"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 70.0,
+      "end": 72.0,
+      "text": " Which will be only one"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 72.0,
+      "end": 74.0,
+      "text": " And what will be multiple?"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 74.0,
+      "end": 75.0,
+      "text": " Dimension table will be"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 75.0,
+      "end": 76.0,
+      "text": " What will be in fact table?"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 76.0,
+      "end": 77.0,
+      "text": " Facts"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 77.0,
+      "end": 78.0,
+      "text": " What are facts?"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 78.0,
+      "end": 79.0,
+      "text": " Numbers, figures"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 79.0,
+      "end": 81.0,
+      "text": " Which we also call matrix"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 81.0,
+      "end": 84.0,
+      "text": " Or you can say that quantitative data is there"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 84.0,
+      "end": 86.0,
+      "text": " And what will be in dimension table?"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 86.0,
+      "end": 88.0,
+      "text": " Descriptive data will be there"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 88.0,
+      "end": 90.0,
+      "text": " Means the data we are keeping in fact table"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 90.0,
+      "end": 92.0,
+      "text": " The whole information of the descriptive"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 92.0,
+      "end": 95.0,
+      "text": " Related to it is in your dimension table"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 95.0,
+      "end": 97.0,
+      "text": " Like as an example"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 97.0,
+      "end": 98.0,
+      "text": " I show you here"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 98.0,
+      "end": 99.0,
+      "text": " See this"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 99.0,
+      "end": 102.0,
+      "text": " Here you have a star schema"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 102.0,
+      "end": 104.0,
+      "text": " In this, what we have in the middle"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 104.0,
+      "end": 105.0,
+      "text": " What is fact table?"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 105.0,
+      "end": 106.0,
+      "text": " What is in it?"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 106.0,
+      "end": 107.0,
+      "text": " Sales"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 107.0,
+      "end": 108.0,
+      "text": " Sales data is there"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 108.0,
+      "end": 110.0,
+      "text": " Now if we show this sales data"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 110.0,
+      "end": 111.0,
+      "text": " How will we show?"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 111.0,
+      "end": 112.0,
+      "text": " Like transaction ID is done"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 112.0,
+      "end": 114.0,
+      "text": " Okay, product ID"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 114.0,
+      "end": 116.0,
+      "text": " Customer ID, date, sales amount"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 116.0,
+      "end": 117.0,
+      "text": " Means values are there"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 117.0,
+      "end": 118.0,
+      "text": " Numbers are there in it"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 118.0,
+      "end": 119.0,
+      "text": " Okay"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 119.0,
+      "end": 120.0,
+      "text": " Now I have to find out"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 120.0,
+      "end": 121.0,
+      "text": " Product ID is fine"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 121.0,
+      "end": 122.0,
+      "text": " This product ID"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 122.0,
+      "end": 124.0,
+      "text": " But the whole information of the product"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 124.0,
+      "end": 125.0,
+      "text": " To give"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 125.0,
+      "end": 126.0,
+      "text": " What was the name of the product?"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 126.0,
+      "end": 127.0,
+      "text": " Which category does the product come in?"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 127.0,
+      "end": 128.0,
+      "text": " What was its size?"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 128.0,
+      "end": 131.0,
+      "text": " All that product information will be given to you"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 131.0,
+      "end": 133.0,
+      "text": " Then customer ID"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 133.0,
+      "end": 135.0,
+      "text": " All information related to the customer"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 135.0,
+      "end": 137.0,
+      "text": " To find out where the customer was from"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 137.0,
+      "end": 138.0,
+      "text": " What is his mobile number?"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 138.0,
+      "end": 140.0,
+      "text": " From which location does it belong?"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 140.0,
+      "end": 141.0,
+      "text": " So that in a way"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 141.0,
+      "end": 144.0,
+      "text": " Customer will give dimension"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 144.0,
+      "end": 147.0,
+      "text": " So dimension gives you full information of that topic"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 147.0,
+      "end": 150.0,
+      "text": " But fact table only shows you data"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 150.0,
+      "end": 152.0,
+      "text": " In the form of numbers generally"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 152.0,
+      "end": 153.0,
+      "text": " Like here"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 153.0,
+      "end": 155.0,
+      "text": " If I convert this fact table and dimension table"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 155.0,
+      "end": 157.0,
+      "text": " This star scheme"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 157.0,
+      "end": 159.0,
+      "text": " If I convert it into the form of a table"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 159.0,
+      "end": 160.0,
+      "text": " So see"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 160.0,
+      "end": 162.0,
+      "text": " Your data will be like this"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 162.0,
+      "end": 163.0,
+      "text": " See here"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 163.0,
+      "end": 165.0,
+      "text": " Transaction ID, date, product ID"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 165.0,
+      "end": 166.0,
+      "text": " This was the fact table"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 166.0,
+      "end": 167.0,
+      "text": " This is the data of the fact table"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 167.0,
+      "end": 169.0,
+      "text": " Now see what the fact table is telling you"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 169.0,
+      "end": 170.0,
+      "text": " That this transaction happened"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 170.0,
+      "end": 172.0,
+      "text": " This product was sold by me"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 172.0,
+      "end": 173.0,
+      "text": " This customer bought it"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 173.0,
+      "end": 175.0,
+      "text": " So much was the sales amount"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 175.0,
+      "end": 176.0,
+      "text": " How much quantity was sold?"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 176.0,
+      "end": 178.0,
+      "text": " And how much profit did I get?"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 178.0,
+      "end": 180.0,
+      "text": " Similarly, who bought the other product?"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 180.0,
+      "end": 181.0,
+      "text": " Which customer bought it?"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 181.0,
+      "end": 182.0,
+      "text": " What was his ID?"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 182.0,
+      "end": 184.0,
+      "text": " And how much is the sales amount?"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 184.0,
+      "end": 185.0,
+      "text": " And how much profit did I get?"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 185.0,
+      "end": 187.0,
+      "text": " So here you can see a clear cut"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 187.0,
+      "end": 188.0,
+      "text": " If I want to know"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 188.0,
+      "end": 190.0,
+      "text": " How much is my total sale?"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 190.0,
+      "end": 191.0,
+      "text": " Will be found from here"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 191.0,
+      "end": 192.0,
+      "text": " I want to know"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 192.0,
+      "end": 194.0,
+      "text": " How much did I sell in total quantity?"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 194.0,
+      "end": 195.0,
+      "text": " Will be found from here"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 195.0,
+      "end": 197.0,
+      "text": " How much profit did I get?"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 197.0,
+      "end": 199.0,
+      "text": " From a particular product or particular customer"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 199.0,
+      "end": 201.0,
+      "text": " So I can find out from here"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 201.0,
+      "end": 203.0,
+      "text": " But if I want to know"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 203.0,
+      "end": 205.0,
+      "text": " What is the name of that person?"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 205.0,
+      "end": 207.0,
+      "text": " Or what is the location of that person?"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 207.0,
+      "end": 209.0,
+      "text": " Who bought this product?"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 209.0,
+      "end": 211.0,
+      "text": " So where will I go?"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 211.0,
+      "end": 213.0,
+      "text": " Will find out from the information of the customer"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 213.0,
+      "end": 215.0,
+      "text": " That this was the customer"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 215.0,
+      "end": 217.0,
+      "text": " And it belongs to this place"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 217.0,
+      "end": 218.0,
+      "text": " Similarly, I have to find out"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 218.0,
+      "end": 220.0,
+      "text": " What was the category of that product?"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 220.0,
+      "end": 221.0,
+      "text": " Which was sold in this much?"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 221.0,
+      "end": 223.0,
+      "text": " So the category of the product will tell you this"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 223.0,
+      "end": 225.0,
+      "text": " And how much did it sell?"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 225.0,
+      "end": 226.0,
+      "text": " You will know from here"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 226.0,
+      "end": 228.0,
+      "text": " So this is your simplified structure"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 228.0,
+      "end": 231.0,
+      "text": " If you have all the sales related information"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 231.0,
+      "end": 233.0,
+      "text": " You will get to know from here"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 233.0,
+      "end": 235.0,
+      "text": " You don't need to join"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 235.0,
+      "end": 237.0,
+      "text": " But if you want to know in this way"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 237.0,
+      "end": 239.0,
+      "text": " That even the name of that product"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 239.0,
+      "end": 241.0,
+      "text": " Then both the tables will have to be joined"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 241.0,
+      "end": 243.0,
+      "text": " If I want to know the name of the customer"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 243.0,
+      "end": 245.0,
+      "text": " Who bought this particular product?"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 245.0,
+      "end": 247.0,
+      "text": " Then you will have to join with it"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 247.0,
+      "end": 250.0,
+      "text": " But normally you can get all the information from here"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 250.0,
+      "end": 252.0,
+      "text": " So this is its special thing"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 252.0,
+      "end": 255.0,
+      "text": " Simplicity represents data in this way"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 255.0,
+      "end": 258.0,
+      "text": " So here we got to know about all the fact tables"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 258.0,
+      "end": 260.0,
+      "text": " We got to know about the dimension table"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 260.0,
+      "end": 262.0,
+      "text": " Here one important point is"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 262.0,
+      "end": 264.0,
+      "text": " How are they related to each other?"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 264.0,
+      "end": 266.0,
+      "text": " See here this product"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 266.0,
+      "end": 270.0,
+      "text": " Product ID will be a primary key"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 270.0,
+      "end": 272.0,
+      "text": " Means unique and not null"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 272.0,
+      "end": 274.0,
+      "text": " Similarly, if we talk about the employee"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 274.0,
+      "end": 276.0,
+      "text": " Then employee ID will be a primary key"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 276.0,
+      "end": 278.0,
+      "text": " Similarly, if we talk about shipment"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 278.0,
+      "end": 279.0,
+      "text": " Then transaction ID will be primary key"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 279.0,
+      "end": 280.0,
+      "text": " If we talk about the customer"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 280.0,
+      "end": 282.0,
+      "text": " Then customer ID will be a primary key"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 282.0,
+      "end": 284.0,
+      "text": " And here all these will be foreign keys"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 284.0,
+      "end": 286.0,
+      "text": " What will be the foreign keys?"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 286.0,
+      "end": 288.0,
+      "text": " Which are taking reference from here"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 288.0,
+      "end": 290.0,
+      "text": " So you should know this story"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 290.0,
+      "end": 292.0,
+      "text": " It is not that they are not related to each other"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 292.0,
+      "end": 294.0,
+      "text": " The concept of primary key and foreign key"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 294.0,
+      "end": 296.0,
+      "text": " Is properly in it"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 296.0,
+      "end": 298.0,
+      "text": " So that our integrity is maintained"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 298.0,
+      "end": 302.0,
+      "text": " Data should be integrated"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 302.0,
+      "end": 304.0,
+      "text": " So according to the data"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 304.0,
+      "end": 308.0,
+      "text": " You can put any query in this way"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 308.0,
+      "end": 310.0,
+      "text": " And finally if you ask the advantage"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 310.0,
+      "end": 312.0,
+      "text": " Then see query performance"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 312.0,
+      "end": 313.0,
+      "text": " As I told you"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 313.0,
+      "end": 315.0,
+      "text": " You just have to know the total sale"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 315.0,
+      "end": 317.0,
+      "text": " How much was the sale?"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 317.0,
+      "end": 319.0,
+      "text": " How much particular quantity was sold?"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 319.0,
+      "end": 321.0,
+      "text": " You have to know which customer bought the most"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 321.0,
+      "end": 323.0,
+      "text": " Which product has the highest sale?"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 323.0,
+      "end": 325.0,
+      "text": " You can directly get it from the sales data"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 325.0,
+      "end": 327.0,
+      "text": " If you want to know the name of that customer"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 327.0,
+      "end": 329.0,
+      "text": " Or the name of that product"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 329.0,
+      "end": 331.0,
+      "text": " Then you have to join and find out"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 331.0,
+      "end": 333.0,
+      "text": " So the performance of the query"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 333.0,
+      "end": 336.0,
+      "text": " You can easily get the data by joining at least"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 336.0,
+      "end": 338.0,
+      "text": " Then simplicity"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 338.0,
+      "end": 340.0,
+      "text": " You know that my star scheme"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 340.0,
+      "end": 342.0,
+      "text": " The structure is very simple"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 342.0,
+      "end": 344.0,
+      "text": " Fact table in between"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 344.0,
+      "end": 345.0,
+      "text": " Multiple dimension table"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 345.0,
+      "end": 347.0,
+      "text": " Which tells its description"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 347.0,
+      "end": 348.0,
+      "text": " And the fact table in between"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 348.0,
+      "end": 350.0,
+      "text": " Which tells all the quantitative"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 350.0,
+      "end": 352.0,
+      "text": " Or numbers generally"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 352.0,
+      "end": 353.0,
+      "text": " Flexibility"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 353.0,
+      "end": 357.0,
+      "text": " Here what is the meaning of flexibility or scalability"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 357.0,
+      "end": 360.0,
+      "text": " If you want to extend it further"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 360.0,
+      "end": 361.0,
+      "text": " Then you extend further"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 361.0,
+      "end": 363.0,
+      "text": " Means today you have stored 1000 data"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 363.0,
+      "end": 367.0,
+      "text": " Tomorrow you can extend it easily by 10,000 or 1,00,000"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 367.0,
+      "end": 369.0,
+      "text": " So this is all about the star schema"
+    },
+    {
+      "number": "4",
+      "title": "What is Star Schema _ Schema for Multi Dimensional Data Model _ Data Warehouse",
+      "start": 370.0,
+      "end": 372.0,
+      "text": " Thank you"
+    }
+  ],
+  "text": " Dear students, Welcome to GITsmeasures In today's video I am going to explain Star Schema in Data Warehouse So the first important line is What is a star schema? It is a data model It is a way to represent and organize data How data is represented in a data warehouse For example, when we talk about RDBMS We represent data in the form of tables When we talk about big data We say that we represent data in the form of columns or graphs Similarly, when we talk about data warehouse How to represent data, how to organize it How to manage it, in which form So we call it a data model And in which form we do it One is you have a star schema And the second is you have a snowflake So what is a star schema? I will tell you the whole story in this video With example, see When we talk about the structure of a star schema How it is made, then two things come in it One is your fact table And the second is dimension table Remember fact table is only one in the center Like how the shape of a star is Generally we represent a star like this Like this we are that star So this center is a fact table Which will be only one And what will be multiple? Dimension table will be What will be in fact table? Facts What are facts? Numbers, figures Which we also call matrix Or you can say that quantitative data is there And what will be in dimension table? Descriptive data will be there Means the data we are keeping in fact table The whole information of the descriptive Related to it is in your dimension table Like as an example I show you here See this Here you have a star schema In this, what we have in the middle What is fact table? What is in it? Sales Sales data is there Now if we show this sales data How will we show? Like transaction ID is done Okay, product ID Customer ID, date, sales amount Means values are there Numbers are there in it Okay Now I have to find out Product ID is fine This product ID But the whole information of the product To give What was the name of the product? Which category does the product come in? What was its size? All that product information will be given to you Then customer ID All information related to the customer To find out where the customer was from What is his mobile number? From which location does it belong? So that in a way Customer will give dimension So dimension gives you full information of that topic But fact table only shows you data In the form of numbers generally Like here If I convert this fact table and dimension table This star scheme If I convert it into the form of a table So see Your data will be like this See here Transaction ID, date, product ID This was the fact table This is the data of the fact table Now see what the fact table is telling you That this transaction happened This product was sold by me This customer bought it So much was the sales amount How much quantity was sold? And how much profit did I get? Similarly, who bought the other product? Which customer bought it? What was his ID? And how much is the sales amount? And how much profit did I get? So here you can see a clear cut If I want to know How much is my total sale? Will be found from here I want to know How much did I sell in total quantity? Will be found from here How much profit did I get? From a particular product or particular customer So I can find out from here But if I want to know What is the name of that person? Or what is the location of that person? Who bought this product? So where will I go? Will find out from the information of the customer That this was the customer And it belongs to this place Similarly, I have to find out What was the category of that product? Which was sold in this much? So the category of the product will tell you this And how much did it sell? You will know from here So this is your simplified structure If you have all the sales related information You will get to know from here You don't need to join But if you want to know in this way That even the name of that product Then both the tables will have to be joined If I want to know the name of the customer Who bought this particular product? Then you will have to join with it But normally you can get all the information from here So this is its special thing Simplicity represents data in this way So here we got to know about all the fact tables We got to know about the dimension table Here one important point is How are they related to each other? See here this product Product ID will be a primary key Means unique and not null Similarly, if we talk about the employee Then employee ID will be a primary key Similarly, if we talk about shipment Then transaction ID will be primary key If we talk about the customer Then customer ID will be a primary key And here all these will be foreign keys What will be the foreign keys? Which are taking reference from here So you should know this story It is not that they are not related to each other The concept of primary key and foreign key Is properly in it So that our integrity is maintained Data should be integrated So according to the data You can put any query in this way And finally if you ask the advantage Then see query performance As I told you You just have to know the total sale How much was the sale? How much particular quantity was sold? You have to know which customer bought the most Which product has the highest sale? You can directly get it from the sales data If you want to know the name of that customer Or the name of that product Then you have to join and find out So the performance of the query You can easily get the data by joining at least Then simplicity You know that my star scheme The structure is very simple Fact table in between Multiple dimension table Which tells its description And the fact table in between Which tells all the quantitative Or numbers generally Flexibility Here what is the meaning of flexibility or scalability If you want to extend it further Then you extend further Means today you have stored 1000 data Tomorrow you can extend it easily by 10,000 or 1,00,000 So this is all about the star schema Thank you"
+}

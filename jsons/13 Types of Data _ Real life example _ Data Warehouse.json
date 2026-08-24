@@ -1,0 +1,1405 @@
+{
+  "chunks": [
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 0.0,
+      "end": 2.0,
+      "text": " Dear students, welcome to GIT Smashers."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 2.0,
+      "end": 4.0,
+      "text": " In today's video, I am going to explain"
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 4.0,
+      "end": 7.6000000000000005,
+      "text": " different types of data in warehousing and mining."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 7.6000000000000005,
+      "end": 11.4,
+      "text": " Whenever we talk about types of data in mining,"
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 11.4,
+      "end": 14.6,
+      "text": " there are many different categories of data in it."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 14.6,
+      "end": 16.6,
+      "text": " And why is this important?"
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 16.6,
+      "end": 22.0,
+      "text": " Because based on data, you have to select which algorithm will be used."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 22.0,
+      "end": 26.0,
+      "text": " Means you have to apply clustering, classification, regression,"
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 26.0,
+      "end": 29.8,
+      "text": " which method will be used, you will get to know this based on data."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 29.8,
+      "end": 31.8,
+      "text": " Then when you have to store data,"
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 31.8,
+      "end": 34.8,
+      "text": " you have to see what type of data is there."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 34.8,
+      "end": 37.8,
+      "text": " So you have to store it according to that category."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 37.8,
+      "end": 40.8,
+      "text": " For its cleaning, whatever applicability you get,"
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 40.8,
+      "end": 42.8,
+      "text": " you have to apply all of it."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 42.8,
+      "end": 47.8,
+      "text": " So that's why, if you want to do data mining well"
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 47.8,
+      "end": 49.8,
+      "text": " or if you are doing data warehousing well,"
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 49.8,
+      "end": 51.8,
+      "text": " then you should know about different types of data."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 51.8,
+      "end": 53.8,
+      "text": " It is a very simple topic."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 53.8,
+      "end": 57.8,
+      "text": " Here, the first category comes, qualitative data."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 57.8,
+      "end": 60.8,
+      "text": " Qualitative data, which we also call categorical data."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 60.8,
+      "end": 63.8,
+      "text": " What does it mean? It is a category based data."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 63.8,
+      "end": 67.8,
+      "text": " Like the first one, this type of data represents labels."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 67.8,
+      "end": 71.8,
+      "text": " Labels are represented here, categories are represented,"
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 71.8,
+      "end": 74.8,
+      "text": " names are there, this is non-numeric data."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 74.8,
+      "end": 76.8,
+      "text": " There are no numbers here, it is categories basically."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 76.8,
+      "end": 79.8,
+      "text": " And we have two types of data in it."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 79.8,
+      "end": 81.8,
+      "text": " First is nominal data, very important."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 81.8,
+      "end": 85.8,
+      "text": " Nominal data, which we call unordered categorical data."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 85.8,
+      "end": 87.8,
+      "text": " It means that here, that type of data is there."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 87.8,
+      "end": 90.8,
+      "text": " It is categorical, but without any order."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 90.8,
+      "end": 94.8,
+      "text": " There is no ordering, no increasing order or decreasing order."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 94.8,
+      "end": 98.8,
+      "text": " So your data is category based, but there is no order between the data."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 98.8,
+      "end": 102.8,
+      "text": " Like a simple example, male, female, others."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 102.8,
+      "end": 104.8,
+      "text": " Now here, a category is made."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 104.8,
+      "end": 107.8,
+      "text": " Some people are coming in male, some in female,"
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 107.8,
+      "end": 109.8,
+      "text": " and maybe some are coming in others too."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 109.8,
+      "end": 114.8,
+      "text": " But there is no ordering here, no increasing order or decreasing order."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 114.8,
+      "end": 115.8,
+      "text": " It is just a category."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 115.8,
+      "end": 118.8,
+      "text": " Similarly, a category is made on the basis of color,"
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 118.8,
+      "end": 120.8,
+      "text": " a category is made on the basis of blood type,"
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 120.8,
+      "end": 124.8,
+      "text": " but there is no ordering between them, it is just a category."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 124.8,
+      "end": 126.8,
+      "text": " So some people are in this category, some in this category,"
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 126.8,
+      "end": 129.8,
+      "text": " and some in this category, we divide them in this way."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 129.8,
+      "end": 132.8,
+      "text": " Like in simple classification problems,"
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 132.8,
+      "end": 134.8,
+      "text": " we always do, like Naive Bayes classification,"
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 134.8,
+      "end": 137.8,
+      "text": " Decision Tree, so we do in it,"
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 137.8,
+      "end": 141.8,
+      "text": " that tell me whether this email is spam or not spam."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 141.8,
+      "end": 144.8,
+      "text": " So we have made a category here, we are doing the same thing here,"
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 144.8,
+      "end": 145.8,
+      "text": " there is no ordering."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 145.8,
+      "end": 150.8,
+      "text": " But the second type in this category, that is ordinal data,"
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 150.8,
+      "end": 154.8,
+      "text": " it says that it is categorical, but there is also an order,"
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 154.8,
+      "end": 156.8,
+      "text": " there is also an order between a data."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 156.8,
+      "end": 159.8,
+      "text": " The same thing is being said here, meaningful order between the data,"
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 159.8,
+      "end": 163.8,
+      "text": " but no interval will be fixed in it."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 163.8,
+      "end": 166.8,
+      "text": " What does it mean to say? Listen carefully, there is nothing."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 166.8,
+      "end": 169.8,
+      "text": " Like I made it here, primary, secondary, higher."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 169.8,
+      "end": 174.8,
+      "text": " Now some students are in primary, some students are in secondary education,"
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 174.8,
+      "end": 176.8,
+      "text": " some students are in higher education."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 176.8,
+      "end": 179.8,
+      "text": " We have divided the category here, like above,"
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 179.8,
+      "end": 182.8,
+      "text": " but here an extra thing happened, ordering happened."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 182.8,
+      "end": 185.8,
+      "text": " Primary came first, then the secondary education came,"
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 185.8,
+      "end": 187.8,
+      "text": " then the higher studies came."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 187.8,
+      "end": 191.8,
+      "text": " I made it here, poor, average, good, excellent."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 191.8,
+      "end": 193.8,
+      "text": " We have divided the rating here."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 193.8,
+      "end": 197.8,
+      "text": " So here you can make it an order, that if you are coming from the bottom to the top,"
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 197.8,
+      "end": 200.8,
+      "text": " or going from left to right, then your rating is going well."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 200.8,
+      "end": 202.8,
+      "text": " So we got to know this."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 202.8,
+      "end": 207.8,
+      "text": " But there is an important point that there is no fixed interval between them."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 207.8,
+      "end": 211.8,
+      "text": " There is no interval between them, that this is between this and this."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 211.8,
+      "end": 217.8,
+      "text": " Yes, you can put intervals from your end, you can make it interval based."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 217.8,
+      "end": 221.8,
+      "text": " Like if for example, sometimes it happens that we have done 1 to 10,"
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 221.8,
+      "end": 223.8,
+      "text": " that you have to do the rating 1 to 10."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 223.8,
+      "end": 228.8,
+      "text": " Now, from 1 to 4, we have kept it in the whole category."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 228.8,
+      "end": 232.8,
+      "text": " The category that has come from 5 or 6, we have kept it in the average."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 232.8,
+      "end": 235.8,
+      "text": " The category that has come from 7 or 8, we have kept it in good."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 235.8,
+      "end": 238.8,
+      "text": " The category that has come from 9 or 10, we have kept it in excellent."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 238.8,
+      "end": 242.8,
+      "text": " We can make it based on our requirement, but it is not fixed."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 242.8,
+      "end": 246.8,
+      "text": " Because it is possible that many companies do their rating from 1 to 5."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 246.8,
+      "end": 248.8,
+      "text": " So that's why you can't fix it."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 248.8,
+      "end": 250.8,
+      "text": " Yes, you can make intervals in it if you want."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 250.8,
+      "end": 253.8,
+      "text": " So this thing is primary, secondary, higher."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 253.8,
+      "end": 258.8,
+      "text": " Now, according to India, you will say that sir, this is an order and there is a fixed interval here."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 258.8,
+      "end": 264.8,
+      "text": " That the children who are studying from nursery to 5th or 4th, they came in the primary."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 264.8,
+      "end": 267.8,
+      "text": " Those who came from 6th to 10th, they came in the secondary."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 267.8,
+      "end": 269.8,
+      "text": " Those who came from 11th to 12th, they came in the higher."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 269.8,
+      "end": 271.8,
+      "text": " So this is fine in Indian education."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 271.8,
+      "end": 274.8,
+      "text": " It is possible that in some other country's education system, there is something else."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 274.8,
+      "end": 276.8,
+      "text": " So that's why you can't fix it."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 276.8,
+      "end": 280.8,
+      "text": " You can divide the interval according to your company."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 280.8,
+      "end": 283.8,
+      "text": " But here ordering will be somewhere."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 283.8,
+      "end": 289.8,
+      "text": " So here you can easily apply classification clustering algorithms and divide the data."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 289.8,
+      "end": 291.8,
+      "text": " So this thing tells you."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 291.8,
+      "end": 294.8,
+      "text": " Then quantitative, earlier it was qualitative."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 294.8,
+      "end": 296.8,
+      "text": " Now it is quantitative."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 296.8,
+      "end": 299.8,
+      "text": " This is your numerical data where numbers have come."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 299.8,
+      "end": 305.8,
+      "text": " Where we can apply regression algorithms like linear regression, polynomial, all those regression methods."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 305.8,
+      "end": 307.8,
+      "text": " In this, two types of data came."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 307.8,
+      "end": 309.8,
+      "text": " One is discrete and one is continuous."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 309.8,
+      "end": 313.8,
+      "text": " Discrete means that your fractional data will not be in the middle."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 313.8,
+      "end": 316.8,
+      "text": " Here you will have fractional data, floating point data."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 316.8,
+      "end": 319.8,
+      "text": " So obviously this is your finite somewhere."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 319.8,
+      "end": 320.8,
+      "text": " This is somewhere infinite."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 320.8,
+      "end": 323.8,
+      "text": " Like if you divide 10 by 3, then 3.333."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 323.8,
+      "end": 326.8,
+      "text": " Someone touches the infinite here."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 326.8,
+      "end": 327.8,
+      "text": " So this is yours."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 327.8,
+      "end": 331.8,
+      "text": " Now it depends on here that if you have discrete data."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 331.8,
+      "end": 336.8,
+      "text": " So you are applying linear regression or continuous data."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 336.8,
+      "end": 340.8,
+      "text": " So based on that you can do analysis."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 340.8,
+      "end": 342.8,
+      "text": " So this point is very simple."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 342.8,
+      "end": 344.8,
+      "text": " You will understand easily with the example."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 344.8,
+      "end": 346.8,
+      "text": " But you should know that this type of data is there."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 346.8,
+      "end": 349.8,
+      "text": " Then after that some other specialized data came."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 349.8,
+      "end": 351.8,
+      "text": " Like time series data came."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 351.8,
+      "end": 354.8,
+      "text": " Time series data means in which time stamp will be together."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 354.8,
+      "end": 357.8,
+      "text": " Means it was at 10 o'clock for 1 minute."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 357.8,
+      "end": 359.8,
+      "text": " It happened at 10 o'clock for 2 minutes."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 359.8,
+      "end": 363.8,
+      "text": " So like stock data, every second, every microsecond is changing."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 363.8,
+      "end": 365.8,
+      "text": " Temperature variation per hour is changing."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 365.8,
+      "end": 367.8,
+      "text": " So you have to record it."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 367.8,
+      "end": 369.8,
+      "text": " And based on that you have to do forecasting."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 369.8,
+      "end": 371.8,
+      "text": " We do weather forecasting."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 371.8,
+      "end": 373.8,
+      "text": " Or we do mining in the stock market."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 373.8,
+      "end": 375.8,
+      "text": " We do its forecasting."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 375.8,
+      "end": 378.8,
+      "text": " So all those things you have to put the algorithm accordingly."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 378.8,
+      "end": 380.8,
+      "text": " The type of data according to the algorithm."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 380.8,
+      "end": 382.8,
+      "text": " Similarly, special data came."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 382.8,
+      "end": 385.8,
+      "text": " In special data, your geographical data came."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 385.8,
+      "end": 390.8,
+      "text": " Your longitude, latitude data comes under this category."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 390.8,
+      "end": 392.8,
+      "text": " It is specially used in geographic information system."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 392.8,
+      "end": 395.8,
+      "text": " Map based customer means in your company."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 395.8,
+      "end": 399.8,
+      "text": " Let's suppose you have to check that in which region there are more customers."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 399.8,
+      "end": 402.8,
+      "text": " So you can check your customer distribution based on the map."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 402.8,
+      "end": 405.8,
+      "text": " That in this particular location, in this particular area,"
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 405.8,
+      "end": 407.8,
+      "text": " I have more customers and less in this."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 407.8,
+      "end": 409.8,
+      "text": " So if you are storing that type of data,"
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 409.8,
+      "end": 411.8,
+      "text": " then it came under special data."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 411.8,
+      "end": 413.8,
+      "text": " There is nothing else in it. It is very simple."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 413.8,
+      "end": 415.8,
+      "text": " But in interviews, in the colony history exam,"
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 415.8,
+      "end": 417.8,
+      "text": " they can ask you. So you can easily write."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 417.8,
+      "end": 419.8,
+      "text": " Text data came."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 419.8,
+      "end": 421.8,
+      "text": " Now whatever unstructured data is there,"
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 421.8,
+      "end": 423.8,
+      "text": " 90% of the data is on the whole earth."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 423.8,
+      "end": 425.8,
+      "text": " If I talk about all the data,"
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 425.8,
+      "end": 428.8,
+      "text": " then around 90% of the data is in the unstructured category."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 428.8,
+      "end": 431.8,
+      "text": " In unstructured, the most important thing is text data."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 431.8,
+      "end": 433.8,
+      "text": " In which email, tweets, customer reviews,"
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 433.8,
+      "end": 435.8,
+      "text": " all this comes under text."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 435.8,
+      "end": 438.8,
+      "text": " And here your sentiment analysis."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 438.8,
+      "end": 440.8,
+      "text": " The natural language processing that runs."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 440.8,
+      "end": 442.8,
+      "text": " Sentiment has to be analysed."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 442.8,
+      "end": 444.8,
+      "text": " The feedbacks that are coming, the reviews that are coming,"
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 444.8,
+      "end": 446.8,
+      "text": " on the basis of that, I have to measure something."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 446.8,
+      "end": 448.8,
+      "text": " That my product is right, wrong, what is it?"
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 448.8,
+      "end": 451.8,
+      "text": " All those things are applicable on this."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 451.8,
+      "end": 453.8,
+      "text": " Then web data."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 453.8,
+      "end": 455.8,
+      "text": " Now all the people who are searching online,"
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 455.8,
+      "end": 457.8,
+      "text": " let's suppose you are in Google search,"
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 457.8,
+      "end": 460.8,
+      "text": " or in any chat, gpt, or wherever you are searching,"
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 460.8,
+      "end": 463.8,
+      "text": " then all your searching is recorded."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 463.8,
+      "end": 465.8,
+      "text": " At what time did you search for what?"
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 465.8,
+      "end": 467.8,
+      "text": " How many times did you search?"
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 467.8,
+      "end": 469.8,
+      "text": " And you have click streamed like this."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 469.8,
+      "end": 471.8,
+      "text": " At what time did you click on what?"
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 471.8,
+      "end": 473.8,
+      "text": " All your processing,"
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 473.8,
+      "end": 475.8,
+      "text": " behavior analysis,"
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 475.8,
+      "end": 477.8,
+      "text": " recommendation analysis,"
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 477.8,
+      "end": 479.8,
+      "text": " recommendation system,"
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 479.8,
+      "end": 481.8,
+      "text": " all of it is on this."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 481.8,
+      "end": 483.8,
+      "text": " So this data will be saved, that's why the recommendation will be there."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 483.8,
+      "end": 485.8,
+      "text": " You click, go to Netflix, click,"
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 485.8,
+      "end": 487.8,
+      "text": " after that you didn't like it,"
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 487.8,
+      "end": 489.8,
+      "text": " so you came out."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 489.8,
+      "end": 491.8,
+      "text": " How long did you watch that movie or series?"
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 491.8,
+      "end": 493.8,
+      "text": " Came out."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 493.8,
+      "end": 495.8,
+      "text": " Then you saw who completely?"
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 495.8,
+      "end": 497.8,
+      "text": " All those things are checked,"
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 497.8,
+      "end": 499.8,
+      "text": " then comes your multimedia data,"
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 499.8,
+      "end": 501.8,
+      "text": " in which images, videos,"
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 501.8,
+      "end": 503.8,
+      "text": " and audio, all this came."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 503.8,
+      "end": 505.8,
+      "text": " Like surveillance data,"
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 505.8,
+      "end": 507.8,
+      "text": " that so many CCTV cameras are installed,"
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 507.8,
+      "end": 509.8,
+      "text": " like you go to the airport, all the cameras,"
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 509.8,
+      "end": 511.8,
+      "text": " so how are you behaving,"
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 511.8,
+      "end": 513.8,
+      "text": " all that detection is done."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 513.8,
+      "end": 515.8,
+      "text": " X-ray analysis,"
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 515.8,
+      "end": 517.8,
+      "text": " somewhere or the other,"
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 517.8,
+      "end": 519.8,
+      "text": " different types of data,"
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 519.8,
+      "end": 521.8,
+      "text": " have to be stored in different ways."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 521.8,
+      "end": 523.8,
+      "text": " In structured data, you can use SQL."
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 523.8,
+      "end": 525.8,
+      "text": " No SQL data,"
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 525.8,
+      "end": 527.8,
+      "text": " in unstructured data, no SQL,"
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 527.8,
+      "end": 529.8,
+      "text": " use Hadoop system,"
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 529.8,
+      "end": 531.8,
+      "text": " so somewhere or the other,"
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 531.8,
+      "end": 533.8,
+      "text": " your categorical knowledge should be there,"
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 533.8,
+      "end": 535.8,
+      "text": " what type of data you are dealing with,"
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 535.8,
+      "end": 537.8,
+      "text": " and then in the same way,"
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 537.8,
+      "end": 539.8,
+      "text": " you have to search the algorithm,"
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 539.8,
+      "end": 541.8,
+      "text": " and have to apply on them,"
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 541.8,
+      "end": 543.8,
+      "text": " so that you can find something,"
+    },
+    {
+      "number": "13",
+      "title": "Types of Data _ Real life example _ Data Warehouse",
+      "start": 543.8,
+      "end": 545.8,
+      "text": " and get meaningful insight."
+    }
+  ],
+  "text": " Dear students, welcome to GIT Smashers. In today's video, I am going to explain different types of data in warehousing and mining. Whenever we talk about types of data in mining, there are many different categories of data in it. And why is this important? Because based on data, you have to select which algorithm will be used. Means you have to apply clustering, classification, regression, which method will be used, you will get to know this based on data. Then when you have to store data, you have to see what type of data is there. So you have to store it according to that category. For its cleaning, whatever applicability you get, you have to apply all of it. So that's why, if you want to do data mining well or if you are doing data warehousing well, then you should know about different types of data. It is a very simple topic. Here, the first category comes, qualitative data. Qualitative data, which we also call categorical data. What does it mean? It is a category based data. Like the first one, this type of data represents labels. Labels are represented here, categories are represented, names are there, this is non-numeric data. There are no numbers here, it is categories basically. And we have two types of data in it. First is nominal data, very important. Nominal data, which we call unordered categorical data. It means that here, that type of data is there. It is categorical, but without any order. There is no ordering, no increasing order or decreasing order. So your data is category based, but there is no order between the data. Like a simple example, male, female, others. Now here, a category is made. Some people are coming in male, some in female, and maybe some are coming in others too. But there is no ordering here, no increasing order or decreasing order. It is just a category. Similarly, a category is made on the basis of color, a category is made on the basis of blood type, but there is no ordering between them, it is just a category. So some people are in this category, some in this category, and some in this category, we divide them in this way. Like in simple classification problems, we always do, like Naive Bayes classification, Decision Tree, so we do in it, that tell me whether this email is spam or not spam. So we have made a category here, we are doing the same thing here, there is no ordering. But the second type in this category, that is ordinal data, it says that it is categorical, but there is also an order, there is also an order between a data. The same thing is being said here, meaningful order between the data, but no interval will be fixed in it. What does it mean to say? Listen carefully, there is nothing. Like I made it here, primary, secondary, higher. Now some students are in primary, some students are in secondary education, some students are in higher education. We have divided the category here, like above, but here an extra thing happened, ordering happened. Primary came first, then the secondary education came, then the higher studies came. I made it here, poor, average, good, excellent. We have divided the rating here. So here you can make it an order, that if you are coming from the bottom to the top, or going from left to right, then your rating is going well. So we got to know this. But there is an important point that there is no fixed interval between them. There is no interval between them, that this is between this and this. Yes, you can put intervals from your end, you can make it interval based. Like if for example, sometimes it happens that we have done 1 to 10, that you have to do the rating 1 to 10. Now, from 1 to 4, we have kept it in the whole category. The category that has come from 5 or 6, we have kept it in the average. The category that has come from 7 or 8, we have kept it in good. The category that has come from 9 or 10, we have kept it in excellent. We can make it based on our requirement, but it is not fixed. Because it is possible that many companies do their rating from 1 to 5. So that's why you can't fix it. Yes, you can make intervals in it if you want. So this thing is primary, secondary, higher. Now, according to India, you will say that sir, this is an order and there is a fixed interval here. That the children who are studying from nursery to 5th or 4th, they came in the primary. Those who came from 6th to 10th, they came in the secondary. Those who came from 11th to 12th, they came in the higher. So this is fine in Indian education. It is possible that in some other country's education system, there is something else. So that's why you can't fix it. You can divide the interval according to your company. But here ordering will be somewhere. So here you can easily apply classification clustering algorithms and divide the data. So this thing tells you. Then quantitative, earlier it was qualitative. Now it is quantitative. This is your numerical data where numbers have come. Where we can apply regression algorithms like linear regression, polynomial, all those regression methods. In this, two types of data came. One is discrete and one is continuous. Discrete means that your fractional data will not be in the middle. Here you will have fractional data, floating point data. So obviously this is your finite somewhere. This is somewhere infinite. Like if you divide 10 by 3, then 3.333. Someone touches the infinite here. So this is yours. Now it depends on here that if you have discrete data. So you are applying linear regression or continuous data. So based on that you can do analysis. So this point is very simple. You will understand easily with the example. But you should know that this type of data is there. Then after that some other specialized data came. Like time series data came. Time series data means in which time stamp will be together. Means it was at 10 o'clock for 1 minute. It happened at 10 o'clock for 2 minutes. So like stock data, every second, every microsecond is changing. Temperature variation per hour is changing. So you have to record it. And based on that you have to do forecasting. We do weather forecasting. Or we do mining in the stock market. We do its forecasting. So all those things you have to put the algorithm accordingly. The type of data according to the algorithm. Similarly, special data came. In special data, your geographical data came. Your longitude, latitude data comes under this category. It is specially used in geographic information system. Map based customer means in your company. Let's suppose you have to check that in which region there are more customers. So you can check your customer distribution based on the map. That in this particular location, in this particular area, I have more customers and less in this. So if you are storing that type of data, then it came under special data. There is nothing else in it. It is very simple. But in interviews, in the colony history exam, they can ask you. So you can easily write. Text data came. Now whatever unstructured data is there, 90% of the data is on the whole earth. If I talk about all the data, then around 90% of the data is in the unstructured category. In unstructured, the most important thing is text data. In which email, tweets, customer reviews, all this comes under text. And here your sentiment analysis. The natural language processing that runs. Sentiment has to be analysed. The feedbacks that are coming, the reviews that are coming, on the basis of that, I have to measure something. That my product is right, wrong, what is it? All those things are applicable on this. Then web data. Now all the people who are searching online, let's suppose you are in Google search, or in any chat, gpt, or wherever you are searching, then all your searching is recorded. At what time did you search for what? How many times did you search? And you have click streamed like this. At what time did you click on what? All your processing, behavior analysis, recommendation analysis, recommendation system, all of it is on this. So this data will be saved, that's why the recommendation will be there. You click, go to Netflix, click, after that you didn't like it, so you came out. How long did you watch that movie or series? Came out. Then you saw who completely? All those things are checked, then comes your multimedia data, in which images, videos, and audio, all this came. Like surveillance data, that so many CCTV cameras are installed, like you go to the airport, all the cameras, so how are you behaving, all that detection is done. X-ray analysis, somewhere or the other, different types of data, have to be stored in different ways. In structured data, you can use SQL. No SQL data, in unstructured data, no SQL, use Hadoop system, so somewhere or the other, your categorical knowledge should be there, what type of data you are dealing with, and then in the same way, you have to search the algorithm, and have to apply on them, so that you can find something, and get meaningful insight."
+}

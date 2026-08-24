@@ -1,0 +1,1440 @@
+{
+  "chunks": [
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 0.0,
+      "end": 3.4,
+      "text": " Dear students, welcome to the class."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 3.4,
+      "end": 6.8,
+      "text": " In today's class, I am going to explain what is sampling."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 6.8,
+      "end": 13.8,
+      "text": " Basically, the point of sampling is that I have large data, large population of data."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 13.8,
+      "end": 16.2,
+      "text": " I have to extract some samples from it."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 16.2,
+      "end": 18.2,
+      "text": " How will I extract those samples?"
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 18.2,
+      "end": 20.2,
+      "text": " What are the various techniques for that?"
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 20.2,
+      "end": 23.0,
+      "text": " Note the names of these 4 techniques."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 23.0,
+      "end": 26.7,
+      "text": " It is possible that one or two small points in this will come in theory."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 26.7,
+      "end": 30.9,
+      "text": " The real life example of this is the exit poll."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 30.9,
+      "end": 34.5,
+      "text": " When elections are held in India, be it Lok Sabha or Rajya Sabha."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 34.5,
+      "end": 37.3,
+      "text": " We don't participate in Rajya Sabha but why Lok Sabha?"
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 37.3,
+      "end": 40.7,
+      "text": " In MLA or MP elections, what happens in all these?"
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 40.7,
+      "end": 44.7,
+      "text": " They start telling in the exit poll that what is the intention?"
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 44.7,
+      "end": 48.5,
+      "text": " Who will win? BJP will win, Congress will win, what will win and what will lose?"
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 48.5,
+      "end": 49.5,
+      "text": " What is that?"
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 49.5,
+      "end": 54.1,
+      "text": " Do you think that they have asked 140 crore people in India?"
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 54.300000000000004,
+      "end": 56.300000000000004,
+      "text": " Who will you vote for?"
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 56.300000000000004,
+      "end": 59.7,
+      "text": " This is our secret, we don't tell anyone."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 59.7,
+      "end": 61.1,
+      "text": " So what do they do?"
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 61.1,
+      "end": 67.7,
+      "text": " They extract some samples of population and on the basis of that, they check the wind."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 67.7,
+      "end": 69.3,
+      "text": " They say that where is the wind going?"
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 69.3,
+      "end": 70.7,
+      "text": " That is the concept."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 70.7,
+      "end": 76.3,
+      "text": " So actually, sampling is that if we apply all the algorithms on large data,"
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 76.3,
+      "end": 77.9,
+      "text": " it will take a lot of time consuming."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 77.9,
+      "end": 82.3,
+      "text": " We extract some important samples from it and we start training on them."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 82.5,
+      "end": 85.89999999999999,
+      "text": " So that is why the first method is simple random sampling."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 85.89999999999999,
+      "end": 86.89999999999999,
+      "text": " It is very easy."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 86.89999999999999,
+      "end": 89.7,
+      "text": " Let's suppose you have 100 students' data."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 89.7,
+      "end": 97.1,
+      "text": " You randomly pick any number, let's say roll number 2, roll number 12, roll number 37."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 97.1,
+      "end": 100.9,
+      "text": " Like we put a slip, we tell anyone to pick a slip."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 100.9,
+      "end": 103.1,
+      "text": " He picked a slip, 43."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 103.1,
+      "end": 104.1,
+      "text": " Come on 43."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 104.1,
+      "end": 106.1,
+      "text": " There is no concept, it is simple."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 106.1,
+      "end": 107.1,
+      "text": " The name itself is random."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 107.1,
+      "end": 109.9,
+      "text": " So randomly we picked any data."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 109.9,
+      "end": 114.7,
+      "text": " Means there were 100 students, out of them, let's suppose I had to pick 5 students."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 114.7,
+      "end": 119.30000000000001,
+      "text": " So what I did, I put their all purchase and one came out as 43."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 119.30000000000001,
+      "end": 120.9,
+      "text": " The second came out as 37."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 120.9,
+      "end": 122.5,
+      "text": " The third came out as 94."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 122.5,
+      "end": 125.5,
+      "text": " Like that, we have to do simple sampling like this."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 125.5,
+      "end": 130.5,
+      "text": " That is a random number generator to select the element from the data."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 130.5,
+      "end": 132.70000000000002,
+      "text": " Now there can be two ways in this."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 132.70000000000002,
+      "end": 139.5,
+      "text": " You must have read in probability, with replacement, without replacement."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 140.1,
+      "end": 142.1,
+      "text": " There is nothing, nothing."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 142.1,
+      "end": 143.1,
+      "text": " It is a child's play."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 143.1,
+      "end": 151.1,
+      "text": " Like for example, you have put a list of 7 students like this, roll number 1, 2, 3, 4, 5, 6, 7."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 151.1,
+      "end": 153.1,
+      "text": " You randomly picked a list."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 153.1,
+      "end": 154.1,
+      "text": " You don't know what number it is."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 154.1,
+      "end": 158.1,
+      "text": " You picked a list, let's suppose you took out a slip and what came out as a slip?"
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 158.1,
+      "end": 159.1,
+      "text": " 5."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 159.1,
+      "end": 160.1,
+      "text": " A slip of 5 numbers came out."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 160.1,
+      "end": 162.1,
+      "text": " So you selected 5."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 162.1,
+      "end": 166.1,
+      "text": " Now after that, will you put this 5 back or it left?"
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 166.1,
+      "end": 169.1,
+      "text": " If you put it back, then it is with replacement."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 169.7,
+      "end": 173.7,
+      "text": " If you have said, let's suppose, take out 5, then 5 cannot come again."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 173.7,
+      "end": 175.7,
+      "text": " So it will be without replacement."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 175.7,
+      "end": 176.7,
+      "text": " That's it."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 176.7,
+      "end": 179.7,
+      "text": " So in this way, we do random sampling."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 179.7,
+      "end": 181.7,
+      "text": " Then comes your stratified."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 181.7,
+      "end": 183.7,
+      "text": " What is stratified?"
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 183.7,
+      "end": 186.7,
+      "text": " It is not that you are selecting anything randomly."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 186.7,
+      "end": 187.7,
+      "text": " What do you make from this?"
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 187.7,
+      "end": 188.7,
+      "text": " First strata."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 188.7,
+      "end": 189.7,
+      "text": " What do you make here?"
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 189.7,
+      "end": 192.7,
+      "text": " Divide the population into strata."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 192.7,
+      "end": 193.7,
+      "text": " What does strata mean?"
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 193.7,
+      "end": 196.7,
+      "text": " Let's suppose you understand with a simple example."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 197.29999999999998,
+      "end": 201.29999999999998,
+      "text": " I have to do sampling on a school database."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 201.29999999999998,
+      "end": 202.29999999999998,
+      "text": " So what did I do?"
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 202.29999999999998,
+      "end": 206.29999999999998,
+      "text": " Class 9th, Class 10th, Class 11th."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 206.29999999999998,
+      "end": 213.29999999999998,
+      "text": " So in this way, I made 3 groups of Class 9, Class 10 and Class 11."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 213.29999999999998,
+      "end": 214.29999999999998,
+      "text": " And then what did you do after that?"
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 214.29999999999998,
+      "end": 221.29999999999998,
+      "text": " It is not like that class 9, class 10, class 11 students are made."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 221.29999999999998,
+      "end": 223.29999999999998,
+      "text": " Let's suppose there are 1000 students in all three."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 223.9,
+      "end": 226.9,
+      "text": " So 300 students are made, one is picked randomly."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 226.9,
+      "end": 228.9,
+      "text": " It is possible that class number 9 comes."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 228.9,
+      "end": 229.9,
+      "text": " One more is picked."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 229.9,
+      "end": 231.9,
+      "text": " It is possible that this also comes from class 9."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 231.9,
+      "end": 232.9,
+      "text": " One more is picked."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 232.9,
+      "end": 234.9,
+      "text": " It is possible that this also comes from class 9."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 234.9,
+      "end": 236.9,
+      "text": " This is called skewed."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 236.9,
+      "end": 240.9,
+      "text": " Skewed means that your sampling is going on only one side."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 240.9,
+      "end": 246.9,
+      "text": " It is possible that if you randomly made a group of 9th, 10th and 11th students in a big hall."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 246.9,
+      "end": 249.9,
+      "text": " And you called a small child and told him to take out the paper."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 249.9,
+      "end": 252.9,
+      "text": " So he took out the paper, the child came of 9th."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 252.9,
+      "end": 254.9,
+      "text": " He took out the paper again, it is possible that the child came of 9th."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 254.9,
+      "end": 256.9,
+      "text": " He took out the paper again, it is possible that the child came of 9th."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 256.9,
+      "end": 260.9,
+      "text": " So 10th and 11th students are not participating in the sampling."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 260.9,
+      "end": 262.9,
+      "text": " So will that sampling be called proper?"
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 262.9,
+      "end": 263.9,
+      "text": " No."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 263.9,
+      "end": 268.9,
+      "text": " That's why we do class 9, 10, you do the strata of it first."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 268.9,
+      "end": 271.9,
+      "text": " Strata means nothing, make groups."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 271.9,
+      "end": 275.9,
+      "text": " Make class 9, class 10 and class 11 separate."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 275.9,
+      "end": 276.9,
+      "text": " Now what did you do?"
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 276.9,
+      "end": 278.9,
+      "text": " You called a child and told him to take out the slip."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 278.9,
+      "end": 283.9,
+      "text": " So class 9's jar is separate in which class 9's children's roll number is there."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 283.9,
+      "end": 286.9,
+      "text": " 10's jar is separate, 11's jar is separate."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 286.9,
+      "end": 289.9,
+      "text": " So the first child came, he took out a slip from the jar of class 9."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 289.9,
+      "end": 292.9,
+      "text": " Roll number 67, take it out."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 292.9,
+      "end": 295.9,
+      "text": " Class 10 went, took out a slip from the jar."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 295.9,
+      "end": 297.9,
+      "text": " Roll number 74, take it out."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 297.9,
+      "end": 301.9,
+      "text": " Next, class 11 went, took out a slip from it."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 301.9,
+      "end": 304.9,
+      "text": " Roll number 35 from its jar, took it out."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 304.9,
+      "end": 307.9,
+      "text": " So this is what a sampling that is called a stratified."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 307.9,
+      "end": 310.9,
+      "text": " Stratified sampling first makes strata, groups like this."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 310.9,
+      "end": 312.9,
+      "text": " This is called homogeneous."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 312.9,
+      "end": 314.9,
+      "text": " Why are they called homogeneous groups?"
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 314.9,
+      "end": 318.9,
+      "text": " Because here in one strata, there are students of the same class."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 318.9,
+      "end": 321.9,
+      "text": " In the second strata, there are students of the same class, of class 10."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 321.9,
+      "end": 324.9,
+      "text": " In the third strata, there are students of class 11."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 324.9,
+      "end": 327.9,
+      "text": " We did not jumble them together."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 327.9,
+      "end": 331.9,
+      "text": " Then came our cluster random sampling."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 331.9,
+      "end": 333.9,
+      "text": " What do we do in this too?"
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 333.9,
+      "end": 334.9,
+      "text": " We create clusters."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 334.9,
+      "end": 337.9,
+      "text": " What is the difference between strata and clustering?"
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 337.9,
+      "end": 340.9,
+      "text": " Large volumes of data are collected here."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 340.9,
+      "end": 341.9,
+      "text": " And what happens in this?"
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 341.9,
+      "end": 343.9,
+      "text": " There are heterogeneous groups."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 343.9,
+      "end": 346.9,
+      "text": " Like we took class 9, 10, 11 in this."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 346.9,
+      "end": 347.9,
+      "text": " Very good."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 347.9,
+      "end": 351.9,
+      "text": " But if we want to do cluster random sampling,"
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 351.9,
+      "end": 355.9,
+      "text": " then we will do 3-4 schools of data."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 355.9,
+      "end": 357.9,
+      "text": " And what did we do?"
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 357.9,
+      "end": 362.9,
+      "text": " First, we made the children of class 9, 10, 11 of the school sit."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 362.9,
+      "end": 365.9,
+      "text": " We made the children of class 9, 10, 11 of the second school sit."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 365.9,
+      "end": 368.9,
+      "text": " And made the children of class 9, 10, 11 of the third school sit."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 368.9,
+      "end": 371.9,
+      "text": " So, between the groups, what is this?"
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 371.9,
+      "end": 372.9,
+      "text": " It is homogeneous."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 372.9,
+      "end": 374.9,
+      "text": " But what is inside the group?"
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 374.9,
+      "end": 375.9,
+      "text": " It is hetero."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 375.9,
+      "end": 376.9,
+      "text": " Hetero means different."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 376.9,
+      "end": 378.9,
+      "text": " It is a dispersed data."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 378.9,
+      "end": 381.9,
+      "text": " Inside the group, there are different children of 9th, 10th, 11th."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 381.9,
+      "end": 385.9,
+      "text": " But if I see between the groups, between the clusters,"
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 385.9,
+      "end": 387.9,
+      "text": " then there is 9th, 10th, 11th in this too."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 387.9,
+      "end": 389.9,
+      "text": " And there is 9th, 10th, 11th in this too."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 389.9,
+      "end": 391.9,
+      "text": " So, between the clusters, what is this?"
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 391.9,
+      "end": 392.9,
+      "text": " It is homogeneous."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 392.9,
+      "end": 395.9,
+      "text": " But inside the cluster, the data is heterogeneous."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 395.9,
+      "end": 397.9,
+      "text": " Different types of data."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 397.9,
+      "end": 399.9,
+      "text": " And after that, what will we do?"
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 399.9,
+      "end": 401.9,
+      "text": " Like in stratified, what do we do?"
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 401.9,
+      "end": 403.9,
+      "text": " We take out 2 children from this class."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 403.9,
+      "end": 405.9,
+      "text": " We take out 3 from this."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 405.9,
+      "end": 406.9,
+      "text": " We take out 4 from this."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 406.9,
+      "end": 409.9,
+      "text": " In this way, or let's suppose we take out 2, 2, 2."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 409.9,
+      "end": 412.9,
+      "text": " Here, we don't take out 2 from this, not 2 from this."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 412.9,
+      "end": 415.9,
+      "text": " We take out a whole cluster."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 415.9,
+      "end": 417.9,
+      "text": " We take out a whole cluster."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 417.9,
+      "end": 419.9,
+      "text": " Or we pick 2 clusters."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 419.9,
+      "end": 422.9,
+      "text": " And what do we do with the whole cluster?"
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 422.9,
+      "end": 424.9,
+      "text": " We train it later."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 424.9,
+      "end": 426.9,
+      "text": " We put algorithms on it."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 426.9,
+      "end": 427.9,
+      "text": " So, what is this?"
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 427.9,
+      "end": 429.9,
+      "text": " The whole cluster is involved."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 429.9,
+      "end": 433.9,
+      "text": " Although, you can do sampling inside the cluster too, if you want to."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 433.9,
+      "end": 436.9,
+      "text": " But mainly, the whole cluster is involved."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 436.9,
+      "end": 438.9,
+      "text": " So, this is the simple clustering we have."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 438.9,
+      "end": 440.9,
+      "text": " At last, we have the systematic."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 440.9,
+      "end": 442.9,
+      "text": " There is nothing, we can understand from the name."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 442.9,
+      "end": 446.9,
+      "text": " Systematic means, select a random number which is a starting point."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 446.9,
+      "end": 448.9,
+      "text": " Then, select every kth element."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 448.9,
+      "end": 449.9,
+      "text": " Simple."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 449.9,
+      "end": 450.9,
+      "text": " What did I do?"
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 450.9,
+      "end": 452.9,
+      "text": " I made all the children of class 9 sit."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 452.9,
+      "end": 454.9,
+      "text": " There were 100 children in the class."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 454.9,
+      "end": 457.9,
+      "text": " I said, we will start from roll number 2."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 457.9,
+      "end": 460.9,
+      "text": " We will start from roll number 2."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 460.9,
+      "end": 462.9,
+      "text": " And after that, every kth element."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 462.9,
+      "end": 465.9,
+      "text": " Systematic, it is written by the name, systematic."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 465.9,
+      "end": 467.9,
+      "text": " Every kth element, I put it in K."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 467.9,
+      "end": 469.9,
+      "text": " Value 4th element."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 469.9,
+      "end": 472.9,
+      "text": " And here, I said starting point is roll number 2."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 472.9,
+      "end": 474.9,
+      "text": " Pick roll number 2."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 474.9,
+      "end": 475.9,
+      "text": " Done."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 475.9,
+      "end": 477.9,
+      "text": " After 2, every 4th element."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 477.9,
+      "end": 479.9,
+      "text": " After 2, which will be 4th?"
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 479.9,
+      "end": 480.9,
+      "text": " 6th will come."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 480.9,
+      "end": 481.9,
+      "text": " After 6th, which will come?"
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 481.9,
+      "end": 483.9,
+      "text": " 7th, 8th, 9th, 10th."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 483.9,
+      "end": 484.9,
+      "text": " 10th came."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 484.9,
+      "end": 486.9,
+      "text": " After 10th, 11th, 12th, 13th, 14th."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 486.9,
+      "end": 487.9,
+      "text": " 14th came."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 487.9,
+      "end": 489.9,
+      "text": " After 14th, 15th, 16th, 17th, 18th."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 489.9,
+      "end": 493.9,
+      "text": " Every 4th element, we will pick."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 493.9,
+      "end": 495.9,
+      "text": " So, we have decided this."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 495.9,
+      "end": 498.9,
+      "text": " This is called systematic."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 498.9,
+      "end": 499.9,
+      "text": " It is a theory."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 499.9,
+      "end": 501.9,
+      "text": " Just, that's why, we have completed you."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 501.9,
+      "end": 506.9,
+      "text": " One thing, obviously, sampling is written in your data warehouse, DBMS syllabus."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 506.9,
+      "end": 509.9,
+      "text": " So, you should know the name of the techniques."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 509.9,
+      "end": 511.9,
+      "text": " It is possible that, some small theory comes."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 511.9,
+      "end": 513.9,
+      "text": " Data pre-processing related."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 513.9,
+      "end": 515.9,
+      "text": " So, your sampling is done."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 515.9,
+      "end": 517.9,
+      "text": " Your discretization is done."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 517.9,
+      "end": 519.9,
+      "text": " Apart from this, compression is done."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 519.9,
+      "end": 521.9,
+      "text": " And first of all, we did normalization."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 521.9,
+      "end": 523.9,
+      "text": " So, all these techniques, once you go through it,"
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 523.9,
+      "end": 525.9,
+      "text": " You can get it."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 525.9,
+      "end": 527.9,
+      "text": " 1-2 questions can come from this topic easily."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 527.9,
+      "end": 531.9,
+      "text": " Not alone from this, but the whole topic of data warehouse."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 531.9,
+      "end": 533.9,
+      "text": " So, note it once."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 533.9,
+      "end": 534.9,
+      "text": " Go through it."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 534.9,
+      "end": 535.9,
+      "text": " Thank you."
+    },
+    {
+      "number": "16",
+      "title": "What is Sampling and It_s types _ Data Warehouse _ Mining",
+      "start": 535.9,
+      "end": 537.9,
+      "text": " Thank you for watching."
+    }
+  ],
+  "text": " Dear students, welcome to the class. In today's class, I am going to explain what is sampling. Basically, the point of sampling is that I have large data, large population of data. I have to extract some samples from it. How will I extract those samples? What are the various techniques for that? Note the names of these 4 techniques. It is possible that one or two small points in this will come in theory. The real life example of this is the exit poll. When elections are held in India, be it Lok Sabha or Rajya Sabha. We don't participate in Rajya Sabha but why Lok Sabha? In MLA or MP elections, what happens in all these? They start telling in the exit poll that what is the intention? Who will win? BJP will win, Congress will win, what will win and what will lose? What is that? Do you think that they have asked 140 crore people in India? Who will you vote for? This is our secret, we don't tell anyone. So what do they do? They extract some samples of population and on the basis of that, they check the wind. They say that where is the wind going? That is the concept. So actually, sampling is that if we apply all the algorithms on large data, it will take a lot of time consuming. We extract some important samples from it and we start training on them. So that is why the first method is simple random sampling. It is very easy. Let's suppose you have 100 students' data. You randomly pick any number, let's say roll number 2, roll number 12, roll number 37. Like we put a slip, we tell anyone to pick a slip. He picked a slip, 43. Come on 43. There is no concept, it is simple. The name itself is random. So randomly we picked any data. Means there were 100 students, out of them, let's suppose I had to pick 5 students. So what I did, I put their all purchase and one came out as 43. The second came out as 37. The third came out as 94. Like that, we have to do simple sampling like this. That is a random number generator to select the element from the data. Now there can be two ways in this. You must have read in probability, with replacement, without replacement. There is nothing, nothing. It is a child's play. Like for example, you have put a list of 7 students like this, roll number 1, 2, 3, 4, 5, 6, 7. You randomly picked a list. You don't know what number it is. You picked a list, let's suppose you took out a slip and what came out as a slip? 5. A slip of 5 numbers came out. So you selected 5. Now after that, will you put this 5 back or it left? If you put it back, then it is with replacement. If you have said, let's suppose, take out 5, then 5 cannot come again. So it will be without replacement. That's it. So in this way, we do random sampling. Then comes your stratified. What is stratified? It is not that you are selecting anything randomly. What do you make from this? First strata. What do you make here? Divide the population into strata. What does strata mean? Let's suppose you understand with a simple example. I have to do sampling on a school database. So what did I do? Class 9th, Class 10th, Class 11th. So in this way, I made 3 groups of Class 9, Class 10 and Class 11. And then what did you do after that? It is not like that class 9, class 10, class 11 students are made. Let's suppose there are 1000 students in all three. So 300 students are made, one is picked randomly. It is possible that class number 9 comes. One more is picked. It is possible that this also comes from class 9. One more is picked. It is possible that this also comes from class 9. This is called skewed. Skewed means that your sampling is going on only one side. It is possible that if you randomly made a group of 9th, 10th and 11th students in a big hall. And you called a small child and told him to take out the paper. So he took out the paper, the child came of 9th. He took out the paper again, it is possible that the child came of 9th. He took out the paper again, it is possible that the child came of 9th. So 10th and 11th students are not participating in the sampling. So will that sampling be called proper? No. That's why we do class 9, 10, you do the strata of it first. Strata means nothing, make groups. Make class 9, class 10 and class 11 separate. Now what did you do? You called a child and told him to take out the slip. So class 9's jar is separate in which class 9's children's roll number is there. 10's jar is separate, 11's jar is separate. So the first child came, he took out a slip from the jar of class 9. Roll number 67, take it out. Class 10 went, took out a slip from the jar. Roll number 74, take it out. Next, class 11 went, took out a slip from it. Roll number 35 from its jar, took it out. So this is what a sampling that is called a stratified. Stratified sampling first makes strata, groups like this. This is called homogeneous. Why are they called homogeneous groups? Because here in one strata, there are students of the same class. In the second strata, there are students of the same class, of class 10. In the third strata, there are students of class 11. We did not jumble them together. Then came our cluster random sampling. What do we do in this too? We create clusters. What is the difference between strata and clustering? Large volumes of data are collected here. And what happens in this? There are heterogeneous groups. Like we took class 9, 10, 11 in this. Very good. But if we want to do cluster random sampling, then we will do 3-4 schools of data. And what did we do? First, we made the children of class 9, 10, 11 of the school sit. We made the children of class 9, 10, 11 of the second school sit. And made the children of class 9, 10, 11 of the third school sit. So, between the groups, what is this? It is homogeneous. But what is inside the group? It is hetero. Hetero means different. It is a dispersed data. Inside the group, there are different children of 9th, 10th, 11th. But if I see between the groups, between the clusters, then there is 9th, 10th, 11th in this too. And there is 9th, 10th, 11th in this too. So, between the clusters, what is this? It is homogeneous. But inside the cluster, the data is heterogeneous. Different types of data. And after that, what will we do? Like in stratified, what do we do? We take out 2 children from this class. We take out 3 from this. We take out 4 from this. In this way, or let's suppose we take out 2, 2, 2. Here, we don't take out 2 from this, not 2 from this. We take out a whole cluster. We take out a whole cluster. Or we pick 2 clusters. And what do we do with the whole cluster? We train it later. We put algorithms on it. So, what is this? The whole cluster is involved. Although, you can do sampling inside the cluster too, if you want to. But mainly, the whole cluster is involved. So, this is the simple clustering we have. At last, we have the systematic. There is nothing, we can understand from the name. Systematic means, select a random number which is a starting point. Then, select every kth element. Simple. What did I do? I made all the children of class 9 sit. There were 100 children in the class. I said, we will start from roll number 2. We will start from roll number 2. And after that, every kth element. Systematic, it is written by the name, systematic. Every kth element, I put it in K. Value 4th element. And here, I said starting point is roll number 2. Pick roll number 2. Done. After 2, every 4th element. After 2, which will be 4th? 6th will come. After 6th, which will come? 7th, 8th, 9th, 10th. 10th came. After 10th, 11th, 12th, 13th, 14th. 14th came. After 14th, 15th, 16th, 17th, 18th. Every 4th element, we will pick. So, we have decided this. This is called systematic. It is a theory. Just, that's why, we have completed you. One thing, obviously, sampling is written in your data warehouse, DBMS syllabus. So, you should know the name of the techniques. It is possible that, some small theory comes. Data pre-processing related. So, your sampling is done. Your discretization is done. Apart from this, compression is done. And first of all, we did normalization. So, all these techniques, once you go through it, You can get it. 1-2 questions can come from this topic easily. Not alone from this, but the whole topic of data warehouse. So, note it once. Go through it. Thank you. Thank you for watching."
+}

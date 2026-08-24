@@ -1,0 +1,1202 @@
+{
+  "chunks": [
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 0.0,
+      "end": 2.0,
+      "text": " Hi everyone, welcome to Gate Smashers"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 2.0,
+      "end": 4.0,
+      "text": " In today's video I have brought"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 4.0,
+      "end": 6.0,
+      "text": " Introduction to Data Warehouse"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 6.0,
+      "end": 8.0,
+      "text": " And I will relate this with"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 8.0,
+      "end": 10.0,
+      "text": " Real life example so that you can"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 10.0,
+      "end": 12.0,
+      "text": " understand the whole story very well"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 12.0,
+      "end": 14.0,
+      "text": " And because this is a theoretical topic"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 14.0,
+      "end": 16.0,
+      "text": " in the starting, so somewhere"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 16.0,
+      "end": 18.0,
+      "text": " students get bored, so I will explain"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 18.0,
+      "end": 20.0,
+      "text": " all these things with real life example"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 20.0,
+      "end": 22.0,
+      "text": " So let's start"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 22.0,
+      "end": 24.0,
+      "text": " First of all, the Warehouse"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 24.0,
+      "end": 26.0,
+      "text": " What does Warehouse mean?"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 26.0,
+      "end": 28.0,
+      "text": " Warehouse is what?"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 28.0,
+      "end": 30.0,
+      "text": " A storage area"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 30.0,
+      "end": 32.0,
+      "text": " A storage repository"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 32.0,
+      "end": 34.0,
+      "text": " Where data comes from multiple sources"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 34.0,
+      "end": 36.0,
+      "text": " and is stored"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 36.0,
+      "end": 38.0,
+      "text": " A centralized area"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 38.0,
+      "end": 40.0,
+      "text": " where data comes from multiple sources"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 40.0,
+      "end": 42.0,
+      "text": " and it is stored there"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 42.0,
+      "end": 44.0,
+      "text": " And then"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 44.0,
+      "end": 46.0,
+      "text": " that data can be"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 46.0,
+      "end": 48.0,
+      "text": " further used"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 48.0,
+      "end": 50.0,
+      "text": " later on in business"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 50.0,
+      "end": 52.0,
+      "text": " In increasing business, in business growth"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 52.0,
+      "end": 54.0,
+      "text": " Processing that raw data"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 54.0,
+      "end": 56.0,
+      "text": " and from that"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 56.0,
+      "end": 58.0,
+      "text": " useful insights can be taken out"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 58.0,
+      "end": 60.0,
+      "text": " by using data mining"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 60.0,
+      "end": 62.0,
+      "text": " But we will apply all these things"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 62.0,
+      "end": 64.0,
+      "text": " when we have"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 64.0,
+      "end": 66.0,
+      "text": " available data first"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 66.0,
+      "end": 68.0,
+      "text": " And to store huge amount of data"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 68.0,
+      "end": 70.0,
+      "text": " of that data, what is made?"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 70.0,
+      "end": 72.0,
+      "text": " Data Warehouse is made"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 72.0,
+      "end": 74.0,
+      "text": " I will tell you with a simple example"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 74.0,
+      "end": 76.0,
+      "text": " I went to the potato warehouse"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 76.0,
+      "end": 78.0,
+      "text": " a few days ago"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 78.0,
+      "end": 80.0,
+      "text": " The warehouse of potatoes is also called cold storage"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 80.0,
+      "end": 82.0,
+      "text": " What happens there?"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 82.0,
+      "end": 84.0,
+      "text": " From multiple locations"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 84.0,
+      "end": 86.0,
+      "text": " Means the farmers"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 86.0,
+      "end": 88.0,
+      "text": " come from different places"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 88.0,
+      "end": 90.0,
+      "text": " and cover 70-80 km area"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 90.0,
+      "end": 92.0,
+      "text": " From there"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 92.0,
+      "end": 94.0,
+      "text": " they bring the potatoes in trolley"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 94.0,
+      "end": 96.0,
+      "text": " and store it there"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 96.0,
+      "end": 98.0,
+      "text": " So here also same"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 98.0,
+      "end": 100.0,
+      "text": " This name is taken from there"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 100.0,
+      "end": 102.0,
+      "text": " If you live in a big place"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 102.0,
+      "end": 104.0,
+      "text": " in a good place, then there you may have"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 104.0,
+      "end": 106.0,
+      "text": " seen a flip card, blanket"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 106.0,
+      "end": 108.0,
+      "text": " these warehouses somewhere"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 108.0,
+      "end": 110.0,
+      "text": " And what happens in those warehouses?"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 110.0,
+      "end": 112.0,
+      "text": " What is the first thing?"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 112.0,
+      "end": 114.0,
+      "text": " First of all, bringing the data"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 114.0,
+      "end": 116.0,
+      "text": " from multiple sources"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 116.0,
+      "end": 118.0,
+      "text": " Many companies"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 118.0,
+      "end": 120.0,
+      "text": " have operational"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 120.0,
+      "end": 122.0,
+      "text": " showrooms"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 122.0,
+      "end": 124.0,
+      "text": " at different places"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 124.0,
+      "end": 126.0,
+      "text": " From there, bringing the data from all places"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 126.0,
+      "end": 128.0,
+      "text": " Which is called ETL"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 128.0,
+      "end": 130.0,
+      "text": " Extract, Transformation"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 130.0,
+      "end": 132.0,
+      "text": " and Loading"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 132.0,
+      "end": 134.0,
+      "text": " So here first of all, data from multiple"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 134.0,
+      "end": 136.0,
+      "text": " sources, by extracting them"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 136.0,
+      "end": 138.0,
+      "text": " Integrate them and bring them to one place"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 138.0,
+      "end": 140.0,
+      "text": " And the same thing is happening there"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 140.0,
+      "end": 142.0,
+      "text": " And the farmers are"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 142.0,
+      "end": 144.0,
+      "text": " bringing from multiple places"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 144.0,
+      "end": 146.0,
+      "text": " from different farms"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 146.0,
+      "end": 148.0,
+      "text": " and storing it there"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 148.0,
+      "end": 150.0,
+      "text": " So this is the first thing"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 150.0,
+      "end": 152.0,
+      "text": " And if we talk about"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 152.0,
+      "end": 154.0,
+      "text": " different software is used in our data"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 154.0,
+      "end": 156.0,
+      "text": " So that data can be collected"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 156.0,
+      "end": 158.0,
+      "text": " from multiple places"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 158.0,
+      "end": 160.0,
+      "text": " Like as an example, if we ask you"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 160.0,
+      "end": 162.0,
+      "text": " So one is your"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 162.0,
+      "end": 164.0,
+      "text": " Oracle Company's Data Integrator"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 164.0,
+      "end": 166.0,
+      "text": " So what is the purpose of that data integrator?"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 166.0,
+      "end": 168.0,
+      "text": " From multiple sources"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 168.0,
+      "end": 170.0,
+      "text": " Bringing data from multiple sources"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 170.0,
+      "end": 172.0,
+      "text": " and integrating it"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 172.0,
+      "end": 174.0,
+      "text": " Similarly, Microsoft's"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 174.0,
+      "end": 176.0,
+      "text": " Microsoft's own tool is"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 176.0,
+      "end": 178.0,
+      "text": " SSIS"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 178.0,
+      "end": 180.0,
+      "text": " SQL Server Integration Services"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 180.0,
+      "end": 182.0,
+      "text": " So basically what they do is"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 182.0,
+      "end": 184.0,
+      "text": " they bring data from multiple places"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 184.0,
+      "end": 186.0,
+      "text": " Now what to do by storing the data?"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 186.0,
+      "end": 188.0,
+      "text": " Like potatoes come from all places"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 188.0,
+      "end": 190.0,
+      "text": " In thousands of tons"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 190.0,
+      "end": 192.0,
+      "text": " potatoes came there, now what do we do after that?"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 192.0,
+      "end": 194.0,
+      "text": " After that, we process it a little"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 194.0,
+      "end": 196.0,
+      "text": " Means the boiled potatoes"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 196.0,
+      "end": 198.0,
+      "text": " We take them out from there"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 198.0,
+      "end": 200.0,
+      "text": " We clean the potatoes a little"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 200.0,
+      "end": 202.0,
+      "text": " The same thing is done here"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 202.0,
+      "end": 204.0,
+      "text": " Data came, we process that data"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 204.0,
+      "end": 206.0,
+      "text": " We clean it a little"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 206.0,
+      "end": 208.0,
+      "text": " The raw, the meaningless data"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 208.0,
+      "end": 210.0,
+      "text": " Which is not there, which is completely finished"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 210.0,
+      "end": 212.0,
+      "text": " We take it out from there"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 212.0,
+      "end": 214.0,
+      "text": " Processing the data"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 214.0,
+      "end": 216.0,
+      "text": " And at the same time, like the data warehouse"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 216.0,
+      "end": 218.0,
+      "text": " It has its own model"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 218.0,
+      "end": 220.0,
+      "text": " In that, it is different"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 220.0,
+      "end": 222.0,
+      "text": " Like the structure data, for that"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 222.0,
+      "end": 224.0,
+      "text": " RDBMS tools are used"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 224.0,
+      "end": 226.0,
+      "text": " Snowflake schema, for that"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 226.0,
+      "end": 228.0,
+      "text": " Microsoft's Vizio software is used"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 228.0,
+      "end": 230.0,
+      "text": " SAP services are used"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 230.0,
+      "end": 232.0,
+      "text": " So that the data can be kept in the proper place"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 232.0,
+      "end": 234.0,
+      "text": " In the same format"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 234.0,
+      "end": 236.0,
+      "text": " The data is kept in the same format"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 236.0,
+      "end": 238.0,
+      "text": " Now after that, when the data"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 238.0,
+      "end": 240.0,
+      "text": " I have collected here, everything is done"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 240.0,
+      "end": 242.0,
+      "text": " After that, that data has to be used"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 242.0,
+      "end": 244.0,
+      "text": " And what does it mean to use that data?"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 244.0,
+      "end": 246.0,
+      "text": " Meaningful things from that data"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 246.0,
+      "end": 248.0,
+      "text": " To remove"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 248.0,
+      "end": 250.0,
+      "text": " So that the company can increase its business"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 250.0,
+      "end": 252.0,
+      "text": " In business intelligence"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 252.0,
+      "end": 254.0,
+      "text": " And can use those things in analytics"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 254.0,
+      "end": 256.0,
+      "text": " And for that, the data is"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 256.0,
+      "end": 258.0,
+      "text": " Mined by using different"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 258.0,
+      "end": 260.0,
+      "text": " Like Python, R programming"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 260.0,
+      "end": 262.0,
+      "text": " There are many tools available"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 262.0,
+      "end": 264.0,
+      "text": " In the market and have to visualize"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 264.0,
+      "end": 266.0,
+      "text": " Data, so if you want to make a good visualized report"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 266.0,
+      "end": 268.0,
+      "text": " So like tableau"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 268.0,
+      "end": 270.0,
+      "text": " Software, through that we can make"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 270.0,
+      "end": 272.0,
+      "text": " Power is also of Microsoft"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 272.0,
+      "end": 274.0,
+      "text": " Through that we can make, so that"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 274.0,
+      "end": 276.0,
+      "text": " Growth can be achieved in the business, decisions can be taken"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 276.0,
+      "end": 278.0,
+      "text": " Company decision"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 278.0,
+      "end": 280.0,
+      "text": " On some basis, it takes"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 280.0,
+      "end": 282.0,
+      "text": " Data and that data is mined first"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 282.0,
+      "end": 284.0,
+      "text": " But when will you mine"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 284.0,
+      "end": 286.0,
+      "text": " When you don't have data, then data"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 286.0,
+      "end": 288.0,
+      "text": " Have to be kept first, now the big"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 288.0,
+      "end": 290.0,
+      "text": " Companies like Microsoft, Google"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 290.0,
+      "end": 292.0,
+      "text": " Amazon, these companies"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 292.0,
+      "end": 294.0,
+      "text": " Make their physical storage"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 294.0,
+      "end": 296.0,
+      "text": " Where data is kept, but"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 296.0,
+      "end": 298.0,
+      "text": " If we talk about small companies"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 298.0,
+      "end": 300.0,
+      "text": " They have to make such big"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 300.0,
+      "end": 302.0,
+      "text": " Warehouse because"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 302.0,
+      "end": 304.0,
+      "text": " To make such a big building, to keep different"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 304.0,
+      "end": 306.0,
+      "text": " Tools like routers, switches"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 306.0,
+      "end": 308.0,
+      "text": " Disks, hard disk, etc."
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 308.0,
+      "end": 310.0,
+      "text": " Keeping all this is a major challenge"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 310.0,
+      "end": 312.0,
+      "text": " And then controlling the temperature"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 312.0,
+      "end": 314.0,
+      "text": " Humidity, all these things"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 314.0,
+      "end": 316.0,
+      "text": " So somewhere small companies"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 316.0,
+      "end": 318.0,
+      "text": " Use cloud services"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 318.0,
+      "end": 320.0,
+      "text": " So that too like Google"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 320.0,
+      "end": 322.0,
+      "text": " BigQuery, so different"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 322.0,
+      "end": 324.0,
+      "text": " Can be done by using software"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 324.0,
+      "end": 326.0,
+      "text": " So this is the introduction of data warehouses"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 326.0,
+      "end": 328.0,
+      "text": " Now"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 328.0,
+      "end": 330.0,
+      "text": " ETL is done or how"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 330.0,
+      "end": 332.0,
+      "text": " Mining is done, how data is modeled"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 332.0,
+      "end": 334.0,
+      "text": " How do we design a"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 334.0,
+      "end": 336.0,
+      "text": " Data warehouse, all these things"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 336.0,
+      "end": 338.0,
+      "text": " We will study one by one in detail"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 338.0,
+      "end": 340.0,
+      "text": " So this is all about the introduction to data warehouse"
+    },
+    {
+      "number": "1",
+      "title": "Introduction to Data Warehouse🏺 with Examples",
+      "start": 340.0,
+      "end": 342.0,
+      "text": " Thank you"
+    }
+  ],
+  "text": " Hi everyone, welcome to Gate Smashers In today's video I have brought Introduction to Data Warehouse And I will relate this with Real life example so that you can understand the whole story very well And because this is a theoretical topic in the starting, so somewhere students get bored, so I will explain all these things with real life example So let's start First of all, the Warehouse What does Warehouse mean? Warehouse is what? A storage area A storage repository Where data comes from multiple sources and is stored A centralized area where data comes from multiple sources and it is stored there And then that data can be further used later on in business In increasing business, in business growth Processing that raw data and from that useful insights can be taken out by using data mining But we will apply all these things when we have available data first And to store huge amount of data of that data, what is made? Data Warehouse is made I will tell you with a simple example I went to the potato warehouse a few days ago The warehouse of potatoes is also called cold storage What happens there? From multiple locations Means the farmers come from different places and cover 70-80 km area From there they bring the potatoes in trolley and store it there So here also same This name is taken from there If you live in a big place in a good place, then there you may have seen a flip card, blanket these warehouses somewhere And what happens in those warehouses? What is the first thing? First of all, bringing the data from multiple sources Many companies have operational showrooms at different places From there, bringing the data from all places Which is called ETL Extract, Transformation and Loading So here first of all, data from multiple sources, by extracting them Integrate them and bring them to one place And the same thing is happening there And the farmers are bringing from multiple places from different farms and storing it there So this is the first thing And if we talk about different software is used in our data So that data can be collected from multiple places Like as an example, if we ask you So one is your Oracle Company's Data Integrator So what is the purpose of that data integrator? From multiple sources Bringing data from multiple sources and integrating it Similarly, Microsoft's Microsoft's own tool is SSIS SQL Server Integration Services So basically what they do is they bring data from multiple places Now what to do by storing the data? Like potatoes come from all places In thousands of tons potatoes came there, now what do we do after that? After that, we process it a little Means the boiled potatoes We take them out from there We clean the potatoes a little The same thing is done here Data came, we process that data We clean it a little The raw, the meaningless data Which is not there, which is completely finished We take it out from there Processing the data And at the same time, like the data warehouse It has its own model In that, it is different Like the structure data, for that RDBMS tools are used Snowflake schema, for that Microsoft's Vizio software is used SAP services are used So that the data can be kept in the proper place In the same format The data is kept in the same format Now after that, when the data I have collected here, everything is done After that, that data has to be used And what does it mean to use that data? Meaningful things from that data To remove So that the company can increase its business In business intelligence And can use those things in analytics And for that, the data is Mined by using different Like Python, R programming There are many tools available In the market and have to visualize Data, so if you want to make a good visualized report So like tableau Software, through that we can make Power is also of Microsoft Through that we can make, so that Growth can be achieved in the business, decisions can be taken Company decision On some basis, it takes Data and that data is mined first But when will you mine When you don't have data, then data Have to be kept first, now the big Companies like Microsoft, Google Amazon, these companies Make their physical storage Where data is kept, but If we talk about small companies They have to make such big Warehouse because To make such a big building, to keep different Tools like routers, switches Disks, hard disk, etc. Keeping all this is a major challenge And then controlling the temperature Humidity, all these things So somewhere small companies Use cloud services So that too like Google BigQuery, so different Can be done by using software So this is the introduction of data warehouses Now ETL is done or how Mining is done, how data is modeled How do we design a Data warehouse, all these things We will study one by one in detail So this is all about the introduction to data warehouse Thank you"
+}

@@ -1,0 +1,845 @@
+{
+  "chunks": [
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 0.0,
+      "end": 4.0,
+      "text": " Dear students, welcome to GITsmeasures."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 4.0,
+      "end": 7.0,
+      "text": " In today's video, I am going to explain various clustering methods."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 7.0,
+      "end": 11.0,
+      "text": " Basically, why do we use clustering in data warehouse and mining?"
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 11.0,
+      "end": 14.0,
+      "text": " It says that when we have similar objects,"
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 14.0,
+      "end": 17.0,
+      "text": " if I want to convert them into groups,"
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 17.0,
+      "end": 20.0,
+      "text": " if I want to do their grouping, then we use clustering methods for this."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 20.0,
+      "end": 22.0,
+      "text": " I will tell you with a simple example."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 22.0,
+      "end": 25.0,
+      "text": " Let's suppose you have the data of a company's sales."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 25.0,
+      "end": 28.0,
+      "text": " You can take the data of an e-commerce website like Flipkart or Amazon."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 28.0,
+      "end": 31.0,
+      "text": " If you want to do the grouping of customers,"
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 31.0,
+      "end": 34.0,
+      "text": " let's suppose you have to divide the customers in this way."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 34.0,
+      "end": 42.0,
+      "text": " First, identify the customers who are purchasing something on a daily basis or on every alternate day."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 42.0,
+      "end": 45.0,
+      "text": " Then, identify the customers who are purchasing on a monthly basis."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 45.0,
+      "end": 50.0,
+      "text": " Then, identify the customers who are purchasing only once in a year."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 50.0,
+      "end": 52.0,
+      "text": " Why is it done in this way?"
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 52.0,
+      "end": 56.0,
+      "text": " Actually, all this method is done through clustering."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 56.0,
+      "end": 57.0,
+      "text": " Why is it done?"
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 57.0,
+      "end": 63.0,
+      "text": " Because we have to identify the customers on the basis of this method and send them promotional messages."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 63.0,
+      "end": 67.0,
+      "text": " So that based on their past purchases,"
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 67.0,
+      "end": 73.0,
+      "text": " we can offer them in such a way that they can continue purchasing."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 73.0,
+      "end": 77.0,
+      "text": " This is used a lot in sales and marketing."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 77.0,
+      "end": 82.0,
+      "text": " That's why we have multiple types of methods in clustering."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 82.0,
+      "end": 85.0,
+      "text": " The first one is partitioning method."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 85.0,
+      "end": 91.0,
+      "text": " Partitioning method says that we divide the data set into K."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 91.0,
+      "end": 95.0,
+      "text": " If you get any numerical value, then you will be given K value."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 95.0,
+      "end": 96.0,
+      "text": " 2, 3, 4."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 96.0,
+      "end": 98.0,
+      "text": " You will be divided into clusters in this way."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 98.0,
+      "end": 104.0,
+      "text": " Like I gave you an example that you have to identify which are the customers who purchase on alternate days."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 104.0,
+      "end": 107.0,
+      "text": " Which are the customers who purchase once in a month and which are the customers who purchase once in a year."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 107.0,
+      "end": 109.0,
+      "text": " So, three clusters are formed here."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 109.0,
+      "end": 110.0,
+      "text": " So, the value of K is 3."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 110.0,
+      "end": 111.0,
+      "text": " Just like this."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 111.0,
+      "end": 116.0,
+      "text": " So, you have to divide the clusters where each partition represents a cluster."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 116.0,
+      "end": 117.0,
+      "text": " Every partition is a cluster."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 117.0,
+      "end": 119.0,
+      "text": " That's why it is called partition based."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 119.0,
+      "end": 124.0,
+      "text": " And in partition based, you can ask from anywhere in any college or university exam or interview."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 124.0,
+      "end": 126.0,
+      "text": " What comes in partition based clustering?"
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 126.0,
+      "end": 128.0,
+      "text": " There is a simple funda."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 128.0,
+      "end": 131.0,
+      "text": " K mean comes and K mid-odd comes."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 131.0,
+      "end": 136.0,
+      "text": " So, these are two major algorithms that are used in partitioning based clustering."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 136.0,
+      "end": 137.0,
+      "text": " And they are very simple."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 137.0,
+      "end": 141.0,
+      "text": " You will get their links and videos after this."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 141.0,
+      "end": 143.0,
+      "text": " How they work."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 143.0,
+      "end": 149.0,
+      "text": " Although, if we talk about machine learning or here, the algorithm is the same."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 149.0,
+      "end": 153.0,
+      "text": " It is not that K mean is different in machine learning and here."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 153.0,
+      "end": 154.0,
+      "text": " No, the algorithm is the same."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 154.0,
+      "end": 155.0,
+      "text": " Working is the same."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 155.0,
+      "end": 160.0,
+      "text": " Just how you use it and in which scenario you use it, that differs."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 160.0,
+      "end": 162.0,
+      "text": " The rest of the story is the same."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 162.0,
+      "end": 168.0,
+      "text": " That's why whenever this comes partition based, remember that these two algorithms are used majorly."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 168.0,
+      "end": 171.0,
+      "text": " Then you come to the hierarchical based method."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 171.0,
+      "end": 175.0,
+      "text": " Where we create dendograms in this way."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 175.0,
+      "end": 177.0,
+      "text": " What do we do here in this way?"
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 177.0,
+      "end": 182.0,
+      "text": " They make multiple clusters, but they make it hierarchical based."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 182.0,
+      "end": 184.0,
+      "text": " And I will give a simple example in this."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 184.0,
+      "end": 188.0,
+      "text": " Let's suppose you have your company's data."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 188.0,
+      "end": 191.0,
+      "text": " And you are working in the HR department."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 191.0,
+      "end": 197.0,
+      "text": " And at the end of the year, before this new financial year, you have to decide that how much appraisal will be given to whom."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 197.0,
+      "end": 198.0,
+      "text": " Salary will be given."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 198.0,
+      "end": 199.0,
+      "text": " This happens in every company."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 199.0,
+      "end": 203.0,
+      "text": " And there you will need hierarchical clustering."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 203.0,
+      "end": 206.0,
+      "text": " Why? Because first of all you have to make hierarchy there."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 206.0,
+      "end": 208.0,
+      "text": " What does hierarchy mean?"
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 208.0,
+      "end": 210.0,
+      "text": " Which people are at the top level?"
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 210.0,
+      "end": 212.0,
+      "text": " Then which people are at the middle level?"
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 212.0,
+      "end": 213.0,
+      "text": " Like managers and so on."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 213.0,
+      "end": 215.0,
+      "text": " Then which people are at the low level?"
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 215.0,
+      "end": 216.0,
+      "text": " Like developers and so on."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 216.0,
+      "end": 218.0,
+      "text": " Then which people are at a lower level than that?"
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 218.0,
+      "end": 220.0,
+      "text": " Data entry operators and so on."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 220.0,
+      "end": 222.0,
+      "text": " So first you have to make a hierarchy."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 222.0,
+      "end": 231.0,
+      "text": " Then based on their performance, based on their time, all those things you have to make KPO based and then decide who will get how much."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 231.0,
+      "end": 233.0,
+      "text": " Now what is happening here too?"
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 233.0,
+      "end": 235.0,
+      "text": " Somewhere your mining is happening."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 235.0,
+      "end": 240.0,
+      "text": " And somewhere you are dividing all the data based on an algorithm."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 240.0,
+      "end": 246.0,
+      "text": " And in that you are applying this method somewhere that how we make their salaries and appraisal."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 246.0,
+      "end": 250.0,
+      "text": " And based on that obviously employees have to be retained in the company."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 250.0,
+      "end": 252.0,
+      "text": " Otherwise they will run away from the company."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 252.0,
+      "end": 256.0,
+      "text": " So for that agglomerative bottom up is a very important method."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 256.0,
+      "end": 259.0,
+      "text": " And divisive that is the top down."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 259.0,
+      "end": 262.0,
+      "text": " So these two are your hierarchical based methods."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 262.0,
+      "end": 264.0,
+      "text": " And these are also proper."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 264.0,
+      "end": 266.0,
+      "text": " This is also in machine learning."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 266.0,
+      "end": 268.0,
+      "text": " And again this is also in data warehouse and mining."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 268.0,
+      "end": 273.0,
+      "text": " So I will explain both these methods with example and tell you how they work."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 273.0,
+      "end": 280.0,
+      "text": " And then after that comes a density based where area, density based methods come."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 280.0,
+      "end": 283.0,
+      "text": " And these are based on the density of data point."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 283.0,
+      "end": 287.0,
+      "text": " That how dense is the data and how sparse is the data."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 287.0,
+      "end": 290.0,
+      "text": " How far is it and how many data points are there."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 290.0,
+      "end": 292.0,
+      "text": " These are specially used in the network."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 292.0,
+      "end": 294.0,
+      "text": " Whenever you have a network log."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 294.0,
+      "end": 295.0,
+      "text": " What does log mean?"
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 295.0,
+      "end": 300.0,
+      "text": " Collection of all, for example, who logged in at what time, when did he log out."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 300.0,
+      "end": 302.0,
+      "text": " So a whole log is made."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 302.0,
+      "end": 306.0,
+      "text": " So companies have a cyber security team or network security team."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 306.0,
+      "end": 310.0,
+      "text": " They have to analyze that when my traffic is too much, when my traffic is too less."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 310.0,
+      "end": 313.0,
+      "text": " At what time was the rush but my traffic is coming less."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 313.0,
+      "end": 320.0,
+      "text": " So based on that, they decide somewhere that my here is coming very dense."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 320.0,
+      "end": 322.0,
+      "text": " Where is my sparse coming?"
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 322.0,
+      "end": 327.0,
+      "text": " So all those things are analysed through your density based algorithm."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 327.0,
+      "end": 331.0,
+      "text": " And in this, one more comes in front of you, grid based."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 331.0,
+      "end": 335.0,
+      "text": " In density based, you have a very popular DBScan."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 335.0,
+      "end": 338.0,
+      "text": " This is a very popular algorithm that is used in this."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 338.0,
+      "end": 343.0,
+      "text": " And if I talk about grid based, then the Sting algorithm is used a lot there."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 343.0,
+      "end": 344.0,
+      "text": " It is the same in the grid."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 344.0,
+      "end": 347.0,
+      "text": " There it is a little GPS location based."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 347.0,
+      "end": 350.0,
+      "text": " In the grid, the data is always divided into 2D grid."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 350.0,
+      "end": 352.0,
+      "text": " And here the map is based."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 352.0,
+      "end": 355.0,
+      "text": " Take the example of a city."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 355.0,
+      "end": 360.0,
+      "text": " Why do we call Chandigarh city smart, means well maintained?"
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 360.0,
+      "end": 366.0,
+      "text": " Because they have properly decided that at what time is the traffic more, where is the traffic less."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 366.0,
+      "end": 369.0,
+      "text": " Accordingly, they decide the regulatory support first."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 369.0,
+      "end": 372.0,
+      "text": " How to divide traffic, how to do all things."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 372.0,
+      "end": 377.0,
+      "text": " So all those things are done through a grid based algorithm."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 377.0,
+      "end": 379.0,
+      "text": " So just remember this name."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 379.0,
+      "end": 386.0,
+      "text": " One by one, your K-mean, K-medoid, then agglomerative, divisive, DBScan and finally Sting."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 386.0,
+      "end": 388.0,
+      "text": " Apart from this, there is nothing in it."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 388.0,
+      "end": 391.0,
+      "text": " I will make you do all these points one by one with example."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 391.0,
+      "end": 393.0,
+      "text": " So note all these points too."
+    },
+    {
+      "number": "22",
+      "title": "Clustering in Data Mining Explained _ Top Clustering Methods You MUST Know_",
+      "start": 393.0,
+      "end": 394.0,
+      "text": " Thank you."
+    }
+  ],
+  "text": " Dear students, welcome to GITsmeasures. In today's video, I am going to explain various clustering methods. Basically, why do we use clustering in data warehouse and mining? It says that when we have similar objects, if I want to convert them into groups, if I want to do their grouping, then we use clustering methods for this. I will tell you with a simple example. Let's suppose you have the data of a company's sales. You can take the data of an e-commerce website like Flipkart or Amazon. If you want to do the grouping of customers, let's suppose you have to divide the customers in this way. First, identify the customers who are purchasing something on a daily basis or on every alternate day. Then, identify the customers who are purchasing on a monthly basis. Then, identify the customers who are purchasing only once in a year. Why is it done in this way? Actually, all this method is done through clustering. Why is it done? Because we have to identify the customers on the basis of this method and send them promotional messages. So that based on their past purchases, we can offer them in such a way that they can continue purchasing. This is used a lot in sales and marketing. That's why we have multiple types of methods in clustering. The first one is partitioning method. Partitioning method says that we divide the data set into K. If you get any numerical value, then you will be given K value. 2, 3, 4. You will be divided into clusters in this way. Like I gave you an example that you have to identify which are the customers who purchase on alternate days. Which are the customers who purchase once in a month and which are the customers who purchase once in a year. So, three clusters are formed here. So, the value of K is 3. Just like this. So, you have to divide the clusters where each partition represents a cluster. Every partition is a cluster. That's why it is called partition based. And in partition based, you can ask from anywhere in any college or university exam or interview. What comes in partition based clustering? There is a simple funda. K mean comes and K mid-odd comes. So, these are two major algorithms that are used in partitioning based clustering. And they are very simple. You will get their links and videos after this. How they work. Although, if we talk about machine learning or here, the algorithm is the same. It is not that K mean is different in machine learning and here. No, the algorithm is the same. Working is the same. Just how you use it and in which scenario you use it, that differs. The rest of the story is the same. That's why whenever this comes partition based, remember that these two algorithms are used majorly. Then you come to the hierarchical based method. Where we create dendograms in this way. What do we do here in this way? They make multiple clusters, but they make it hierarchical based. And I will give a simple example in this. Let's suppose you have your company's data. And you are working in the HR department. And at the end of the year, before this new financial year, you have to decide that how much appraisal will be given to whom. Salary will be given. This happens in every company. And there you will need hierarchical clustering. Why? Because first of all you have to make hierarchy there. What does hierarchy mean? Which people are at the top level? Then which people are at the middle level? Like managers and so on. Then which people are at the low level? Like developers and so on. Then which people are at a lower level than that? Data entry operators and so on. So first you have to make a hierarchy. Then based on their performance, based on their time, all those things you have to make KPO based and then decide who will get how much. Now what is happening here too? Somewhere your mining is happening. And somewhere you are dividing all the data based on an algorithm. And in that you are applying this method somewhere that how we make their salaries and appraisal. And based on that obviously employees have to be retained in the company. Otherwise they will run away from the company. So for that agglomerative bottom up is a very important method. And divisive that is the top down. So these two are your hierarchical based methods. And these are also proper. This is also in machine learning. And again this is also in data warehouse and mining. So I will explain both these methods with example and tell you how they work. And then after that comes a density based where area, density based methods come. And these are based on the density of data point. That how dense is the data and how sparse is the data. How far is it and how many data points are there. These are specially used in the network. Whenever you have a network log. What does log mean? Collection of all, for example, who logged in at what time, when did he log out. So a whole log is made. So companies have a cyber security team or network security team. They have to analyze that when my traffic is too much, when my traffic is too less. At what time was the rush but my traffic is coming less. So based on that, they decide somewhere that my here is coming very dense. Where is my sparse coming? So all those things are analysed through your density based algorithm. And in this, one more comes in front of you, grid based. In density based, you have a very popular DBScan. This is a very popular algorithm that is used in this. And if I talk about grid based, then the Sting algorithm is used a lot there. It is the same in the grid. There it is a little GPS location based. In the grid, the data is always divided into 2D grid. And here the map is based. Take the example of a city. Why do we call Chandigarh city smart, means well maintained? Because they have properly decided that at what time is the traffic more, where is the traffic less. Accordingly, they decide the regulatory support first. How to divide traffic, how to do all things. So all those things are done through a grid based algorithm. So just remember this name. One by one, your K-mean, K-medoid, then agglomerative, divisive, DBScan and finally Sting. Apart from this, there is nothing in it. I will make you do all these points one by one with example. So note all these points too. Thank you."
+}

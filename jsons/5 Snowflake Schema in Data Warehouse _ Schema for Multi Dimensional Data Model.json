@@ -1,0 +1,803 @@
+{
+  "chunks": [
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 0.0,
+      "end": 2.0,
+      "text": " Dear students, welcome to Gate Smashers."
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 2.0,
+      "end": 5.0,
+      "text": " In today's video I am going to explain Snowflake Schema."
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 5.0,
+      "end": 8.0,
+      "text": " In the last video I told you about Star Schema."
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 8.0,
+      "end": 12.0,
+      "text": " And Snowflake is a little different from Star."
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 12.0,
+      "end": 15.0,
+      "text": " But why it is made? What changes have been made in it?"
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 15.0,
+      "end": 17.0,
+      "text": " You need to know that."
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 17.0,
+      "end": 19.0,
+      "text": " So I will explain this with an example."
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 19.0,
+      "end": 23.0,
+      "text": " So see how our Snowflake Schema is different from Star."
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 23.0,
+      "end": 26.0,
+      "text": " If I talk about Star, I will make you revise a little."
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 26.0,
+      "end": 31.0,
+      "text": " What I told in Star is that in the center there is a factor table."
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 31.0,
+      "end": 33.0,
+      "text": " In which quantitative data is there."
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 33.0,
+      "end": 37.0,
+      "text": " Means the numbers that are there, our metrics are there in my factor table."
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 37.0,
+      "end": 42.0,
+      "text": " And the descriptive attributes that describe them are in all dimension table."
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 42.0,
+      "end": 44.0,
+      "text": " This was a simple concept."
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 44.0,
+      "end": 50.0,
+      "text": " Now the most major reason to make Snowflake Schema is normalization."
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 50.0,
+      "end": 55.0,
+      "text": " Means we normalized in Snowflake Schema."
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 55.0,
+      "end": 60.0,
+      "text": " If you normalize our normal Star a little, it will become a snowflake."
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 60.0,
+      "end": 61.0,
+      "text": " Did not understand."
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 61.0,
+      "end": 63.0,
+      "text": " See as an example here."
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 63.0,
+      "end": 65.0,
+      "text": " You will understand that from the example."
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 65.0,
+      "end": 67.0,
+      "text": " See here I have a sales which is a factor table."
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 67.0,
+      "end": 69.0,
+      "text": " Here is the customer dimension."
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 69.0,
+      "end": 71.0,
+      "text": " What is the customer dimension telling me?"
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 71.0,
+      "end": 77.0,
+      "text": " Customer's ID, Customer's Name, Customer's Location, Location's ID, City, State."
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 77.0,
+      "end": 78.0,
+      "text": " My data is like this."
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 78.0,
+      "end": 79.0,
+      "text": " What can I do?"
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 79.0,
+      "end": 81.0,
+      "text": " If I want to normalize it."
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 81.0,
+      "end": 84.0,
+      "text": " Normalize means I will further it a little."
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 84.0,
+      "end": 87.0,
+      "text": " Because many things can be duplicated."
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 87.0,
+      "end": 90.0,
+      "text": " Like a customer belongs to a city."
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 90.0,
+      "end": 93.0,
+      "text": " Multiple customers can belong to the same city."
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 93.0,
+      "end": 96.0,
+      "text": " So because of that some data will be repeated a lot."
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 96.0,
+      "end": 99.0,
+      "text": " So I can normalize it and separate it."
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 99.0,
+      "end": 100.0,
+      "text": " What is the meaning of separating?"
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 100.0,
+      "end": 103.0,
+      "text": " See this was my star and now what has become of me?"
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 103.0,
+      "end": 104.0,
+      "text": " Snowflake."
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 104.0,
+      "end": 105.0,
+      "text": " What did I do?"
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 105.0,
+      "end": 108.0,
+      "text": " Customer ID, Customer Name, Location ID left."
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 108.0,
+      "end": 112.0,
+      "text": " Now I have made a separate sub-dimension table of location."
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 112.0,
+      "end": 114.0,
+      "text": " Means this was the dimension."
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 114.0,
+      "end": 116.0,
+      "text": " Made another dimension table."
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 116.0,
+      "end": 119.0,
+      "text": " Normalized it and separated the location."
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 119.0,
+      "end": 123.0,
+      "text": " In which I brought location ID, city, state in a separate table."
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 123.0,
+      "end": 124.0,
+      "text": " What happened to this?"
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 124.0,
+      "end": 126.0,
+      "text": " The table was normalized."
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 126.0,
+      "end": 131.0,
+      "text": " And my main advantages will be known to you from this diagram."
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 131.0,
+      "end": 132.0,
+      "text": " See this."
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 132.0,
+      "end": 137.0,
+      "text": " You will get to know the story from the data that what benefits did you get from normalization?"
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 137.0,
+      "end": 138.0,
+      "text": " See this."
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 138.0,
+      "end": 140.0,
+      "text": " If I have the same customer here."
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 140.0,
+      "end": 142.0,
+      "text": " This one who was my customer here."
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 142.0,
+      "end": 143.0,
+      "text": " If I see the original."
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 143.0,
+      "end": 145.0,
+      "text": " If I see the original, then what will happen in it?"
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 145.0,
+      "end": 150.0,
+      "text": " Customer's ID, Customer's Name, Customer's Location ID, City, State."
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 150.0,
+      "end": 152.0,
+      "text": " Now see my customer ID here."
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 152.0,
+      "end": 153.0,
+      "text": " What is this?"
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 153.0,
+      "end": 154.0,
+      "text": " Primary key."
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 154.0,
+      "end": 156.0,
+      "text": " So see all values are not being duplicated."
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 156.0,
+      "end": 159.0,
+      "text": " Means all values are unique."
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 159.0,
+      "end": 163.0,
+      "text": " Now the name of the customer will be the location ID will be city, state."
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 163.0,
+      "end": 169.0,
+      "text": " Now for example, just assume that if I have to update anything in this."
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 169.0,
+      "end": 173.0,
+      "text": " Let's suppose the government says that I have to change the name of the city."
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 173.0,
+      "end": 178.0,
+      "text": " As it happens that it was Allahabad first, it became Prayagraj, it was Gurgaon, it became Gurugram."
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 178.0,
+      "end": 181.0,
+      "text": " For example, change the name of Jaipur and keep it Jaipur."
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 181.0,
+      "end": 184.0,
+      "text": " Or change the name of Lucknow and make it Lakshmanpur."
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 184.0,
+      "end": 186.0,
+      "text": " The government can do it anytime."
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 186.0,
+      "end": 189.0,
+      "text": " Now let's suppose if I have to do these changes, means if I have to update,"
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 189.0,
+      "end": 191.0,
+      "text": " then I have to change the name of Jaipur."
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 191.0,
+      "end": 194.0,
+      "text": " So how many places will I have to do there?"
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 194.0,
+      "end": 199.0,
+      "text": " If I talk about this table, I will have to do it here too, I will have to do it here too,"
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 199.0,
+      "end": 202.0,
+      "text": " I will have to do it here too, here too."
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 202.0,
+      "end": 206.0,
+      "text": " Jaipur is the same, but I have to update it in four places."
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 206.0,
+      "end": 211.0,
+      "text": " Similarly, if I have to change the name of Lucknow, then I will have to change it here."
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 211.0,
+      "end": 215.0,
+      "text": " This is just a small data, so because of this, there should have been one update,"
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 215.0,
+      "end": 218.0,
+      "text": " but it will be updated in multiple places."
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 218.0,
+      "end": 223.0,
+      "text": " So if I have to reduce this update, then what can I do? Normalize it."
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 223.0,
+      "end": 225.0,
+      "text": " What does normalize mean?"
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 225.0,
+      "end": 229.0,
+      "text": " That what I told you in snowflake, star does it in the same way."
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 229.0,
+      "end": 233.0,
+      "text": " We normalize the snowflake a little bit and as I showed in the diagram,"
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 233.0,
+      "end": 235.0,
+      "text": " I show it with data."
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 235.0,
+      "end": 238.0,
+      "text": " This was my table which was in my star schema."
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 238.0,
+      "end": 241.0,
+      "text": " What did I do to this? I made it in two dimensions."
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 241.0,
+      "end": 247.0,
+      "text": " One is my customer ID, customer name, location ID and here I have location ID, city and state."
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 247.0,
+      "end": 251.0,
+      "text": " Now what will be my location ID? Primary key and what will be this?"
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 251.0,
+      "end": 253.0,
+      "text": " Foreign key which is taking reference from here."
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 253.0,
+      "end": 255.0,
+      "text": " So see the reference is also coming properly."
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 255.0,
+      "end": 259.0,
+      "text": " Now see if I have to change the name of Jaipur, then how many places will I have to do?"
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 259.0,
+      "end": 261.0,
+      "text": " Only one place."
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 261.0,
+      "end": 263.0,
+      "text": " If you want to change the name of Lucknow, then how many places?"
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 263.0,
+      "end": 265.0,
+      "text": " Only one place will have to be changed."
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 265.0,
+      "end": 267.0,
+      "text": " So there is a big benefit of updation."
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 267.0,
+      "end": 271.0,
+      "text": " The problem that was coming earlier will not come now but there is a disadvantage."
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 271.0,
+      "end": 276.0,
+      "text": " Snowflake has normalized it, represented the data well, maintained integrity."
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 276.0,
+      "end": 281.0,
+      "text": " But what is the problem? When we have to join the data."
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 281.0,
+      "end": 286.0,
+      "text": " Like see here in this one, if I am telling you a small point in the last,"
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 286.0,
+      "end": 291.0,
+      "text": " if I have to check this, if I have to check a simple thing that how much total sale was done,"
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 291.0,
+      "end": 292.0,
+      "text": " then I will find out from this table."
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 292.0,
+      "end": 298.0,
+      "text": " If I have to check that for example tell me the name of that customer who bought this particular product"
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 298.0,
+      "end": 302.0,
+      "text": " or did this much sale, then I will find out the name from here and sale from here."
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 302.0,
+      "end": 304.0,
+      "text": " So both will have to be joined."
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 304.0,
+      "end": 305.0,
+      "text": " Ok, it will be done."
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 305.0,
+      "end": 309.0,
+      "text": " But if I normalize in Snowflake, three will be made."
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 309.0,
+      "end": 315.0,
+      "text": " Now if I have to find out that tell me the city of that customer who bought this particular sale or product."
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 315.0,
+      "end": 320.0,
+      "text": " So see the city is here, the information of the customer is here and the sale is here."
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 320.0,
+      "end": 322.0,
+      "text": " So that means three will have to be joined."
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 322.0,
+      "end": 328.0,
+      "text": " Just as an example I am telling that your query performance was somewhere,"
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 328.0,
+      "end": 332.0,
+      "text": " because complexity has increased, so because of that performance will be a little down"
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 332.0,
+      "end": 336.0,
+      "text": " because you will have to join multiple in the Snowflake."
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 336.0,
+      "end": 340.0,
+      "text": " But there is also an advantage that by normalizing you will have to reduce the updation."
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 340.0,
+      "end": 345.0,
+      "text": " So I have told you all this story with example that how to do in Snowflake."
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 345.0,
+      "end": 351.0,
+      "text": " And I have told you with data because when you elaborate this thing with data,"
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 351.0,
+      "end": 354.0,
+      "text": " you will explain anywhere, no one can do you wrong."
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 354.0,
+      "end": 356.0,
+      "text": " So this is all about the Snowflake schema."
+    },
+    {
+      "number": "5",
+      "title": "Snowflake Schema in Data Warehouse _ Schema for Multi Dimensional Data Model",
+      "start": 356.0,
+      "end": 357.0,
+      "text": " Thank you."
+    }
+  ],
+  "text": " Dear students, welcome to Gate Smashers. In today's video I am going to explain Snowflake Schema. In the last video I told you about Star Schema. And Snowflake is a little different from Star. But why it is made? What changes have been made in it? You need to know that. So I will explain this with an example. So see how our Snowflake Schema is different from Star. If I talk about Star, I will make you revise a little. What I told in Star is that in the center there is a factor table. In which quantitative data is there. Means the numbers that are there, our metrics are there in my factor table. And the descriptive attributes that describe them are in all dimension table. This was a simple concept. Now the most major reason to make Snowflake Schema is normalization. Means we normalized in Snowflake Schema. If you normalize our normal Star a little, it will become a snowflake. Did not understand. See as an example here. You will understand that from the example. See here I have a sales which is a factor table. Here is the customer dimension. What is the customer dimension telling me? Customer's ID, Customer's Name, Customer's Location, Location's ID, City, State. My data is like this. What can I do? If I want to normalize it. Normalize means I will further it a little. Because many things can be duplicated. Like a customer belongs to a city. Multiple customers can belong to the same city. So because of that some data will be repeated a lot. So I can normalize it and separate it. What is the meaning of separating? See this was my star and now what has become of me? Snowflake. What did I do? Customer ID, Customer Name, Location ID left. Now I have made a separate sub-dimension table of location. Means this was the dimension. Made another dimension table. Normalized it and separated the location. In which I brought location ID, city, state in a separate table. What happened to this? The table was normalized. And my main advantages will be known to you from this diagram. See this. You will get to know the story from the data that what benefits did you get from normalization? See this. If I have the same customer here. This one who was my customer here. If I see the original. If I see the original, then what will happen in it? Customer's ID, Customer's Name, Customer's Location ID, City, State. Now see my customer ID here. What is this? Primary key. So see all values are not being duplicated. Means all values are unique. Now the name of the customer will be the location ID will be city, state. Now for example, just assume that if I have to update anything in this. Let's suppose the government says that I have to change the name of the city. As it happens that it was Allahabad first, it became Prayagraj, it was Gurgaon, it became Gurugram. For example, change the name of Jaipur and keep it Jaipur. Or change the name of Lucknow and make it Lakshmanpur. The government can do it anytime. Now let's suppose if I have to do these changes, means if I have to update, then I have to change the name of Jaipur. So how many places will I have to do there? If I talk about this table, I will have to do it here too, I will have to do it here too, I will have to do it here too, here too. Jaipur is the same, but I have to update it in four places. Similarly, if I have to change the name of Lucknow, then I will have to change it here. This is just a small data, so because of this, there should have been one update, but it will be updated in multiple places. So if I have to reduce this update, then what can I do? Normalize it. What does normalize mean? That what I told you in snowflake, star does it in the same way. We normalize the snowflake a little bit and as I showed in the diagram, I show it with data. This was my table which was in my star schema. What did I do to this? I made it in two dimensions. One is my customer ID, customer name, location ID and here I have location ID, city and state. Now what will be my location ID? Primary key and what will be this? Foreign key which is taking reference from here. So see the reference is also coming properly. Now see if I have to change the name of Jaipur, then how many places will I have to do? Only one place. If you want to change the name of Lucknow, then how many places? Only one place will have to be changed. So there is a big benefit of updation. The problem that was coming earlier will not come now but there is a disadvantage. Snowflake has normalized it, represented the data well, maintained integrity. But what is the problem? When we have to join the data. Like see here in this one, if I am telling you a small point in the last, if I have to check this, if I have to check a simple thing that how much total sale was done, then I will find out from this table. If I have to check that for example tell me the name of that customer who bought this particular product or did this much sale, then I will find out the name from here and sale from here. So both will have to be joined. Ok, it will be done. But if I normalize in Snowflake, three will be made. Now if I have to find out that tell me the city of that customer who bought this particular sale or product. So see the city is here, the information of the customer is here and the sale is here. So that means three will have to be joined. Just as an example I am telling that your query performance was somewhere, because complexity has increased, so because of that performance will be a little down because you will have to join multiple in the Snowflake. But there is also an advantage that by normalizing you will have to reduce the updation. So I have told you all this story with example that how to do in Snowflake. And I have told you with data because when you elaborate this thing with data, you will explain anywhere, no one can do you wrong. So this is all about the Snowflake schema. Thank you."
+}

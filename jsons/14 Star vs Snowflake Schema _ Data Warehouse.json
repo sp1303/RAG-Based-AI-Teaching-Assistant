@@ -1,0 +1,2574 @@
+{
+  "chunks": [
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 0.0,
+      "end": 3.4,
+      "text": " Hey students, welcome to the class."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 3.4,
+      "end": 5.4,
+      "text": " In today's class, I am going to explain"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 5.4,
+      "end": 8.6,
+      "text": " What is star schema and what is snowflake schema?"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 8.6,
+      "end": 11.4,
+      "text": " In the last video, I told you that in OLAP,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 11.4,
+      "end": 14.6,
+      "text": " In OLAP, which models do we use?"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 14.6,
+      "end": 17.2,
+      "text": " Or even ask you, in data warehousing,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 17.2,
+      "end": 19.0,
+      "text": " Which models are used?"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 19.0,
+      "end": 21.0,
+      "text": " So there we have a star schema."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 21.0,
+      "end": 22.0,
+      "text": " Which schema is there?"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 22.0,
+      "end": 24.400000000000002,
+      "text": " Star and the other is snowflake."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 24.400000000000002,
+      "end": 26.2,
+      "text": " Why is the star named?"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 26.2,
+      "end": 27.8,
+      "text": " Because its shape is like a star."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 27.8,
+      "end": 29.400000000000002,
+      "text": " And what happens here?"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 29.4,
+      "end": 31.2,
+      "text": " There are two types of tables."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 31.2,
+      "end": 33.8,
+      "text": " One is the factor table and the other is the dimension table."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 33.8,
+      "end": 35.199999999999996,
+      "text": " I am telling you the same thing."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 35.199999999999996,
+      "end": 38.0,
+      "text": " Star schema is a type of data modeling technique"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 38.0,
+      "end": 42.2,
+      "text": " Used in the data warehouse to represent data in the structured way."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 42.2,
+      "end": 44.2,
+      "text": " Like a simple example,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 44.2,
+      "end": 45.8,
+      "text": " I will show you a simple analogy."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 45.8,
+      "end": 48.8,
+      "text": " In DBMS, how do we store data?"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 48.8,
+      "end": 51.599999999999994,
+      "text": " We store in the form of tables, in the form of relations."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 51.599999999999994,
+      "end": 53.4,
+      "text": " So what is it? It is a model."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 53.4,
+      "end": 55.599999999999994,
+      "text": " It is a way to store it in a structured way."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 55.599999999999994,
+      "end": 57.2,
+      "text": " Similarly, what is inside it?"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 57.2,
+      "end": 58.2,
+      "text": " Star and snowflake."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 58.2,
+      "end": 59.400000000000006,
+      "text": " This is a simple point."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 59.400000000000006,
+      "end": 64.60000000000001,
+      "text": " Then, the factor table in the star schema contains the measures and the matrix."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 64.60000000000001,
+      "end": 65.8,
+      "text": " So what happens inside it?"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 65.8,
+      "end": 67.8,
+      "text": " In the middle, what happens?"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 67.8,
+      "end": 69.4,
+      "text": " Factor table is there."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 69.4,
+      "end": 72.8,
+      "text": " And it is surrounded by the dimension table."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 72.8,
+      "end": 74.6,
+      "text": " Multiple dimension table."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 74.6,
+      "end": 77.2,
+      "text": " Now, this factor table of yours,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 77.2,
+      "end": 81.80000000000001,
+      "text": " In fact table, all the data is in the form of matrix."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 81.80000000000001,
+      "end": 83.2,
+      "text": " In the form of numbers."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 83.2,
+      "end": 84.4,
+      "text": " Like how much sale was there?"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 84.4,
+      "end": 86.0,
+      "text": " How much total sale was there?"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 86.0,
+      "end": 87.80000000000001,
+      "text": " If I have to calculate product wise,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 87.8,
+      "end": 89.8,
+      "text": " then the detail of the product is here."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 89.8,
+      "end": 91.2,
+      "text": " If I have to calculate location wise,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 91.2,
+      "end": 93.2,
+      "text": " then location is in the dimension."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 93.2,
+      "end": 94.6,
+      "text": " If I have to calculate customer wise,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 94.6,
+      "end": 97.2,
+      "text": " then the detail of the customer is in the dimension."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 97.2,
+      "end": 98.6,
+      "text": " But how much has happened?"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 98.6,
+      "end": 100.0,
+      "text": " What is its number?"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 100.0,
+      "end": 101.39999999999999,
+      "text": " How much profit has been lost?"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 101.39999999999999,
+      "end": 104.8,
+      "text": " All those things we calculate from the number of factor table."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 104.8,
+      "end": 106.6,
+      "text": " So this is the only important point."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 106.6,
+      "end": 112.2,
+      "text": " And the dimension table in the star schema contains the descriptive attribute of the measure."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 112.2,
+      "end": 116.4,
+      "text": " Means, which is the descriptive related to that measure, that number?"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 116.4,
+      "end": 119.4,
+      "text": " Like, if I tell you that marks are 90."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 119.4,
+      "end": 123.0,
+      "text": " Maths has 90 marks, English has 50 marks."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 123.0,
+      "end": 125.2,
+      "text": " Brother, whose are you talking about?"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 125.2,
+      "end": 126.0,
+      "text": " Varun's."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 126.0,
+      "end": 128.8,
+      "text": " Means, the detail of Varun, the student,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 128.8,
+      "end": 132.8,
+      "text": " is read, his name, his father's name, mother's name,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 132.8,
+      "end": 135.20000000000002,
+      "text": " all those things are read in the dimension table."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 135.20000000000002,
+      "end": 136.4,
+      "text": " But how many numbers are there?"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 136.4,
+      "end": 138.6,
+      "text": " 90, 50, 60."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 138.6,
+      "end": 140.6,
+      "text": " Where is that number read in the fact table?"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 140.6,
+      "end": 143.4,
+      "text": " Similarly, all the sales are read here."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 143.4,
+      "end": 145.8,
+      "text": " But whose sale is corresponding?"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 145.8,
+      "end": 147.20000000000002,
+      "text": " Where do we keep that?"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 147.20000000000002,
+      "end": 148.4,
+      "text": " We keep it in the dimension."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 148.4,
+      "end": 150.8,
+      "text": " See the example in front of you."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 150.8,
+      "end": 154.20000000000002,
+      "text": " I have the sales data of a particular company."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 154.20000000000002,
+      "end": 157.8,
+      "text": " Like, the company has multiple, all over the world,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 157.8,
+      "end": 159.4,
+      "text": " there are stores in multiple places."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 159.4,
+      "end": 162.8,
+      "text": " So sales ID is done, product ID is done, customer ID."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 162.8,
+      "end": 163.8,
+      "text": " What is this in a way?"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 163.8,
+      "end": 166.60000000000002,
+      "text": " This is your key that is taking reference from here."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 166.60000000000002,
+      "end": 169.4,
+      "text": " Multiple keys are there that are taking reference from here."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 169.4,
+      "end": 170.8,
+      "text": " Like this is customer ID."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 170.8,
+      "end": 172.4,
+      "text": " From where is this customer ID taking?"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 172.4,
+      "end": 174.60000000000002,
+      "text": " This is your primary key in a way."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 174.6,
+      "end": 177.6,
+      "text": " And this you can say is foreign key that is taking reference from here."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 177.6,
+      "end": 179.2,
+      "text": " Similarly, transaction ID."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 179.2,
+      "end": 182.2,
+      "text": " Transaction ID will be your key here in a way."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 182.2,
+      "end": 185.2,
+      "text": " And here transaction ID will be taking reference from here."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 185.2,
+      "end": 186.4,
+      "text": " Because it is connecting."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 186.4,
+      "end": 188.79999999999998,
+      "text": " And the main thing here is sales amount."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 188.79999999999998,
+      "end": 192.4,
+      "text": " Value is telling how much total sale has been done."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 192.4,
+      "end": 195.79999999999998,
+      "text": " So if I get a query like this,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 195.79999999999998,
+      "end": 198.79999999999998,
+      "text": " that of this particular product,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 198.79999999999998,
+      "end": 202.2,
+      "text": " whose name is this, whose product ID is this,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 202.2,
+      "end": 204.2,
+      "text": " tell me how much total sale has been done."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 204.2,
+      "end": 205.2,
+      "text": " So what you will do is,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 205.2,
+      "end": 207.2,
+      "text": " first you will use product dimension,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 207.2,
+      "end": 208.2,
+      "text": " second is sales."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 208.2,
+      "end": 210.6,
+      "text": " You have to do sales because here is a number."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 210.6,
+      "end": 212.6,
+      "text": " But if I ask this,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 212.6,
+      "end": 215.6,
+      "text": " like I am a company manager and I have to find out this,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 215.6,
+      "end": 218.6,
+      "text": " tell me this, like I am dealing in electronic items."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 218.6,
+      "end": 219.6,
+      "text": " So tell me this,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 219.6,
+      "end": 222.6,
+      "text": " that of this particular smartphone of Oppo,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 222.6,
+      "end": 224.6,
+      "text": " whose product ID is this,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 224.6,
+      "end": 226.0,
+      "text": " how much total sale has been done."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 226.0,
+      "end": 227.0,
+      "text": " So what you will do is,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 227.0,
+      "end": 228.6,
+      "text": " product ID, product name,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 228.6,
+      "end": 231.6,
+      "text": " Oppo smartphone, whatever category, brand,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 231.6,
+      "end": 232.79999999999998,
+      "text": " you have made a table like this."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 232.8,
+      "end": 234.8,
+      "text": " And from there you will go inside,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 234.8,
+      "end": 238.20000000000002,
+      "text": " and in fact table you will see how much total sale has been done."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 238.20000000000002,
+      "end": 241.20000000000002,
+      "text": " So this way we calculate it."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 241.20000000000002,
+      "end": 243.20000000000002,
+      "text": " Similarly, if I have to calculate this,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 243.20000000000002,
+      "end": 246.20000000000002,
+      "text": " that in my company, many employees are working,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 246.20000000000002,
+      "end": 247.20000000000002,
+      "text": " they work in different regions."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 247.20000000000002,
+      "end": 248.20000000000002,
+      "text": " Tell me this,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 248.20000000000002,
+      "end": 250.20000000000002,
+      "text": " this particular employee,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 250.20000000000002,
+      "end": 252.20000000000002,
+      "text": " like I want to calculate,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 252.20000000000002,
+      "end": 256.2,
+      "text": " at the end of the month or at the end of the year,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 256.2,
+      "end": 258.2,
+      "text": " I have to calculate this,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 258.2,
+      "end": 261.2,
+      "text": " that how much bonus I have to give to this particular employee."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 261.59999999999997,
+      "end": 262.59999999999997,
+      "text": " So this bonus,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 262.59999999999997,
+      "end": 264.59999999999997,
+      "text": " which is given separately from the salary,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 264.59999999999997,
+      "end": 265.59999999999997,
+      "text": " it depends on whom,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 265.59999999999997,
+      "end": 266.59999999999997,
+      "text": " generally on the sale,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 266.59999999999997,
+      "end": 268.59999999999997,
+      "text": " that how much sale has been done by which person."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 268.59999999999997,
+      "end": 269.59999999999997,
+      "text": " So I want to calculate this,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 269.59999999999997,
+      "end": 271.59999999999997,
+      "text": " that a particular employee,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 271.59999999999997,
+      "end": 272.59999999999997,
+      "text": " whose ID was this,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 272.59999999999997,
+      "end": 274.59999999999997,
+      "text": " the name of the employee was this,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 274.59999999999997,
+      "end": 276.59999999999997,
+      "text": " how much total sale has been done by him."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 276.59999999999997,
+      "end": 277.59999999999997,
+      "text": " So whom I will use,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 277.59999999999997,
+      "end": 278.59999999999997,
+      "text": " of the employee table."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 278.59999999999997,
+      "end": 279.59999999999997,
+      "text": " This is the employee,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 279.59999999999997,
+      "end": 280.59999999999997,
+      "text": " whose name is this,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 280.59999999999997,
+      "end": 281.59999999999997,
+      "text": " mobile number is this,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 281.59999999999997,
+      "end": 282.59999999999997,
+      "text": " department used to work in this,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 282.59999999999997,
+      "end": 284.59999999999997,
+      "text": " and he made this sale."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 284.59999999999997,
+      "end": 285.59999999999997,
+      "text": " So I will use both of them."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 285.59999999999997,
+      "end": 288.59999999999997,
+      "text": " This is how we use the star schema."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 288.59999999999997,
+      "end": 290.59999999999997,
+      "text": " And what is here?"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 291.0,
+      "end": 292.0,
+      "text": " Although these are very good things,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 292.0,
+      "end": 294.0,
+      "text": " but what did we do in Snowflake?"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 294.0,
+      "end": 296.0,
+      "text": " We made it a little more normalized."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 296.0,
+      "end": 298.0,
+      "text": " This is a little redundant."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 298.0,
+      "end": 300.0,
+      "text": " Many things are being copied in this."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 300.0,
+      "end": 302.0,
+      "text": " Many things are repeated."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 302.0,
+      "end": 306.0,
+      "text": " But we make it a little more denormalized."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 306.0,
+      "end": 307.0,
+      "text": " We make it more normalized,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 307.0,
+      "end": 309.0,
+      "text": " in Snowflake."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 309.0,
+      "end": 310.0,
+      "text": " This is the main reason,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 310.0,
+      "end": 312.0,
+      "text": " why Snowflake is used."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 312.0,
+      "end": 314.0,
+      "text": " Like as an example,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 314.0,
+      "end": 315.0,
+      "text": " we have here,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 315.0,
+      "end": 317.0,
+      "text": " your star schema as it is."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 317.0,
+      "end": 318.0,
+      "text": " Now in the star,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 318.0,
+      "end": 319.0,
+      "text": " we thought that,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 319.4,
+      "end": 320.4,
+      "text": " in customer,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 320.4,
+      "end": 321.4,
+      "text": " customer ID, name, location."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 321.4,
+      "end": 323.4,
+      "text": " But in location also,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 323.4,
+      "end": 324.4,
+      "text": " the location,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 324.4,
+      "end": 325.4,
+      "text": " the city, state,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 325.4,
+      "end": 327.4,
+      "text": " is being repeated here."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 327.4,
+      "end": 328.4,
+      "text": " So what I am doing is,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 328.4,
+      "end": 330.4,
+      "text": " that separate the city and state."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 330.4,
+      "end": 332.4,
+      "text": " A little repetition will be less."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 332.4,
+      "end": 334.4,
+      "text": " Like we do in first normal form,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 334.4,
+      "end": 335.4,
+      "text": " second normal form."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 335.4,
+      "end": 337.4,
+      "text": " We make it a little more normalized."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 337.4,
+      "end": 338.4,
+      "text": " Dimension,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 338.4,
+      "end": 340.4,
+      "text": " your fact table will remain as it is."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 340.4,
+      "end": 341.4,
+      "text": " Only the dimension,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 341.4,
+      "end": 343.4,
+      "text": " we make it more normalized."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 343.4,
+      "end": 344.4,
+      "text": " So what is this?"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 344.4,
+      "end": 345.4,
+      "text": " You can say that,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 345.4,
+      "end": 346.4,
+      "text": " in star,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 346.4,
+      "end": 348.4,
+      "text": " the column level redundancy is more."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 348.79999999999995,
+      "end": 349.79999999999995,
+      "text": " But here,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 349.79999999999995,
+      "end": 351.79999999999995,
+      "text": " redundancy is reduced."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 351.79999999999995,
+      "end": 352.79999999999995,
+      "text": " Secondly,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 352.79999999999995,
+      "end": 353.79999999999995,
+      "text": " if I talk about queries,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 353.79999999999995,
+      "end": 354.79999999999995,
+      "text": " obviously,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 354.79999999999995,
+      "end": 356.79999999999995,
+      "text": " it was easy to implement queries here."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 356.79999999999995,
+      "end": 357.79999999999995,
+      "text": " It was fast."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 357.79999999999995,
+      "end": 358.79999999999995,
+      "text": " Now here,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 358.79999999999995,
+      "end": 359.79999999999995,
+      "text": " queries increased a little."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 359.79999999999995,
+      "end": 360.79999999999995,
+      "text": " In fact,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 360.79999999999995,
+      "end": 361.79999999999995,
+      "text": " in star,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 361.79999999999995,
+      "end": 362.79999999999995,
+      "text": " it was a simple structure,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 362.79999999999995,
+      "end": 363.79999999999995,
+      "text": " we easily queried."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 363.79999999999995,
+      "end": 364.79999999999995,
+      "text": " But here,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 364.79999999999995,
+      "end": 366.79999999999995,
+      "text": " as soon as you complex the structure,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 366.79999999999995,
+      "end": 368.79999999999995,
+      "text": " queries will automatically,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 368.79999999999995,
+      "end": 369.79999999999995,
+      "text": " become complex."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 369.79999999999995,
+      "end": 371.79999999999995,
+      "text": " It will take a little more time."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 371.79999999999995,
+      "end": 373.79999999999995,
+      "text": " But if you want to remove redundancy,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 373.79999999999995,
+      "end": 375.79999999999995,
+      "text": " then you have to normalize."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 375.79999999999995,
+      "end": 377.79999999999995,
+      "text": " So this is the normalized version of the,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 378.2,
+      "end": 379.2,
+      "text": " star schema."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 379.2,
+      "end": 380.2,
+      "text": " For example,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 380.2,
+      "end": 381.2,
+      "text": " a table,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 381.2,
+      "end": 382.2,
+      "text": " which I have taken here,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 382.2,
+      "end": 383.2,
+      "text": " customer,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 383.2,
+      "end": 384.2,
+      "text": " see this,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 384.2,
+      "end": 385.2,
+      "text": " this one,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 385.2,
+      "end": 386.2,
+      "text": " which I have taken here,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 386.2,
+      "end": 387.2,
+      "text": " customer dimension,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 387.2,
+      "end": 388.2,
+      "text": " what we did before this,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 388.2,
+      "end": 389.2,
+      "text": " before this,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 389.2,
+      "end": 390.2,
+      "text": " in customer,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 390.2,
+      "end": 391.2,
+      "text": " customer ID,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 391.2,
+      "end": 392.2,
+      "text": " name,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 392.2,
+      "end": 393.2,
+      "text": " location,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 393.2,
+      "end": 394.2,
+      "text": " city,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 394.2,
+      "end": 395.2,
+      "text": " everything was in one,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 395.2,
+      "end": 396.2,
+      "text": " in star."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 396.2,
+      "end": 397.2,
+      "text": " So what we did,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 397.2,
+      "end": 398.2,
+      "text": " let's say,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 398.2,
+      "end": 399.2,
+      "text": " this is our structure."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 399.2,
+      "end": 400.2,
+      "text": " If I see the data,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 400.2,
+      "end": 401.2,
+      "text": " then there will be some data like this,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 401.2,
+      "end": 402.2,
+      "text": " that customer ID is this,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 402.2,
+      "end": 403.2,
+      "text": " customer name is this,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 403.2,
+      "end": 404.2,
+      "text": " location ID is this,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 404.2,
+      "end": 405.2,
+      "text": " city is this,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 405.2,
+      "end": 406.2,
+      "text": " state is this."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 406.2,
+      "end": 407.2,
+      "text": " So I will know,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 407.59999999999997,
+      "end": 408.59999999999997,
+      "text": " in which particular area,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 408.59999999999997,
+      "end": 409.59999999999997,
+      "text": " the customer is more,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 409.59999999999997,
+      "end": 410.59999999999997,
+      "text": " in which particular area,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 410.59999999999997,
+      "end": 411.59999999999997,
+      "text": " the customers are less,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 411.59999999999997,
+      "end": 413.59999999999997,
+      "text": " so this is the customer dimension."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 413.59999999999997,
+      "end": 414.59999999999997,
+      "text": " Now what is happening here,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 414.59999999999997,
+      "end": 415.59999999999997,
+      "text": " see,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 415.59999999999997,
+      "end": 416.59999999999997,
+      "text": " my customer ID is obviously here,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 416.59999999999997,
+      "end": 417.59999999999997,
+      "text": " why not?"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 417.59999999999997,
+      "end": 418.59999999999997,
+      "text": " Customer name is also,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 418.59999999999997,
+      "end": 419.59999999999997,
+      "text": " obviously,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 419.59999999999997,
+      "end": 420.59999999999997,
+      "text": " I can't do anything,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 420.59999999999997,
+      "end": 421.59999999999997,
+      "text": " customer name is also different."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 421.59999999999997,
+      "end": 422.59999999999997,
+      "text": " Location is,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 422.59999999999997,
+      "end": 423.59999999999997,
+      "text": " in a way,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 423.59999999999997,
+      "end": 424.59999999999997,
+      "text": " your location,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 424.59999999999997,
+      "end": 425.59999999999997,
+      "text": " means,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 425.59999999999997,
+      "end": 426.59999999999997,
+      "text": " in a way,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 426.59999999999997,
+      "end": 427.59999999999997,
+      "text": " what is this location ID,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 427.59999999999997,
+      "end": 428.59999999999997,
+      "text": " with this,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 428.59999999999997,
+      "end": 429.59999999999997,
+      "text": " we can determine it."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 429.59999999999997,
+      "end": 430.59999999999997,
+      "text": " This is,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 430.59999999999997,
+      "end": 431.59999999999997,
+      "text": " in a way,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 431.59999999999997,
+      "end": 432.59999999999997,
+      "text": " you can say key for them."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 432.59999999999997,
+      "end": 433.59999999999997,
+      "text": " What is this,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 433.59999999999997,
+      "end": 434.59999999999997,
+      "text": " in a way,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 434.59999999999997,
+      "end": 435.59999999999997,
+      "text": " it is being repeated,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 435.59999999999997,
+      "end": 436.59999999999997,
+      "text": " so it is not a key,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 437.0,
+      "end": 438.0,
+      "text": " but in a way,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 438.0,
+      "end": 439.0,
+      "text": " you can say,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 439.0,
+      "end": 440.0,
+      "text": " that this dependency,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 440.0,
+      "end": 441.0,
+      "text": " functional dependency,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 441.0,
+      "end": 442.0,
+      "text": " that this,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 442.0,
+      "end": 443.0,
+      "text": " is helping you,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 443.0,
+      "end": 444.0,
+      "text": " in determining this."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 444.0,
+      "end": 445.0,
+      "text": " You can say this,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 445.0,
+      "end": 446.0,
+      "text": " like we do,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 446.0,
+      "end": 447.0,
+      "text": " X goes to Y,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 447.0,
+      "end": 448.0,
+      "text": " what did we do in functional"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 448.0,
+      "end": 449.0,
+      "text": " determinancy,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 449.0,
+      "end": 450.0,
+      "text": " functional,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 450.0,
+      "end": 451.0,
+      "text": " your,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 451.0,
+      "end": 452.0,
+      "text": " in dependency,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 452.0,
+      "end": 453.0,
+      "text": " what do we say,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 453.0,
+      "end": 454.0,
+      "text": " X determines Y,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 454.0,
+      "end": 455.0,
+      "text": " or Y can be determined"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 455.0,
+      "end": 456.0,
+      "text": " by X,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 456.0,
+      "end": 457.0,
+      "text": " so X helped in"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 457.0,
+      "end": 458.0,
+      "text": " determining Y,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 458.0,
+      "end": 459.0,
+      "text": " so this location ID"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 459.0,
+      "end": 460.0,
+      "text": " is helping in"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 460.0,
+      "end": 461.0,
+      "text": " determining city"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 461.0,
+      "end": 462.0,
+      "text": " and state."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 462.0,
+      "end": 463.0,
+      "text": " But now see,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 463.0,
+      "end": 464.0,
+      "text": " city,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 464.0,
+      "end": 465.0,
+      "text": " Japan,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 465.0,
+      "end": 466.0,
+      "text": " or,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 466.0,
+      "end": 467.0,
+      "text": " city,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 467.0,
+      "end": 468.0,
+      "text": " Jaipur,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 468.0,
+      "end": 469.0,
+      "text": " Jaipur,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 469.0,
+      "end": 470.0,
+      "text": " Jaipur is being repeated,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 470.0,
+      "end": 471.0,
+      "text": " now Jaipur will be"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 471.0,
+      "end": 472.0,
+      "text": " repeated in the same place,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 472.0,
+      "end": 473.0,
+      "text": " state will be repeated"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 473.0,
+      "end": 474.0,
+      "text": " in the same place,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 474.0,
+      "end": 475.0,
+      "text": " so what I will do,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 475.0,
+      "end": 476.0,
+      "text": " is to normalize this,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 476.0,
+      "end": 477.0,
+      "text": " separate them,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 477.0,
+      "end": 478.0,
+      "text": " Jaipur is one,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 478.0,
+      "end": 479.0,
+      "text": " and Rajasthan is also one,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 479.0,
+      "end": 480.0,
+      "text": " so let's separate them,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 480.0,
+      "end": 481.0,
+      "text": " how do we normalize this,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 481.0,
+      "end": 482.0,
+      "text": " the same,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 482.0,
+      "end": 483.0,
+      "text": " that we did in"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 483.0,
+      "end": 484.0,
+      "text": " DBMS,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 484.0,
+      "end": 485.0,
+      "text": " break the table,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 485.0,
+      "end": 486.0,
+      "text": " so what we will do,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 486.0,
+      "end": 487.0,
+      "text": " we will divide this"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 487.0,
+      "end": 488.0,
+      "text": " into two parts,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 488.0,
+      "end": 489.0,
+      "text": " here is an example,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 489.0,
+      "end": 490.0,
+      "text": " what did we do"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 490.0,
+      "end": 491.0,
+      "text": " with this table,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 491.0,
+      "end": 492.0,
+      "text": " we divided it"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 492.0,
+      "end": 493.0,
+      "text": " into two parts,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 493.0,
+      "end": 494.0,
+      "text": " customer name,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 494.0,
+      "end": 495.0,
+      "text": " ID and location,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 495.0,
+      "end": 496.0,
+      "text": " we kept the"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 496.0,
+      "end": 497.0,
+      "text": " location on one side,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 497.0,
+      "end": 498.0,
+      "text": " and on the other side,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 498.0,
+      "end": 499.0,
+      "text": " what did we do,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 499.0,
+      "end": 500.0,
+      "text": " location,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 500.0,
+      "end": 501.0,
+      "text": " ID,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 501.0,
+      "end": 502.0,
+      "text": " city and state,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 502.0,
+      "end": 503.0,
+      "text": " now see,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 503.0,
+      "end": 504.0,
+      "text": " this was being"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 504.0,
+      "end": 505.0,
+      "text": " repeated so many times,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 505.0,
+      "end": 506.0,
+      "text": " Jaipur,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 506.0,
+      "end": 507.0,
+      "text": " Jaipur,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 507.0,
+      "end": 508.0,
+      "text": " it came only once,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 508.0,
+      "end": 509.0,
+      "text": " Lucknow,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 509.0,
+      "end": 510.0,
+      "text": " Lucknow was being"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 510.0,
+      "end": 511.0,
+      "text": " repeated so many times,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 511.0,
+      "end": 512.0,
+      "text": " it came once,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 512.0,
+      "end": 513.0,
+      "text": " and their corresponding"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 513.0,
+      "end": 514.0,
+      "text": " state will also come once,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 514.0,
+      "end": 515.0,
+      "text": " so here the values"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 515.0,
+      "end": 516.0,
+      "text": " of some columns"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 516.0,
+      "end": 517.0,
+      "text": " were being repeated,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 517.0,
+      "end": 518.0,
+      "text": " they were reduced,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 518.0,
+      "end": 519.0,
+      "text": " this is what a"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 519.0,
+      "end": 520.0,
+      "text": " normalization,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 520.0,
+      "end": 521.0,
+      "text": " so one step,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 521.0,
+      "end": 522.0,
+      "text": " further normalization,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 522.0,
+      "end": 523.0,
+      "text": " that is a snowflake,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 523.0,
+      "end": 524.0,
+      "text": " so if you are asked,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 524.0,
+      "end": 525.0,
+      "text": " to normalize the"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 525.0,
+      "end": 526.0,
+      "text": " dimension,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 526.0,
+      "end": 527.0,
+      "text": " not fact,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 527.0,
+      "end": 528.0,
+      "text": " just normalize the"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 528.0,
+      "end": 529.0,
+      "text": " dimension further,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 529.0,
+      "end": 530.0,
+      "text": " it becomes a snowflake,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 530.0,
+      "end": 531.0,
+      "text": " in which queries will"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 531.0,
+      "end": 532.0,
+      "text": " be easy to execute,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 532.0,
+      "end": 533.0,
+      "text": " in star,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 533.0,
+      "end": 534.0,
+      "text": " because obviously"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 534.0,
+      "end": 535.0,
+      "text": " it is a little easy,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 535.0,
+      "end": 536.0,
+      "text": " but in that we have"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 536.0,
+      "end": 537.0,
+      "text": " leveled it a little further,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 537.0,
+      "end": 538.0,
+      "text": " so obviously"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 538.0,
+      "end": 539.0,
+      "text": " we will have to join"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 539.0,
+      "end": 540.0,
+      "text": " and somewhere"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 540.0,
+      "end": 541.0,
+      "text": " it will become"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 541.0,
+      "end": 542.0,
+      "text": " a little complex,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 542.0,
+      "end": 543.0,
+      "text": " but redundancy"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 543.0,
+      "end": 544.0,
+      "text": " will obviously"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 544.0,
+      "end": 545.0,
+      "text": " reduce in this,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 545.0,
+      "end": 546.0,
+      "text": " redundancy is more"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 546.0,
+      "end": 547.0,
+      "text": " in star,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 547.0,
+      "end": 548.0,
+      "text": " these are the main"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 548.0,
+      "end": 549.0,
+      "text": " points which you"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 549.0,
+      "end": 550.0,
+      "text": " have to note,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 550.0,
+      "end": 551.0,
+      "text": " apart from this,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 551.0,
+      "end": 552.0,
+      "text": " there is nothing else,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 552.0,
+      "end": 553.0,
+      "text": " thank you."
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 554.0,
+      "end": 555.0,
+      "text": " For more information,"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 555.0,
+      "end": 556.0,
+      "text": " visit www.OSHO.com"
+    },
+    {
+      "number": "14",
+      "title": "Star vs Snowflake Schema _ Data Warehouse",
+      "start": 556.0,
+      "end": 557.0,
+      "text": " Copyright OSHO is a registered Trademark of OSHO International Foundation"
+    }
+  ],
+  "text": " Hey students, welcome to the class. In today's class, I am going to explain What is star schema and what is snowflake schema? In the last video, I told you that in OLAP, In OLAP, which models do we use? Or even ask you, in data warehousing, Which models are used? So there we have a star schema. Which schema is there? Star and the other is snowflake. Why is the star named? Because its shape is like a star. And what happens here? There are two types of tables. One is the factor table and the other is the dimension table. I am telling you the same thing. Star schema is a type of data modeling technique Used in the data warehouse to represent data in the structured way. Like a simple example, I will show you a simple analogy. In DBMS, how do we store data? We store in the form of tables, in the form of relations. So what is it? It is a model. It is a way to store it in a structured way. Similarly, what is inside it? Star and snowflake. This is a simple point. Then, the factor table in the star schema contains the measures and the matrix. So what happens inside it? In the middle, what happens? Factor table is there. And it is surrounded by the dimension table. Multiple dimension table. Now, this factor table of yours, In fact table, all the data is in the form of matrix. In the form of numbers. Like how much sale was there? How much total sale was there? If I have to calculate product wise, then the detail of the product is here. If I have to calculate location wise, then location is in the dimension. If I have to calculate customer wise, then the detail of the customer is in the dimension. But how much has happened? What is its number? How much profit has been lost? All those things we calculate from the number of factor table. So this is the only important point. And the dimension table in the star schema contains the descriptive attribute of the measure. Means, which is the descriptive related to that measure, that number? Like, if I tell you that marks are 90. Maths has 90 marks, English has 50 marks. Brother, whose are you talking about? Varun's. Means, the detail of Varun, the student, is read, his name, his father's name, mother's name, all those things are read in the dimension table. But how many numbers are there? 90, 50, 60. Where is that number read in the fact table? Similarly, all the sales are read here. But whose sale is corresponding? Where do we keep that? We keep it in the dimension. See the example in front of you. I have the sales data of a particular company. Like, the company has multiple, all over the world, there are stores in multiple places. So sales ID is done, product ID is done, customer ID. What is this in a way? This is your key that is taking reference from here. Multiple keys are there that are taking reference from here. Like this is customer ID. From where is this customer ID taking? This is your primary key in a way. And this you can say is foreign key that is taking reference from here. Similarly, transaction ID. Transaction ID will be your key here in a way. And here transaction ID will be taking reference from here. Because it is connecting. And the main thing here is sales amount. Value is telling how much total sale has been done. So if I get a query like this, that of this particular product, whose name is this, whose product ID is this, tell me how much total sale has been done. So what you will do is, first you will use product dimension, second is sales. You have to do sales because here is a number. But if I ask this, like I am a company manager and I have to find out this, tell me this, like I am dealing in electronic items. So tell me this, that of this particular smartphone of Oppo, whose product ID is this, how much total sale has been done. So what you will do is, product ID, product name, Oppo smartphone, whatever category, brand, you have made a table like this. And from there you will go inside, and in fact table you will see how much total sale has been done. So this way we calculate it. Similarly, if I have to calculate this, that in my company, many employees are working, they work in different regions. Tell me this, this particular employee, like I want to calculate, at the end of the month or at the end of the year, I have to calculate this, that how much bonus I have to give to this particular employee. So this bonus, which is given separately from the salary, it depends on whom, generally on the sale, that how much sale has been done by which person. So I want to calculate this, that a particular employee, whose ID was this, the name of the employee was this, how much total sale has been done by him. So whom I will use, of the employee table. This is the employee, whose name is this, mobile number is this, department used to work in this, and he made this sale. So I will use both of them. This is how we use the star schema. And what is here? Although these are very good things, but what did we do in Snowflake? We made it a little more normalized. This is a little redundant. Many things are being copied in this. Many things are repeated. But we make it a little more denormalized. We make it more normalized, in Snowflake. This is the main reason, why Snowflake is used. Like as an example, we have here, your star schema as it is. Now in the star, we thought that, in customer, customer ID, name, location. But in location also, the location, the city, state, is being repeated here. So what I am doing is, that separate the city and state. A little repetition will be less. Like we do in first normal form, second normal form. We make it a little more normalized. Dimension, your fact table will remain as it is. Only the dimension, we make it more normalized. So what is this? You can say that, in star, the column level redundancy is more. But here, redundancy is reduced. Secondly, if I talk about queries, obviously, it was easy to implement queries here. It was fast. Now here, queries increased a little. In fact, in star, it was a simple structure, we easily queried. But here, as soon as you complex the structure, queries will automatically, become complex. It will take a little more time. But if you want to remove redundancy, then you have to normalize. So this is the normalized version of the, star schema. For example, a table, which I have taken here, customer, see this, this one, which I have taken here, customer dimension, what we did before this, before this, in customer, customer ID, name, location, city, everything was in one, in star. So what we did, let's say, this is our structure. If I see the data, then there will be some data like this, that customer ID is this, customer name is this, location ID is this, city is this, state is this. So I will know, in which particular area, the customer is more, in which particular area, the customers are less, so this is the customer dimension. Now what is happening here, see, my customer ID is obviously here, why not? Customer name is also, obviously, I can't do anything, customer name is also different. Location is, in a way, your location, means, in a way, what is this location ID, with this, we can determine it. This is, in a way, you can say key for them. What is this, in a way, it is being repeated, so it is not a key, but in a way, you can say, that this dependency, functional dependency, that this, is helping you, in determining this. You can say this, like we do, X goes to Y, what did we do in functional determinancy, functional, your, in dependency, what do we say, X determines Y, or Y can be determined by X, so X helped in determining Y, so this location ID is helping in determining city and state. But now see, city, Japan, or, city, Jaipur, Jaipur, Jaipur is being repeated, now Jaipur will be repeated in the same place, state will be repeated in the same place, so what I will do, is to normalize this, separate them, Jaipur is one, and Rajasthan is also one, so let's separate them, how do we normalize this, the same, that we did in DBMS, break the table, so what we will do, we will divide this into two parts, here is an example, what did we do with this table, we divided it into two parts, customer name, ID and location, we kept the location on one side, and on the other side, what did we do, location, ID, city and state, now see, this was being repeated so many times, Jaipur, Jaipur, it came only once, Lucknow, Lucknow was being repeated so many times, it came once, and their corresponding state will also come once, so here the values of some columns were being repeated, they were reduced, this is what a normalization, so one step, further normalization, that is a snowflake, so if you are asked, to normalize the dimension, not fact, just normalize the dimension further, it becomes a snowflake, in which queries will be easy to execute, in star, because obviously it is a little easy, but in that we have leveled it a little further, so obviously we will have to join and somewhere it will become a little complex, but redundancy will obviously reduce in this, redundancy is more in star, these are the main points which you have to note, apart from this, there is nothing else, thank you. For more information, visit www.OSHO.com Copyright OSHO is a registered Trademark of OSHO International Foundation"
+}

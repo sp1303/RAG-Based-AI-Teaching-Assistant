@@ -1,0 +1,1517 @@
+{
+  "chunks": [
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 0.0,
+      "end": 6.2,
+      "text": " Intro"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 6.2,
+      "end": 8.0,
+      "text": " Dear students, welcome to GATEs Measures"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 8.0,
+      "end": 12.3,
+      "text": " In today's video, I am going to explain the most important topic of data warehouse"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 12.3,
+      "end": 14.700000000000001,
+      "text": " That is OLAP operations"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 14.700000000000001,
+      "end": 18.1,
+      "text": " Whenever we talk about online analytical processing"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 18.1,
+      "end": 20.8,
+      "text": " Where I have to do analysis in data"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 20.8,
+      "end": 24.0,
+      "text": " What major operations we do there"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 24.0,
+      "end": 25.6,
+      "text": " It is a very easy topic"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 25.6,
+      "end": 30.700000000000003,
+      "text": " But there is no exam where you have to do data warehouse exam"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 30.700000000000003,
+      "end": 33.2,
+      "text": " And you don't have to ask about OLAP operations"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 33.2,
+      "end": 36.2,
+      "text": " And it is very easy, I will explain you with real life example"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 36.2,
+      "end": 38.6,
+      "text": " So first of all, look at the scenario, what do we have"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 38.6,
+      "end": 42.5,
+      "text": " We have multiple dimensional data, call it multi-dimensional data"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 42.5,
+      "end": 45.7,
+      "text": " Means multiple dimension, like we have one of the products"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 45.7,
+      "end": 48.400000000000006,
+      "text": " You take an example of a company"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 48.400000000000006,
+      "end": 52.3,
+      "text": " Like you take an example of a company like Reliance Fresh, Big Bazaar"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 52.3,
+      "end": 56.099999999999994,
+      "text": " They have multiple outlets, may be India has multiple outlets"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 56.099999999999994,
+      "end": 59.5,
+      "text": " Or internationally also there are multiple outlets"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 59.5,
+      "end": 64.5,
+      "text": " Now here they are selling many products like laptops, mobiles, tablets, like this"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 64.5,
+      "end": 68.1,
+      "text": " Region wise, in which region I am getting sale"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 68.1,
+      "end": 71.9,
+      "text": " How much sale is there in quarter 1, quarter 2, quarter 3 and quarter 4"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 71.9,
+      "end": 76.5,
+      "text": " Like this I have some data, sales data of a particular company"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 76.5,
+      "end": 80.3,
+      "text": " Now what happens is when we have huge amount of data like this"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 80.3,
+      "end": 84.89999999999999,
+      "text": " So what we do is we try to represent it in multi-dimensional way"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 84.89999999999999,
+      "end": 86.89999999999999,
+      "text": " The most important use in data warehouse is"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 86.89999999999999,
+      "end": 90.3,
+      "text": " That use cube architecture, it is 3 dimensional data"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 90.3,
+      "end": 94.89999999999999,
+      "text": " So on one side you have laptop, mobile, tablet or if you have any other device"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 94.89999999999999,
+      "end": 99.5,
+      "text": " Then you write it here, one you have in axis, Q1, Q2, Q3, Q4"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 99.5,
+      "end": 103.1,
+      "text": " Which are your quarters and on one side you have regions"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 103.1,
+      "end": 106.1,
+      "text": " So 3 dimensional, x axis, y axis and z axis"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 106.1,
+      "end": 108.5,
+      "text": " So your data will be represented like this"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 108.5,
+      "end": 110.1,
+      "text": " This is a very simple architecture"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 110.1,
+      "end": 113.1,
+      "text": " Now here I have taken this example of 3 dimension"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 113.1,
+      "end": 118.9,
+      "text": " Which I have taken to show you that on which example we are going to perform operations"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 118.9,
+      "end": 121.5,
+      "text": " Now what is our first operation?"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 121.5,
+      "end": 125.3,
+      "text": " Slice operation, it is a very simple operation"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 125.3,
+      "end": 128.1,
+      "text": " Actually why is this operation needed?"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 128.1,
+      "end": 133.1,
+      "text": " When from higher authority like managers or directors or founders of the company"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 133.1,
+      "end": 138.1,
+      "text": " If they have to check that how much sale of my particular device has happened"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 138.1,
+      "end": 140.5,
+      "text": " Like how many laptops have been sold"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 140.5,
+      "end": 144.1,
+      "text": " Or how much sale has happened in a particular region"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 144.1,
+      "end": 147.7,
+      "text": " Or which employee has sold the most"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 147.7,
+      "end": 151.5,
+      "text": " Obviously this kind of data we have to analyze"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 151.5,
+      "end": 153.29999999999998,
+      "text": " We have to analyze in the company"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 153.29999999999998,
+      "end": 155.5,
+      "text": " So for that I have multiple operations"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 155.5,
+      "end": 157.29999999999998,
+      "text": " Now what is slice operation?"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 157.29999999999998,
+      "end": 162.29999999999998,
+      "text": " It says that I will divide the data on only one dimension"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 162.29999999999998,
+      "end": 165.29999999999998,
+      "text": " Means I will work on one dimension, single dimension"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 165.29999999999998,
+      "end": 167.7,
+      "text": " And on that basis I will divide the data"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 167.7,
+      "end": 169.7,
+      "text": " Like for example in my example"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 169.7,
+      "end": 173.1,
+      "text": " Manager told me to do like this"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 173.1,
+      "end": 176.7,
+      "text": " You do slice operation from this whole cube"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 176.7,
+      "end": 178.89999999999998,
+      "text": " That I have to hold only one dimension"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 178.89999999999998,
+      "end": 181.1,
+      "text": " Let's suppose I hold the laptop"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 181.1,
+      "end": 183.29999999999998,
+      "text": " Means the types of my device"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 183.29999999999998,
+      "end": 188.1,
+      "text": " Tell me how much sale of my total laptop has happened"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 188.1,
+      "end": 189.7,
+      "text": " Now obviously what will you take?"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 189.7,
+      "end": 191.7,
+      "text": " Slice, what is the meaning of slice?"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 191.7,
+      "end": 194.89999999999998,
+      "text": " In a way you will visualize it a little that you have a knife"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 194.9,
+      "end": 197.9,
+      "text": " And from that knife you have taken from here"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 197.9,
+      "end": 200.9,
+      "text": " You have cut this whole piece"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 200.9,
+      "end": 203.3,
+      "text": " You have cut this piece from the knife"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 203.3,
+      "end": 207.70000000000002,
+      "text": " This piece that is coming out is a kind of slice operation"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 207.70000000000002,
+      "end": 209.5,
+      "text": " Because the corresponding of the laptop"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 209.5,
+      "end": 213.3,
+      "text": " In which quarter, in which region how much sale has happened"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 213.3,
+      "end": 214.9,
+      "text": " This will only tell you"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 214.9,
+      "end": 217.9,
+      "text": " In the same way if I have to check the tablet"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 217.9,
+      "end": 221.3,
+      "text": " Or let's suppose I have to check how much sale has happened in quarter 1"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 221.3,
+      "end": 222.70000000000002,
+      "text": " So you will pick up quarter 1"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 222.70000000000002,
+      "end": 226.70000000000002,
+      "text": " You will perform a slice operation like this with a knife"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 226.70000000000002,
+      "end": 228.10000000000002,
+      "text": " So what will happen with Q1?"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 228.10000000000002,
+      "end": 229.9,
+      "text": " In which region of yours"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 229.9,
+      "end": 232.9,
+      "text": " How many devices have been sold in quarter 1"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 232.9,
+      "end": 233.9,
+      "text": " You should know this"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 233.9,
+      "end": 235.9,
+      "text": " Whenever such questions come"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 235.9,
+      "end": 237.3,
+      "text": " On one dimension"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 237.3,
+      "end": 240.10000000000002,
+      "text": " What you have to do is to do slice operation"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 240.70000000000002,
+      "end": 243.70000000000002,
+      "text": " Then came a little more advance of this that is dice"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 243.70000000000002,
+      "end": 245.10000000000002,
+      "text": " What does dice say?"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 245.10000000000002,
+      "end": 249.5,
+      "text": " That you have to hold more than two dimensions here"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 249.5,
+      "end": 253.9,
+      "text": " Means let's suppose you have to put multiple filters here"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 253.9,
+      "end": 256.5,
+      "text": " Means I have put one"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 256.5,
+      "end": 260.1,
+      "text": " Tell me that here my particular"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 260.1,
+      "end": 263.9,
+      "text": " Like I have removed the region of USA and Canada"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 263.9,
+      "end": 267.5,
+      "text": " Tell me that in the region of USA and Canada"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 267.5,
+      "end": 270.1,
+      "text": " Quarter 1, quarter 2 and laptop, mobile"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 270.1,
+      "end": 272.3,
+      "text": " If I have to remove data in this way"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 272.3,
+      "end": 274.7,
+      "text": " So what I will do for that is dice operation"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 274.7,
+      "end": 278.3,
+      "text": " There is only such a difference that multiple dimensions are being used here"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 278.3,
+      "end": 281.3,
+      "text": " And whenever we perform dice operation"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 281.3,
+      "end": 283.3,
+      "text": " Then all the cubes come out"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 283.3,
+      "end": 285.90000000000003,
+      "text": " Means a small portion of the cube will come out"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 285.90000000000003,
+      "end": 288.3,
+      "text": " In slice, only dimension will come in 2D"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 288.3,
+      "end": 292.3,
+      "text": " But here in dice, the output that will always come out is also in 3D"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 292.3,
+      "end": 294.3,
+      "text": " Look, you have a laptop mobile on this side"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 294.3,
+      "end": 296.3,
+      "text": " Quarter 1, quarter 2 is on this side"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 296.3,
+      "end": 297.90000000000003,
+      "text": " And you have two regions on this side"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 297.90000000000003,
+      "end": 298.90000000000003,
+      "text": " So what is this?"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 298.90000000000003,
+      "end": 300.1,
+      "text": " It is a 3D data"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 300.1,
+      "end": 302.7,
+      "text": " But a sub part of the cube will come out"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 302.7,
+      "end": 303.7,
+      "text": " This is the only difference"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 303.7,
+      "end": 306.1,
+      "text": " Rest, whatever operation you perform"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 306.1,
+      "end": 307.7,
+      "text": " All will be yours"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 307.7,
+      "end": 310.7,
+      "text": " Like in this I want to analyze only laptop and mobile"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 310.7,
+      "end": 311.7,
+      "text": " Tell me the sale"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 311.7,
+      "end": 314.7,
+      "text": " And in USA and Canada for quarter 1 and quarter 2"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 314.7,
+      "end": 315.7,
+      "text": " The sale has to be removed"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 315.7,
+      "end": 318.7,
+      "text": " So in this way I can perform dice operation"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 318.7,
+      "end": 320.7,
+      "text": " Then your roll up is very easy"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 320.7,
+      "end": 322.09999999999997,
+      "text": " What does roll up mean?"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 322.09999999999997,
+      "end": 323.09999999999997,
+      "text": " Going up"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 323.09999999999997,
+      "end": 326.09999999999997,
+      "text": " Like you have multi-dimensional data in this way"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 326.09999999999997,
+      "end": 328.09999999999997,
+      "text": " Like in the form of a tree, if I make data"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 328.09999999999997,
+      "end": 330.09999999999997,
+      "text": " So when we go up"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 330.09999999999997,
+      "end": 331.7,
+      "text": " It is called summarizing"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 331.7,
+      "end": 334.09999999999997,
+      "text": " Up, in a way we are aggregating"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 334.09999999999997,
+      "end": 335.7,
+      "text": " So that is called your roll up"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 335.7,
+      "end": 337.7,
+      "text": " Like as an example"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 337.7,
+      "end": 340.7,
+      "text": " I have written sale of quarter 1, quarter 2, quarter 3, quarter 4"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 340.7,
+      "end": 341.7,
+      "text": " What can I say?"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 341.7,
+      "end": 343.7,
+      "text": " Tell me the sale of the whole year"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 343.7,
+      "end": 344.7,
+      "text": " So what will you do?"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 344.7,
+      "end": 346.7,
+      "text": " You will add the sale of all four quarters"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 346.7,
+      "end": 347.7,
+      "text": " It will become the whole year"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 347.7,
+      "end": 350.7,
+      "text": " I say this is India, China"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 350.7,
+      "end": 351.7,
+      "text": " And this is USA, Canada"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 351.7,
+      "end": 354.7,
+      "text": " Tell me how much sale has been in Asia"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 354.7,
+      "end": 356.7,
+      "text": " And how much sale has been in North America"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 356.7,
+      "end": 357.7,
+      "text": " So you have rolled up"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 357.7,
+      "end": 358.7,
+      "text": " Means added"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 358.7,
+      "end": 361.7,
+      "text": " You made India, China, Asia"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 361.7,
+      "end": 362.7,
+      "text": " North America"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 362.7,
+      "end": 364.7,
+      "text": " And you have added both the data"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 364.7,
+      "end": 366.7,
+      "text": " So this is plus and both are plus"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 366.7,
+      "end": 368.7,
+      "text": " In this way, whenever we go up"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 368.7,
+      "end": 370.7,
+      "text": " Let's summarize"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 370.7,
+      "end": 372.7,
+      "text": " Moving up the hierarchy"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 372.7,
+      "end": 373.7,
+      "text": " That is your roll up"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 373.7,
+      "end": 375.7,
+      "text": " And its opposite"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 375.7,
+      "end": 376.7,
+      "text": " What did it become?"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 376.7,
+      "end": 377.7,
+      "text": " Roll down"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 377.7,
+      "end": 378.7,
+      "text": " Like this"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 378.7,
+      "end": 381.7,
+      "text": " You can also call it roll down or drill down"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 381.7,
+      "end": 382.7,
+      "text": " It is the same thing"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 382.7,
+      "end": 383.7,
+      "text": " This is your detail"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 383.7,
+      "end": 385.7,
+      "text": " This is coming down"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 385.7,
+      "end": 387.7,
+      "text": " Means the manager tells you"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 387.7,
+      "end": 389.7,
+      "text": " Tell me the detail of one year"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 389.7,
+      "end": 392.7,
+      "text": " How much sale did I have in 2024?"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 392.7,
+      "end": 393.7,
+      "text": " Then he says no"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 393.7,
+      "end": 397.7,
+      "text": " Tell me in quarter 1, quarter 2, quarter 3, quarter 4"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 397.7,
+      "end": 398.7,
+      "text": " Then he says no"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 398.7,
+      "end": 399.7,
+      "text": " Tell me in the month"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 399.7,
+      "end": 403.7,
+      "text": " Tell me in the month like Jan, Feb, March"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 403.7,
+      "end": 404.7,
+      "text": " Then he says no"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 404.7,
+      "end": 408.7,
+      "text": " Tell me in week 1, Jan, week 2"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 408.7,
+      "end": 409.7,
+      "text": " Then he says no"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 409.7,
+      "end": 410.7,
+      "text": " Tell me on Monday of week 1"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 410.7,
+      "end": 413.7,
+      "text": " Means we are coming down in detail"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 413.7,
+      "end": 414.7,
+      "text": " This becomes yours"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 414.7,
+      "end": 416.7,
+      "text": " Which drill down"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 416.7,
+      "end": 417.7,
+      "text": " Detailed analysis"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 417.7,
+      "end": 418.7,
+      "text": " Coming down"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 418.7,
+      "end": 420.7,
+      "text": " There is nothing else in it"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 420.7,
+      "end": 421.7,
+      "text": " It is so easy"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 421.7,
+      "end": 422.7,
+      "text": " If you have read it once"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 422.7,
+      "end": 424.7,
+      "text": " You will remember it for lifetime"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 424.7,
+      "end": 427.7,
+      "text": " Finally, there is another pivot operation"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 427.7,
+      "end": 428.7,
+      "text": " What does pivot operation say?"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 428.7,
+      "end": 430.7,
+      "text": " You just have to flip the dimensions"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 430.7,
+      "end": 432.7,
+      "text": " Means this is your x-axis"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 432.7,
+      "end": 433.7,
+      "text": " This is your y-axis"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 433.7,
+      "end": 434.7,
+      "text": " If I rotate it"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 434.7,
+      "end": 436.7,
+      "text": " So this is your y, this is x"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 436.7,
+      "end": 438.7,
+      "text": " You just have to rotate it"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 438.7,
+      "end": 441.7,
+      "text": " And this is generally done for a little visualization"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 441.7,
+      "end": 443.7,
+      "text": " To visualize the data easily"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 443.7,
+      "end": 445.7,
+      "text": " Like you have this data"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 445.7,
+      "end": 447.7,
+      "text": " In the month, Jan, Feb, Feb"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 447.7,
+      "end": 448.7,
+      "text": " Products are there"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 448.7,
+      "end": 450.7,
+      "text": " T-shirt, jeans, t-shirt, jeans"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 450.7,
+      "end": 451.7,
+      "text": " Sales are like this"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 451.7,
+      "end": 452.7,
+      "text": " Now what did I do to it?"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 452.7,
+      "end": 453.7,
+      "text": " If I rotate it"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 453.7,
+      "end": 454.7,
+      "text": " Rotated"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 454.7,
+      "end": 455.7,
+      "text": " So what happened?"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 455.7,
+      "end": 456.7,
+      "text": " T-shirt, jeans, it came up"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 456.7,
+      "end": 457.7,
+      "text": " And as soon as it came up"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 457.7,
+      "end": 459.7,
+      "text": " So corresponding to t-shirt"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 459.7,
+      "end": 461.7,
+      "text": " How much sale I have in Jan and Feb"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 461.7,
+      "end": 462.7,
+      "text": " It came out"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 462.7,
+      "end": 463.7,
+      "text": " According to jeans"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 463.7,
+      "end": 465.7,
+      "text": " How much sale I have in Jan and Feb"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 465.7,
+      "end": 466.7,
+      "text": " It came out"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 466.7,
+      "end": 468.7,
+      "text": " Means here I have to do total"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 468.7,
+      "end": 470.7,
+      "text": " First one has to filter this"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 470.7,
+      "end": 471.7,
+      "text": " Then this has to be filtered"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 471.7,
+      "end": 472.7,
+      "text": " Then the third shirt"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 472.7,
+      "end": 474.7,
+      "text": " So you have to choose one by one"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 474.7,
+      "end": 475.7,
+      "text": " Have to add"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 475.7,
+      "end": 477.7,
+      "text": " Here you can easily get the whole t-shirt"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 477.7,
+      "end": 478.7,
+      "text": " Easily get the whole jeans"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 478.7,
+      "end": 480.7,
+      "text": " Just you have to"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 480.7,
+      "end": 481.7,
+      "text": " Rotate your axis"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 481.7,
+      "end": 482.7,
+      "text": " Make axis in Y"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 482.7,
+      "end": 483.7,
+      "text": " Make Y in X"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 483.7,
+      "end": 485.7,
+      "text": " And what do you call it?"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 485.7,
+      "end": 486.7,
+      "text": " Pivot"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 486.7,
+      "end": 487.7,
+      "text": " Or it is also called pivot"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 487.7,
+      "end": 489.7,
+      "text": " So these are the major operations"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 489.7,
+      "end": 491.7,
+      "text": " Which you have to perform generally"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 491.7,
+      "end": 492.7,
+      "text": " In OLAP"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 492.7,
+      "end": 493.7,
+      "text": " You note all this"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 493.7,
+      "end": 494.7,
+      "text": " Note this example"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 494.7,
+      "end": 496.7,
+      "text": " There is nothing outside this"
+    },
+    {
+      "number": "12",
+      "title": "OLAP operations with real life example _ Data Warehouse",
+      "start": 496.7,
+      "end": 498.7,
+      "text": " Thank you"
+    }
+  ],
+  "text": " Intro Dear students, welcome to GATEs Measures In today's video, I am going to explain the most important topic of data warehouse That is OLAP operations Whenever we talk about online analytical processing Where I have to do analysis in data What major operations we do there It is a very easy topic But there is no exam where you have to do data warehouse exam And you don't have to ask about OLAP operations And it is very easy, I will explain you with real life example So first of all, look at the scenario, what do we have We have multiple dimensional data, call it multi-dimensional data Means multiple dimension, like we have one of the products You take an example of a company Like you take an example of a company like Reliance Fresh, Big Bazaar They have multiple outlets, may be India has multiple outlets Or internationally also there are multiple outlets Now here they are selling many products like laptops, mobiles, tablets, like this Region wise, in which region I am getting sale How much sale is there in quarter 1, quarter 2, quarter 3 and quarter 4 Like this I have some data, sales data of a particular company Now what happens is when we have huge amount of data like this So what we do is we try to represent it in multi-dimensional way The most important use in data warehouse is That use cube architecture, it is 3 dimensional data So on one side you have laptop, mobile, tablet or if you have any other device Then you write it here, one you have in axis, Q1, Q2, Q3, Q4 Which are your quarters and on one side you have regions So 3 dimensional, x axis, y axis and z axis So your data will be represented like this This is a very simple architecture Now here I have taken this example of 3 dimension Which I have taken to show you that on which example we are going to perform operations Now what is our first operation? Slice operation, it is a very simple operation Actually why is this operation needed? When from higher authority like managers or directors or founders of the company If they have to check that how much sale of my particular device has happened Like how many laptops have been sold Or how much sale has happened in a particular region Or which employee has sold the most Obviously this kind of data we have to analyze We have to analyze in the company So for that I have multiple operations Now what is slice operation? It says that I will divide the data on only one dimension Means I will work on one dimension, single dimension And on that basis I will divide the data Like for example in my example Manager told me to do like this You do slice operation from this whole cube That I have to hold only one dimension Let's suppose I hold the laptop Means the types of my device Tell me how much sale of my total laptop has happened Now obviously what will you take? Slice, what is the meaning of slice? In a way you will visualize it a little that you have a knife And from that knife you have taken from here You have cut this whole piece You have cut this piece from the knife This piece that is coming out is a kind of slice operation Because the corresponding of the laptop In which quarter, in which region how much sale has happened This will only tell you In the same way if I have to check the tablet Or let's suppose I have to check how much sale has happened in quarter 1 So you will pick up quarter 1 You will perform a slice operation like this with a knife So what will happen with Q1? In which region of yours How many devices have been sold in quarter 1 You should know this Whenever such questions come On one dimension What you have to do is to do slice operation Then came a little more advance of this that is dice What does dice say? That you have to hold more than two dimensions here Means let's suppose you have to put multiple filters here Means I have put one Tell me that here my particular Like I have removed the region of USA and Canada Tell me that in the region of USA and Canada Quarter 1, quarter 2 and laptop, mobile If I have to remove data in this way So what I will do for that is dice operation There is only such a difference that multiple dimensions are being used here And whenever we perform dice operation Then all the cubes come out Means a small portion of the cube will come out In slice, only dimension will come in 2D But here in dice, the output that will always come out is also in 3D Look, you have a laptop mobile on this side Quarter 1, quarter 2 is on this side And you have two regions on this side So what is this? It is a 3D data But a sub part of the cube will come out This is the only difference Rest, whatever operation you perform All will be yours Like in this I want to analyze only laptop and mobile Tell me the sale And in USA and Canada for quarter 1 and quarter 2 The sale has to be removed So in this way I can perform dice operation Then your roll up is very easy What does roll up mean? Going up Like you have multi-dimensional data in this way Like in the form of a tree, if I make data So when we go up It is called summarizing Up, in a way we are aggregating So that is called your roll up Like as an example I have written sale of quarter 1, quarter 2, quarter 3, quarter 4 What can I say? Tell me the sale of the whole year So what will you do? You will add the sale of all four quarters It will become the whole year I say this is India, China And this is USA, Canada Tell me how much sale has been in Asia And how much sale has been in North America So you have rolled up Means added You made India, China, Asia North America And you have added both the data So this is plus and both are plus In this way, whenever we go up Let's summarize Moving up the hierarchy That is your roll up And its opposite What did it become? Roll down Like this You can also call it roll down or drill down It is the same thing This is your detail This is coming down Means the manager tells you Tell me the detail of one year How much sale did I have in 2024? Then he says no Tell me in quarter 1, quarter 2, quarter 3, quarter 4 Then he says no Tell me in the month Tell me in the month like Jan, Feb, March Then he says no Tell me in week 1, Jan, week 2 Then he says no Tell me on Monday of week 1 Means we are coming down in detail This becomes yours Which drill down Detailed analysis Coming down There is nothing else in it It is so easy If you have read it once You will remember it for lifetime Finally, there is another pivot operation What does pivot operation say? You just have to flip the dimensions Means this is your x-axis This is your y-axis If I rotate it So this is your y, this is x You just have to rotate it And this is generally done for a little visualization To visualize the data easily Like you have this data In the month, Jan, Feb, Feb Products are there T-shirt, jeans, t-shirt, jeans Sales are like this Now what did I do to it? If I rotate it Rotated So what happened? T-shirt, jeans, it came up And as soon as it came up So corresponding to t-shirt How much sale I have in Jan and Feb It came out According to jeans How much sale I have in Jan and Feb It came out Means here I have to do total First one has to filter this Then this has to be filtered Then the third shirt So you have to choose one by one Have to add Here you can easily get the whole t-shirt Easily get the whole jeans Just you have to Rotate your axis Make axis in Y Make Y in X And what do you call it? Pivot Or it is also called pivot So these are the major operations Which you have to perform generally In OLAP You note all this Note this example There is nothing outside this Thank you"
+}

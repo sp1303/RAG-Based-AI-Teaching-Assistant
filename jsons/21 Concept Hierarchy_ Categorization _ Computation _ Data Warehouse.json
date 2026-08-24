@@ -1,0 +1,1727 @@
+{
+  "chunks": [
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 0.0,
+      "end": 3.5,
+      "text": " Dear students, welcome to the class."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 3.5,
+      "end": 9.5,
+      "text": " In today's class, I am going to explain what is concept hierarchy and the topic related to the measure."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 9.5,
+      "end": 15.0,
+      "text": " Now here in data warehousing, this topic concept hierarchy is by default,"
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 15.0,
+      "end": 18.5,
+      "text": " you assume that we have done it indirectly."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 18.5,
+      "end": 22.5,
+      "text": " But still it is mentioned in your syllabus, in the syllabus of GATE DA."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 22.5,
+      "end": 24.5,
+      "text": " So let's see this once, go through."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 24.5,
+      "end": 30.0,
+      "text": " You already know this, we have already done a basic concept of this."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 30.0,
+      "end": 33.0,
+      "text": " But still see once, what is the meaning of concept hierarchy?"
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 33.0,
+      "end": 35.0,
+      "text": " What is the main story here?"
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 35.0,
+      "end": 37.5,
+      "text": " Hierarchy, what does hierarchy mean?"
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 37.5,
+      "end": 42.5,
+      "text": " That instead of representing data in one level, it should be represented in multiple levels,"
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 42.5,
+      "end": 45.5,
+      "text": " means in granularity of levels."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 45.5,
+      "end": 47.5,
+      "text": " What does granularity mean?"
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 47.5,
+      "end": 54.0,
+      "text": " Like we represent in tree structure, like that we should represent that data."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 54.0,
+      "end": 58.5,
+      "text": " I will give a simple example, nothing much, a very simple example, you already know this."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 58.5,
+      "end": 62.5,
+      "text": " Like if I say, let's suppose, I say that category."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 62.5,
+      "end": 67.5,
+      "text": " If I show you my phone, that take my phone, then what do we call it?"
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 67.5,
+      "end": 69.0,
+      "text": " First of all, in which category does it come?"
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 69.0,
+      "end": 71.5,
+      "text": " It comes in your electronics category."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 71.5,
+      "end": 75.5,
+      "text": " Now see, in electronics, there are many things, your mobile phones, laptops,"
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 75.5,
+      "end": 78.0,
+      "text": " apart from this, your computers, many things come."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 78.0,
+      "end": 80.5,
+      "text": " So what will be the electronic category?"
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 80.5,
+      "end": 85.0,
+      "text": " Now in that, let's suppose, I said that what is the sub category?"
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 85.0,
+      "end": 88.5,
+      "text": " Now in sub category, it comes in which category?"
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 88.5,
+      "end": 91.0,
+      "text": " It comes in the category of mobile phones."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 91.0,
+      "end": 93.5,
+      "text": " Now after that I will say, which brand is it?"
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 93.5,
+      "end": 95.0,
+      "text": " Tell me, which brand is it?"
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 95.0,
+      "end": 99.5,
+      "text": " Let's suppose I have Apple, so I wrote that which brand of phone do I have?"
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 99.5,
+      "end": 100.5,
+      "text": " Apple."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 100.5,
+      "end": 103.5,
+      "text": " Now in that, in the brand, let's suppose, what can we say?"
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 103.5,
+      "end": 106.0,
+      "text": " That which model do you have?"
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 106.0,
+      "end": 108.0,
+      "text": " Which model do you have?"
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 108.0,
+      "end": 110.5,
+      "text": " So let's suppose I have 12, okay?"
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 110.5,
+      "end": 112.0,
+      "text": " Let's say 12 Pro."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 112.0,
+      "end": 113.0,
+      "text": " So what will happen?"
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 113.0,
+      "end": 114.5,
+      "text": " One of them becomes its model."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 114.5,
+      "end": 119.5,
+      "text": " iPhone, your iPhone becomes its model and in that, 12 Pro."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 119.5,
+      "end": 122.0,
+      "text": " Then in that also, let's suppose, which variant is there?"
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 122.0,
+      "end": 123.0,
+      "text": " Means which color is there?"
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 123.0,
+      "end": 128.5,
+      "text": " Let's suppose, black color, golden, or then 256 GB, 512 GB."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 128.5,
+      "end": 130.5,
+      "text": " So in a way, what am I doing?"
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 130.5,
+      "end": 133.5,
+      "text": " Here I am drilling down my product."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 133.5,
+      "end": 134.5,
+      "text": " This is nothing."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 134.5,
+      "end": 137.5,
+      "text": " The operations in our OLAP are drilled down."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 137.5,
+      "end": 140.5,
+      "text": " Means you have told a higher level of electronics."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 140.5,
+      "end": 142.0,
+      "text": " But what is inside it?"
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 142.0,
+      "end": 143.0,
+      "text": " What is inside it?"
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 143.0,
+      "end": 144.0,
+      "text": " What is inside it?"
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 144.0,
+      "end": 145.5,
+      "text": " So you are going by drilling it down."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 145.5,
+      "end": 148.0,
+      "text": " Means you are going to the very base level."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 148.0,
+      "end": 151.0,
+      "text": " And after that, where will it be used?"
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 151.0,
+      "end": 153.5,
+      "text": " Especially when we get the data of sales."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 153.5,
+      "end": 155.5,
+      "text": " What do sales and marketing people do?"
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 155.5,
+      "end": 159.0,
+      "text": " We said that tell me the total sale of India, how much is it?"
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 159.0,
+      "end": 160.0,
+      "text": " We told."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 160.0,
+      "end": 163.0,
+      "text": " Now in India, let's suppose they are saying, tell me the sale of Maharashtra."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 164.0,
+      "end": 167.0,
+      "text": " In Maharashtra, they say, tell me the sale of Mumbai."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 167.0,
+      "end": 170.0,
+      "text": " In Mumbai, they say, tell me the sale of Lokhandwala street."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 170.0,
+      "end": 171.0,
+      "text": " So what are we doing?"
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 171.0,
+      "end": 172.5,
+      "text": " We are drilling down."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 172.5,
+      "end": 176.5,
+      "text": " So this is the formula of concept hierarchy."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 176.5,
+      "end": 178.0,
+      "text": " Concept hierarchy says,"
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 178.0,
+      "end": 181.0,
+      "text": " sequence of mapping from the lower level,"
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 181.0,
+      "end": 183.0,
+      "text": " which has become detailed in a way,"
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 183.0,
+      "end": 185.5,
+      "text": " and concept to the higher level, which has been generalized."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 185.5,
+      "end": 188.0,
+      "text": " Means we go up, which has been generalized."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 188.0,
+      "end": 191.0,
+      "text": " We come down, so it has been done in a detailed way."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 191.0,
+      "end": 193.0,
+      "text": " Like an example has been given here also."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 193.0,
+      "end": 196.0,
+      "text": " I said country, India, Maharashtra, Mumbai, Andheri."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 196.0,
+      "end": 197.0,
+      "text": " What is this happening?"
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 197.0,
+      "end": 198.0,
+      "text": " Drilling down."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 198.0,
+      "end": 199.0,
+      "text": " So we are going in detail."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 199.0,
+      "end": 201.0,
+      "text": " So they ask, who says this?"
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 201.0,
+      "end": 203.0,
+      "text": " The managers, the people of higher level,"
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 203.0,
+      "end": 206.0,
+      "text": " they represent this kind of data."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 206.0,
+      "end": 208.0,
+      "text": " So that it is understood well,"
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 208.0,
+      "end": 210.0,
+      "text": " that what is going on in my total sale region wise,"
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 210.0,
+      "end": 212.0,
+      "text": " what is going on product wise,"
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 212.0,
+      "end": 214.0,
+      "text": " what is going on according to time."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 214.0,
+      "end": 216.0,
+      "text": " So it is represented in this way."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 216.0,
+      "end": 218.0,
+      "text": " So this is very important,"
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 218.0,
+      "end": 220.0,
+      "text": " especially in drilling down, going down."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 220.0,
+      "end": 222.0,
+      "text": " Means you have to go to the basic level of detail."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 222.0,
+      "end": 225.0,
+      "text": " Or then up down, means in rolling up."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 225.0,
+      "end": 227.0,
+      "text": " If I say, no, leave this,"
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 227.0,
+      "end": 230.0,
+      "text": " you tell me how much is the total sale of India."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 230.0,
+      "end": 232.0,
+      "text": " So we have generalized it in a way."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 232.0,
+      "end": 238.0,
+      "text": " So this is your concept hierarchy funda."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 238.0,
+      "end": 240.0,
+      "text": " Now there is nothing else in this."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 240.0,
+      "end": 241.0,
+      "text": " There is nothing else in this."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 241.0,
+      "end": 243.0,
+      "text": " You don't think that there is any more detail in this."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 243.0,
+      "end": 245.0,
+      "text": " No, this is a simple funda,"
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 245.0,
+      "end": 247.0,
+      "text": " that we have to aggregate,"
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 247.0,
+      "end": 248.0,
+      "text": " show in detail."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 248.0,
+      "end": 250.0,
+      "text": " So what is best for this?"
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 250.0,
+      "end": 255.0,
+      "text": " You represent it in a hierarchical form like this."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 255.0,
+      "end": 256.0,
+      "text": " So you get help."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 256.0,
+      "end": 258.0,
+      "text": " Similarly, we do classification like binning."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 258.0,
+      "end": 261.0,
+      "text": " That we said that from 0 to 100,"
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 261.0,
+      "end": 262.0,
+      "text": " how many marks are there?"
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 262.0,
+      "end": 264.0,
+      "text": " Means let's suppose I say that I have 50 students."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 264.0,
+      "end": 266.0,
+      "text": " Now I have to categorize them."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 266.0,
+      "end": 268.0,
+      "text": " So what I can do is tell me"
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 268.0,
+      "end": 271.0,
+      "text": " that how many students are there between 0 to 40?"
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 271.0,
+      "end": 273.0,
+      "text": " Okay, from 40 to let's say 60,"
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 273.0,
+      "end": 275.0,
+      "text": " how many students are there?"
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 275.0,
+      "end": 277.0,
+      "text": " From 60 to 80, how many are there?"
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 277.0,
+      "end": 278.0,
+      "text": " So what is this like?"
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 278.0,
+      "end": 282.0,
+      "text": " This is a concept hierarchy so that I can better represent"
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 282.0,
+      "end": 286.0,
+      "text": " that in which form most of my students are lying in which category."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 286.0,
+      "end": 288.0,
+      "text": " So I can focus a little more on it."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 288.0,
+      "end": 289.0,
+      "text": " This is the only thing."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 289.0,
+      "end": 291.0,
+      "text": " There is nothing else in it."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 291.0,
+      "end": 294.0,
+      "text": " This is how your concept of measures comes."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 294.0,
+      "end": 297.0,
+      "text": " In which categorization, computation, nothing."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 297.0,
+      "end": 298.0,
+      "text": " What are measures?"
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 298.0,
+      "end": 299.0,
+      "text": " They are facts."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 299.0,
+      "end": 300.0,
+      "text": " It is data."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 300.0,
+      "end": 304.0,
+      "text": " Now you have to put some operations on that data."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 304.0,
+      "end": 306.0,
+      "text": " Your measures help you."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 306.0,
+      "end": 308.0,
+      "text": " Note the point in measures."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 308.0,
+      "end": 310.0,
+      "text": " There are three types of measures."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 310.0,
+      "end": 313.0,
+      "text": " One is distributive, one is algebraic and one is holistic."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 313.0,
+      "end": 315.0,
+      "text": " Now what are distributive measures?"
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 315.0,
+      "end": 317.0,
+      "text": " Simple, like we apply distributive property."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 317.0,
+      "end": 320.0,
+      "text": " Like we apply A into B plus C."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 320.0,
+      "end": 321.0,
+      "text": " So what can we write this?"
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 321.0,
+      "end": 323.0,
+      "text": " A into B plus A into C."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 323.0,
+      "end": 326.0,
+      "text": " So this is a simple formula of distributive property."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 326.0,
+      "end": 328.0,
+      "text": " So we have such data."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 328.0,
+      "end": 333.0,
+      "text": " If I say that let's suppose I have come to what will be the distributive measure?"
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 333.0,
+      "end": 340.0,
+      "text": " Distributive measure is that which can be grouped or aggregated on the multiple groups while maintaining the correctness."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 340.0,
+      "end": 344.0,
+      "text": " There is nothing, there is no confusion in this."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 344.0,
+      "end": 348.0,
+      "text": " If I say a simple idea that let's suppose I write data."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 348.0,
+      "end": 353.0,
+      "text": " Punjab, let's suppose I write Amritsar in Punjab."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 353.0,
+      "end": 357.0,
+      "text": " And the second I write Punjab and let's suppose I write Patiala in Punjab."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 357.0,
+      "end": 360.0,
+      "text": " Okay, I write Haryana here."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 360.0,
+      "end": 363.0,
+      "text": " Haryana, let's suppose I write Gurgaon in Haryana."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 363.0,
+      "end": 367.0,
+      "text": " And I write Haryana here and let's say Karnal in Haryana."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 367.0,
+      "end": 370.0,
+      "text": " Okay, now let's suppose I write the total sale here."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 370.0,
+      "end": 373.0,
+      "text": " That my Amritsar has a sale of 10,000."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 373.0,
+      "end": 375.0,
+      "text": " Or Patiala has a sale of 20,000."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 375.0,
+      "end": 377.0,
+      "text": " Or in Gurgaon I have a sale of 30,000."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 377.0,
+      "end": 379.0,
+      "text": " And here I have a sale of 40,000."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 379.0,
+      "end": 382.0,
+      "text": " So if I tell you that only tell me Punjab."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 382.0,
+      "end": 383.0,
+      "text": " So what will you do?"
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 383.0,
+      "end": 385.0,
+      "text": " You will total both of them."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 385.0,
+      "end": 386.0,
+      "text": " It will be 30."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 386.0,
+      "end": 389.0,
+      "text": " When you are asked about Haryana, you will total both of them."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 389.0,
+      "end": 390.0,
+      "text": " What will be 70?"
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 390.0,
+      "end": 391.0,
+      "text": " So what is this?"
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 391.0,
+      "end": 394.0,
+      "text": " You are totaling the category."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 394.0,
+      "end": 398.0,
+      "text": " And after that if I say total, then you will total both of them."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 398.0,
+      "end": 402.0,
+      "text": " So that means the data you have distributed, if you are adding it too."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 402.0,
+      "end": 406.0,
+      "text": " Instead of adding everyone at once, if you are adding them in a distributed way."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 406.0,
+      "end": 408.0,
+      "text": " You are adding groups."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 408.0,
+      "end": 411.0,
+      "text": " And if you add total, then your answer will be the same."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 411.0,
+      "end": 415.0,
+      "text": " So this distributive property is the same thing that is done in 6th, 7th class."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 415.0,
+      "end": 421.0,
+      "text": " That is, as we subtract sum, count, main, max."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 421.0,
+      "end": 424.0,
+      "text": " So we can take it out individually and take out the final."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 424.0,
+      "end": 426.0,
+      "text": " Your result will be the same."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 426.0,
+      "end": 427.0,
+      "text": " So this is a distributive."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 427.0,
+      "end": 428.0,
+      "text": " This is how algebraic came."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 428.0,
+      "end": 432.0,
+      "text": " Algebraic is actually used for distributive."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 432.0,
+      "end": 434.0,
+      "text": " Like I have to take out the average."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 434.0,
+      "end": 437.0,
+      "text": " So to take out the average, I will have to take out the sum first."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 437.0,
+      "end": 439.0,
+      "text": " I will have to count in divide."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 439.0,
+      "end": 440.0,
+      "text": " It is the same example."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 440.0,
+      "end": 444.0,
+      "text": " Like if I say that I have a product, let's suppose mobile."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 444.0,
+      "end": 445.0,
+      "text": " This is my first product."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 445.0,
+      "end": 449.0,
+      "text": " Second, let's suppose I say that I have a laptop."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 449.0,
+      "end": 452.0,
+      "text": " Third, let's say I have a PC."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 452.0,
+      "end": 457.0,
+      "text": " So like this, and here I write say 10,000, 20,000, 30,000."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 457.0,
+      "end": 459.0,
+      "text": " Now if I tell you to take out the average."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 459.0,
+      "end": 461.0,
+      "text": " So how will you take out the average?"
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 461.0,
+      "end": 462.0,
+      "text": " Here it is 50, 60."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 462.0,
+      "end": 464.0,
+      "text": " It is divided by the total count."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 464.0,
+      "end": 465.0,
+      "text": " So how many counts are there?"
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 465.0,
+      "end": 466.0,
+      "text": " What is the category of my product?"
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 466.0,
+      "end": 467.0,
+      "text": " There are 3 categories."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 467.0,
+      "end": 468.0,
+      "text": " So you will divide by 3."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 468.0,
+      "end": 469.0,
+      "text": " What is 20?"
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 469.0,
+      "end": 472.0,
+      "text": " Now the count that is taken out here or the sum that is taken out,"
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 472.0,
+      "end": 474.0,
+      "text": " that has become our distributive measure."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 474.0,
+      "end": 477.0,
+      "text": " My 60 came and here my total count is 3."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 477.0,
+      "end": 478.0,
+      "text": " Distribute."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 478.0,
+      "end": 481.0,
+      "text": " But when we are using both of them and dividing them,"
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 481.0,
+      "end": 482.0,
+      "text": " this is what algebraic is."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 482.0,
+      "end": 484.0,
+      "text": " So this is my algebraic."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 484.0,
+      "end": 487.0,
+      "text": " If I say that I take out the profit margin."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 487.0,
+      "end": 488.0,
+      "text": " So what will you do?"
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 488.0,
+      "end": 491.0,
+      "text": " To calculate the profit margin, first you will calculate the revenue."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 491.0,
+      "end": 493.0,
+      "text": " That how much revenue has come from different places of the company."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 493.0,
+      "end": 495.0,
+      "text": " So you have done the total revenue."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 495.0,
+      "end": 498.0,
+      "text": " So the total revenue that is taken out is distributive."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 498.0,
+      "end": 499.0,
+      "text": " What did you minus?"
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 499.0,
+      "end": 500.0,
+      "text": " Profit."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 500.0,
+      "end": 501.0,
+      "text": " Sorry, cost."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 501.0,
+      "end": 502.0,
+      "text": " That how much is my cost?"
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 502.0,
+      "end": 504.0,
+      "text": " And you have done divide by revenue."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 504.0,
+      "end": 505.0,
+      "text": " So what happened?"
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 505.0,
+      "end": 508.0,
+      "text": " This is how your algebraic has become."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 508.0,
+      "end": 510.0,
+      "text": " But the total revenue that was taken out was distributive."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 510.0,
+      "end": 512.0,
+      "text": " Total cost was taken out."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 512.0,
+      "end": 514.0,
+      "text": " That how much did I invest in marketing?"
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 514.0,
+      "end": 515.0,
+      "text": " How much did I invest in advertisement?"
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 515.0,
+      "end": 517.0,
+      "text": " You added all those costs."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 517.0,
+      "end": 518.0,
+      "text": " What is minus?"
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 518.0,
+      "end": 519.0,
+      "text": " Divide by revenue."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 519.0,
+      "end": 520.0,
+      "text": " This is your profit margin."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 520.0,
+      "end": 521.0,
+      "text": " So what happened?"
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 521.0,
+      "end": 524.0,
+      "text": " Now this formula has become algebraic in a way."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 524.0,
+      "end": 526.0,
+      "text": " But what was it alone?"
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 526.0,
+      "end": 527.0,
+      "text": " This was your distributive."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 527.0,
+      "end": 529.0,
+      "text": " This is the concept."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 529.0,
+      "end": 530.0,
+      "text": " It is simple math."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 530.0,
+      "end": 531.0,
+      "text": " There is nothing in this."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 531.0,
+      "end": 534.0,
+      "text": " I don't think you will get any question in this."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 534.0,
+      "end": 537.0,
+      "text": " If you get any question, then you should know that in distributive,"
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 537.0,
+      "end": 539.0,
+      "text": " remember this example,"
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 539.0,
+      "end": 542.0,
+      "text": " in algebraic, there is sum, percent, and they take out the rate."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 542.0,
+      "end": 544.0,
+      "text": " And this is how your holistic has come."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 544.0,
+      "end": 545.0,
+      "text": " What does holistic mean?"
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 545.0,
+      "end": 547.0,
+      "text": " In which the whole data will be used."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 547.0,
+      "end": 550.0,
+      "text": " Whenever we calculate, the whole data will be used."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 550.0,
+      "end": 551.0,
+      "text": " Just remember this concept."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 551.0,
+      "end": 554.0,
+      "text": " That simple aggregation requires an entire data set."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 554.0,
+      "end": 556.0,
+      "text": " Like, we have to find the median."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 556.0,
+      "end": 557.0,
+      "text": " We have to find the mode."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 557.0,
+      "end": 558.0,
+      "text": " How much frequency?"
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 558.0,
+      "end": 560.0,
+      "text": " So the whole data set will come out."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 560.0,
+      "end": 562.0,
+      "text": " How much frequency is the occurrence?"
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 562.0,
+      "end": 564.0,
+      "text": " Such a rank has to be found."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 564.0,
+      "end": 566.0,
+      "text": " Like the rank of the gate is seen."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 566.0,
+      "end": 568.0,
+      "text": " So in that, it does not come out from the individual."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 568.0,
+      "end": 569.0,
+      "text": " It comes out from the whole."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 569.0,
+      "end": 571.0,
+      "text": " The percentile comes out from the whole."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 571.0,
+      "end": 572.0,
+      "text": " It is percentile."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 572.0,
+      "end": 574.0,
+      "text": " Percentage is algebraic."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 574.0,
+      "end": 577.0,
+      "text": " But the percentile comes under your holistic."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 577.0,
+      "end": 580.0,
+      "text": " Just remember this simple concept."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 580.0,
+      "end": 582.0,
+      "text": " There is nothing else in this."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 582.0,
+      "end": 584.0,
+      "text": " This topic is only this much."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 584.0,
+      "end": 588.0,
+      "text": " The rest of the main things that we have already done in DBMS or Data Warehouse."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 588.0,
+      "end": 590.0,
+      "text": " That is more than sufficient for you."
+    },
+    {
+      "number": "21",
+      "title": "Concept Hierarchy_ Categorization _ Computation _ Data Warehouse",
+      "start": 590.0,
+      "end": 591.0,
+      "text": " Thank you."
+    }
+  ],
+  "text": " Dear students, welcome to the class. In today's class, I am going to explain what is concept hierarchy and the topic related to the measure. Now here in data warehousing, this topic concept hierarchy is by default, you assume that we have done it indirectly. But still it is mentioned in your syllabus, in the syllabus of GATE DA. So let's see this once, go through. You already know this, we have already done a basic concept of this. But still see once, what is the meaning of concept hierarchy? What is the main story here? Hierarchy, what does hierarchy mean? That instead of representing data in one level, it should be represented in multiple levels, means in granularity of levels. What does granularity mean? Like we represent in tree structure, like that we should represent that data. I will give a simple example, nothing much, a very simple example, you already know this. Like if I say, let's suppose, I say that category. If I show you my phone, that take my phone, then what do we call it? First of all, in which category does it come? It comes in your electronics category. Now see, in electronics, there are many things, your mobile phones, laptops, apart from this, your computers, many things come. So what will be the electronic category? Now in that, let's suppose, I said that what is the sub category? Now in sub category, it comes in which category? It comes in the category of mobile phones. Now after that I will say, which brand is it? Tell me, which brand is it? Let's suppose I have Apple, so I wrote that which brand of phone do I have? Apple. Now in that, in the brand, let's suppose, what can we say? That which model do you have? Which model do you have? So let's suppose I have 12, okay? Let's say 12 Pro. So what will happen? One of them becomes its model. iPhone, your iPhone becomes its model and in that, 12 Pro. Then in that also, let's suppose, which variant is there? Means which color is there? Let's suppose, black color, golden, or then 256 GB, 512 GB. So in a way, what am I doing? Here I am drilling down my product. This is nothing. The operations in our OLAP are drilled down. Means you have told a higher level of electronics. But what is inside it? What is inside it? What is inside it? So you are going by drilling it down. Means you are going to the very base level. And after that, where will it be used? Especially when we get the data of sales. What do sales and marketing people do? We said that tell me the total sale of India, how much is it? We told. Now in India, let's suppose they are saying, tell me the sale of Maharashtra. In Maharashtra, they say, tell me the sale of Mumbai. In Mumbai, they say, tell me the sale of Lokhandwala street. So what are we doing? We are drilling down. So this is the formula of concept hierarchy. Concept hierarchy says, sequence of mapping from the lower level, which has become detailed in a way, and concept to the higher level, which has been generalized. Means we go up, which has been generalized. We come down, so it has been done in a detailed way. Like an example has been given here also. I said country, India, Maharashtra, Mumbai, Andheri. What is this happening? Drilling down. So we are going in detail. So they ask, who says this? The managers, the people of higher level, they represent this kind of data. So that it is understood well, that what is going on in my total sale region wise, what is going on product wise, what is going on according to time. So it is represented in this way. So this is very important, especially in drilling down, going down. Means you have to go to the basic level of detail. Or then up down, means in rolling up. If I say, no, leave this, you tell me how much is the total sale of India. So we have generalized it in a way. So this is your concept hierarchy funda. Now there is nothing else in this. There is nothing else in this. You don't think that there is any more detail in this. No, this is a simple funda, that we have to aggregate, show in detail. So what is best for this? You represent it in a hierarchical form like this. So you get help. Similarly, we do classification like binning. That we said that from 0 to 100, how many marks are there? Means let's suppose I say that I have 50 students. Now I have to categorize them. So what I can do is tell me that how many students are there between 0 to 40? Okay, from 40 to let's say 60, how many students are there? From 60 to 80, how many are there? So what is this like? This is a concept hierarchy so that I can better represent that in which form most of my students are lying in which category. So I can focus a little more on it. This is the only thing. There is nothing else in it. This is how your concept of measures comes. In which categorization, computation, nothing. What are measures? They are facts. It is data. Now you have to put some operations on that data. Your measures help you. Note the point in measures. There are three types of measures. One is distributive, one is algebraic and one is holistic. Now what are distributive measures? Simple, like we apply distributive property. Like we apply A into B plus C. So what can we write this? A into B plus A into C. So this is a simple formula of distributive property. So we have such data. If I say that let's suppose I have come to what will be the distributive measure? Distributive measure is that which can be grouped or aggregated on the multiple groups while maintaining the correctness. There is nothing, there is no confusion in this. If I say a simple idea that let's suppose I write data. Punjab, let's suppose I write Amritsar in Punjab. And the second I write Punjab and let's suppose I write Patiala in Punjab. Okay, I write Haryana here. Haryana, let's suppose I write Gurgaon in Haryana. And I write Haryana here and let's say Karnal in Haryana. Okay, now let's suppose I write the total sale here. That my Amritsar has a sale of 10,000. Or Patiala has a sale of 20,000. Or in Gurgaon I have a sale of 30,000. And here I have a sale of 40,000. So if I tell you that only tell me Punjab. So what will you do? You will total both of them. It will be 30. When you are asked about Haryana, you will total both of them. What will be 70? So what is this? You are totaling the category. And after that if I say total, then you will total both of them. So that means the data you have distributed, if you are adding it too. Instead of adding everyone at once, if you are adding them in a distributed way. You are adding groups. And if you add total, then your answer will be the same. So this distributive property is the same thing that is done in 6th, 7th class. That is, as we subtract sum, count, main, max. So we can take it out individually and take out the final. Your result will be the same. So this is a distributive. This is how algebraic came. Algebraic is actually used for distributive. Like I have to take out the average. So to take out the average, I will have to take out the sum first. I will have to count in divide. It is the same example. Like if I say that I have a product, let's suppose mobile. This is my first product. Second, let's suppose I say that I have a laptop. Third, let's say I have a PC. So like this, and here I write say 10,000, 20,000, 30,000. Now if I tell you to take out the average. So how will you take out the average? Here it is 50, 60. It is divided by the total count. So how many counts are there? What is the category of my product? There are 3 categories. So you will divide by 3. What is 20? Now the count that is taken out here or the sum that is taken out, that has become our distributive measure. My 60 came and here my total count is 3. Distribute. But when we are using both of them and dividing them, this is what algebraic is. So this is my algebraic. If I say that I take out the profit margin. So what will you do? To calculate the profit margin, first you will calculate the revenue. That how much revenue has come from different places of the company. So you have done the total revenue. So the total revenue that is taken out is distributive. What did you minus? Profit. Sorry, cost. That how much is my cost? And you have done divide by revenue. So what happened? This is how your algebraic has become. But the total revenue that was taken out was distributive. Total cost was taken out. That how much did I invest in marketing? How much did I invest in advertisement? You added all those costs. What is minus? Divide by revenue. This is your profit margin. So what happened? Now this formula has become algebraic in a way. But what was it alone? This was your distributive. This is the concept. It is simple math. There is nothing in this. I don't think you will get any question in this. If you get any question, then you should know that in distributive, remember this example, in algebraic, there is sum, percent, and they take out the rate. And this is how your holistic has come. What does holistic mean? In which the whole data will be used. Whenever we calculate, the whole data will be used. Just remember this concept. That simple aggregation requires an entire data set. Like, we have to find the median. We have to find the mode. How much frequency? So the whole data set will come out. How much frequency is the occurrence? Such a rank has to be found. Like the rank of the gate is seen. So in that, it does not come out from the individual. It comes out from the whole. The percentile comes out from the whole. It is percentile. Percentage is algebraic. But the percentile comes under your holistic. Just remember this simple concept. There is nothing else in this. This topic is only this much. The rest of the main things that we have already done in DBMS or Data Warehouse. That is more than sufficient for you. Thank you."
+}

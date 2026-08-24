@@ -1,0 +1,1146 @@
+{
+  "chunks": [
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 0.0,
+      "end": 2.0,
+      "text": " Dear students, welcome to Gate Smashers."
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 2.0,
+      "end": 4.0,
+      "text": " In today's video, I am going to explain"
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 4.0,
+      "end": 7.0,
+      "text": " what is the difference between data warehouse, data mart and data lake."
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 7.0,
+      "end": 9.0,
+      "text": " It is a very simple topic but"
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 9.0,
+      "end": 12.0,
+      "text": " if someone asks you in interviews or in a columnist exam,"
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 12.0,
+      "end": 14.0,
+      "text": " you can easily answer that"
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 14.0,
+      "end": 16.0,
+      "text": " what is data warehouse, data mart and data lake."
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 16.0,
+      "end": 18.0,
+      "text": " I will explain you with a real life example."
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 18.0,
+      "end": 21.0,
+      "text": " So first of all, let me tell you a little term here."
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 21.0,
+      "end": 24.0,
+      "text": " We are already doing data warehouse."
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 24.0,
+      "end": 26.0,
+      "text": " Where we say that"
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 26.0,
+      "end": 33.0,
+      "text": " we extract, integrate, transform, clean, normalize,"
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 33.0,
+      "end": 35.0,
+      "text": " and clean all the data from multiple locations"
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 35.0,
+      "end": 38.0,
+      "text": " and then we load it in our storage spaces."
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 38.0,
+      "end": 42.0,
+      "text": " And then whoever wants to use it for analysis,"
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 42.0,
+      "end": 44.0,
+      "text": " they can take it from there."
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 44.0,
+      "end": 47.0,
+      "text": " So this data warehouse provides us this thing."
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 47.0,
+      "end": 50.0,
+      "text": " The data mart is also a data warehouse"
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 50.0,
+      "end": 53.0,
+      "text": " but it has become a subset."
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 53.0,
+      "end": 56.0,
+      "text": " Means a subset of this becomes your data mart."
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 56.0,
+      "end": 58.0,
+      "text": " And what is a data lake actually?"
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 58.0,
+      "end": 63.0,
+      "text": " A big dump, an area where all the raw things are lying."
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 63.0,
+      "end": 65.0,
+      "text": " I will explain with an example."
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 65.0,
+      "end": 67.0,
+      "text": " Let's take a simple example."
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 67.0,
+      "end": 71.0,
+      "text": " Let's suppose that you have a very big farmhouse of mangoes"
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 71.0,
+      "end": 73.0,
+      "text": " or a very big warehouse of mangoes."
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 73.0,
+      "end": 76.0,
+      "text": " So you assume that you have your location,"
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 76.0,
+      "end": 78.0,
+      "text": " for example, you have a location,"
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 78.0,
+      "end": 79.0,
+      "text": " X location,"
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 79.0,
+      "end": 83.0,
+      "text": " all the farmers are bringing mangoes from that location"
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 83.0,
+      "end": 90.0,
+      "text": " for 50, 60, 100 km."
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 90.0,
+      "end": 95.0,
+      "text": " Means all the people are bringing mangoes from the 50-100 km area"
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 95.0,
+      "end": 98.0,
+      "text": " and here you have kept a dump of it."
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 98.0,
+      "end": 102.0,
+      "text": " Dump means you have put a whole pile of it."
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 102.0,
+      "end": 104.0,
+      "text": " All the trolleys of mangoes, all the trucks are coming,"
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 104.0,
+      "end": 106.0,
+      "text": " you have put a dump."
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 106.0,
+      "end": 108.0,
+      "text": " Raw, what is this raw?"
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 108.0,
+      "end": 111.0,
+      "text": " You have not done anything yet, you have not put any filter."
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 111.0,
+      "end": 113.0,
+      "text": " All the trolleys that came, you loaded on it,"
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 113.0,
+      "end": 116.0,
+      "text": " the second came, the third, the fourth, you made all the dump."
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 116.0,
+      "end": 119.0,
+      "text": " This big dump has become of raw,"
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 119.0,
+      "end": 121.0,
+      "text": " in which there is no processing,"
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 121.0,
+      "end": 123.0,
+      "text": " this is called a lake."
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 123.0,
+      "end": 126.0,
+      "text": " This is called a data lake in technical terms."
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 126.0,
+      "end": 128.0,
+      "text": " Now what do we do after this?"
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 128.0,
+      "end": 130.0,
+      "text": " After that we put people,"
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 130.0,
+      "end": 132.0,
+      "text": " the people I have kept there,"
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 132.0,
+      "end": 134.0,
+      "text": " what did they start doing?"
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 134.0,
+      "end": 136.0,
+      "text": " They started filtering in the potential."
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 136.0,
+      "end": 138.0,
+      "text": " Filtering means those who are ripe,"
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 138.0,
+      "end": 140.0,
+      "text": " those who are not ripe, they were put."
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 140.0,
+      "end": 142.0,
+      "text": " Those who are more ripe, they were put."
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 142.0,
+      "end": 144.0,
+      "text": " And then there is a category in it,"
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 144.0,
+      "end": 146.0,
+      "text": " we have Dussheri mango, Langda mango, Chossa mango,"
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 146.0,
+      "end": 148.0,
+      "text": " which all are Alphanso."
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 148.0,
+      "end": 150.0,
+      "text": " So what did they do on the basis of that?"
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 150.0,
+      "end": 152.0,
+      "text": " They started categorizing them."
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 152.0,
+      "end": 154.0,
+      "text": " Means processing, a little transformed it,"
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 154.0,
+      "end": 156.0,
+      "text": " cleaned it, put ripe ones, put over ripe ones,"
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 156.0,
+      "end": 158.0,
+      "text": " put raw ones."
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 158.0,
+      "end": 160.0,
+      "text": " And finally what did they do?"
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 160.0,
+      "end": 164.0,
+      "text": " They started storing them in their warehouse."
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 164.0,
+      "end": 166.0,
+      "text": " What did they do?"
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 166.0,
+      "end": 168.0,
+      "text": " They started storing."
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 168.0,
+      "end": 170.0,
+      "text": " What did they do in the warehouse?"
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 170.0,
+      "end": 172.0,
+      "text": " We processed them."
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 172.0,
+      "end": 174.0,
+      "text": " Now here I have put AC etc."
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 174.0,
+      "end": 176.0,
+      "text": " You can say that the whole roof is there."
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 176.0,
+      "end": 178.0,
+      "text": " The whole system is made there"
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 178.0,
+      "end": 180.0,
+      "text": " so that nothing is spoiled here."
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 180.0,
+      "end": 182.0,
+      "text": " So actually dump, data lake,"
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 182.0,
+      "end": 184.0,
+      "text": " a big area, a godown,"
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 184.0,
+      "end": 186.0,
+      "text": " where there is nothing,"
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 186.0,
+      "end": 188.0,
+      "text": " you just kept the dump."
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 188.0,
+      "end": 190.0,
+      "text": " You made all of them separate,"
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 190.0,
+      "end": 192.0,
+      "text": " made a separate category."
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 192.0,
+      "end": 194.0,
+      "text": " And after that, what did you do?"
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 194.0,
+      "end": 196.0,
+      "text": " You put proper big racks inside,"
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 196.0,
+      "end": 198.0,
+      "text": " put AC etc."
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 198.0,
+      "end": 200.0,
+      "text": " and whatever lighting you did,"
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 200.0,
+      "end": 202.0,
+      "text": " you kept it all properly."
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 202.0,
+      "end": 204.0,
+      "text": " What has become your warehouse?"
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 204.0,
+      "end": 206.0,
+      "text": " That is your data warehouse."
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 206.0,
+      "end": 208.0,
+      "text": " Now what is a subset of this data warehouse?"
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 208.0,
+      "end": 210.0,
+      "text": " Your data mart."
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 210.0,
+      "end": 212.0,
+      "text": " Means if there is a demand"
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 212.0,
+      "end": 214.0,
+      "text": " that someone in a store,"
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 214.0,
+      "end": 216.0,
+      "text": " in a Reliance store,"
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 216.0,
+      "end": 218.0,
+      "text": " or in a wedding,"
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 218.0,
+      "end": 220.0,
+      "text": " you have to supply Alphanso mangoes,"
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 220.0,
+      "end": 222.0,
+      "text": " then you took out one thing from it."
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 222.0,
+      "end": 224.0,
+      "text": " You took out only one subset."
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 224.0,
+      "end": 226.0,
+      "text": " You took out one from the whole warehouse."
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 226.0,
+      "end": 228.0,
+      "text": " That is your data mart."
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 228.0,
+      "end": 230.0,
+      "text": " That is the story."
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 230.0,
+      "end": 232.0,
+      "text": " Apart from this,"
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 232.0,
+      "end": 234.0,
+      "text": " there is nothing."
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 234.0,
+      "end": 236.0,
+      "text": " Data lake, warehouse and mart."
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 236.0,
+      "end": 238.0,
+      "text": " Rest all are theories"
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 238.0,
+      "end": 240.0,
+      "text": " which you can easily read."
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 240.0,
+      "end": 242.0,
+      "text": " So this is the process structure."
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 242.0,
+      "end": 244.0,
+      "text": " But what is this?"
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 244.0,
+      "end": 246.0,
+      "text": " This is only raw, unstructured."
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 246.0,
+      "end": 248.0,
+      "text": " Nothing is done on it."
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 248.0,
+      "end": 250.0,
+      "text": " Here, enterprise analysis can be done."
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 250.0,
+      "end": 252.0,
+      "text": " When we have decorated them properly,"
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 252.0,
+      "end": 254.0,
+      "text": " now whatever analysis you have to do on it,"
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 254.0,
+      "end": 256.0,
+      "text": " how good is this, which mango is good,"
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 256.0,
+      "end": 258.0,
+      "text": " all these analysis you can do easily"
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 258.0,
+      "end": 260.0,
+      "text": " because you have cleaned it properly."
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 260.0,
+      "end": 262.0,
+      "text": " Here, department specific."
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 262.0,
+      "end": 264.0,
+      "text": " Means if we have to target Alphanso,"
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 264.0,
+      "end": 266.0,
+      "text": " then I can do that."
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 266.0,
+      "end": 268.0,
+      "text": " Or if we have to target Dusheri mango,"
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 268.0,
+      "end": 270.0,
+      "text": " then based on that you must have understood it."
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 270.0,
+      "end": 272.0,
+      "text": " This is big data IIML."
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 272.0,
+      "end": 274.0,
+      "text": " This is a big dump."
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 274.0,
+      "end": 276.0,
+      "text": " After this, I have to do some queries on it."
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 276.0,
+      "end": 278.0,
+      "text": " I have to do some analysis."
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 278.0,
+      "end": 280.0,
+      "text": " I have to put some machine learning algorithm."
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 280.0,
+      "end": 282.0,
+      "text": " I have to put some neural network algorithm."
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 282.0,
+      "end": 284.0,
+      "text": " Or like chat gpt open AI,"
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 284.0,
+      "end": 286.0,
+      "text": " which has to train such big LLM models."
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 286.0,
+      "end": 288.0,
+      "text": " So I can train them on these marts,"
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 288.0,
+      "end": 290.0,
+      "text": " on these lakes."
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 290.0,
+      "end": 292.0,
+      "text": " Now look at the storage, high cost."
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 292.0,
+      "end": 294.0,
+      "text": " Obviously for this,"
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 294.0,
+      "end": 296.0,
+      "text": " you have put the whole AC for mango."
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 296.0,
+      "end": 298.0,
+      "text": " You have put the whole system."
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 298.0,
+      "end": 300.0,
+      "text": " It has become a little less in it"
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 300.0,
+      "end": 302.0,
+      "text": " but there is nothing here."
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 302.0,
+      "end": 304.0,
+      "text": " There is an empty space in the warehouse."
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 304.0,
+      "end": 306.0,
+      "text": " You have filled all of it in it."
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 306.0,
+      "end": 308.0,
+      "text": " Then after that data processing"
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 308.0,
+      "end": 310.0,
+      "text": " has been transformed."
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 310.0,
+      "end": 312.0,
+      "text": " Now I think you have easily understood the whole story"
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 312.0,
+      "end": 314.0,
+      "text": " because you have understood it from one example."
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 314.0,
+      "end": 316.0,
+      "text": " And if I talk about the real life case,"
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 316.0,
+      "end": 318.0,
+      "text": " then like Amazon's sales data,"
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 318.0,
+      "end": 320.0,
+      "text": " customer data is so much online,"
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 320.0,
+      "end": 322.0,
+      "text": " it is being sold on a multiple daily basis."
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 322.0,
+      "end": 324.0,
+      "text": " Different location wise, different product wise,"
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 324.0,
+      "end": 326.0,
+      "text": " all of them were combined."
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 326.0,
+      "end": 328.0,
+      "text": " All of them were processed."
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 328.0,
+      "end": 330.0,
+      "text": " And after that,"
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 330.0,
+      "end": 332.0,
+      "text": " I just have to extract the marketing data"
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 332.0,
+      "end": 334.0,
+      "text": " or just have to extract the sales data"
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 334.0,
+      "end": 336.0,
+      "text": " or just have to extract the sales data of India."
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 336.0,
+      "end": 338.0,
+      "text": " So it became a mart."
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 338.0,
+      "end": 340.0,
+      "text": " And let's suppose Netflix says that"
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 340.0,
+      "end": 342.0,
+      "text": " I have to lower all the activity of users."
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 342.0,
+      "end": 344.0,
+      "text": " Who are they clicking on, who are they using."
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 344.0,
+      "end": 346.0,
+      "text": " I have stored all of them once."
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 346.0,
+      "end": 348.0,
+      "text": " Later on, I will process it"
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 348.0,
+      "end": 350.0,
+      "text": " and run the recommendations according to it."
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 350.0,
+      "end": 352.0,
+      "text": " So that the user can see things"
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 352.0,
+      "end": 354.0,
+      "text": " according to them."
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 354.0,
+      "end": 356.0,
+      "text": " So this is used for some impurposes"
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 356.0,
+      "end": 358.0,
+      "text": " in real time."
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 358.0,
+      "end": 360.0,
+      "text": " So there is nothing else in it."
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 360.0,
+      "end": 362.0,
+      "text": " You can ask anywhere,"
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 362.0,
+      "end": 364.0,
+      "text": " you can easily answer the difference."
+    },
+    {
+      "number": "11",
+      "title": "Difference Between Data Warehouse_ Data Mart _ Data Lake",
+      "start": 364.0,
+      "end": 366.0,
+      "text": " Thank you."
+    }
+  ],
+  "text": " Dear students, welcome to Gate Smashers. In today's video, I am going to explain what is the difference between data warehouse, data mart and data lake. It is a very simple topic but if someone asks you in interviews or in a columnist exam, you can easily answer that what is data warehouse, data mart and data lake. I will explain you with a real life example. So first of all, let me tell you a little term here. We are already doing data warehouse. Where we say that we extract, integrate, transform, clean, normalize, and clean all the data from multiple locations and then we load it in our storage spaces. And then whoever wants to use it for analysis, they can take it from there. So this data warehouse provides us this thing. The data mart is also a data warehouse but it has become a subset. Means a subset of this becomes your data mart. And what is a data lake actually? A big dump, an area where all the raw things are lying. I will explain with an example. Let's take a simple example. Let's suppose that you have a very big farmhouse of mangoes or a very big warehouse of mangoes. So you assume that you have your location, for example, you have a location, X location, all the farmers are bringing mangoes from that location for 50, 60, 100 km. Means all the people are bringing mangoes from the 50-100 km area and here you have kept a dump of it. Dump means you have put a whole pile of it. All the trolleys of mangoes, all the trucks are coming, you have put a dump. Raw, what is this raw? You have not done anything yet, you have not put any filter. All the trolleys that came, you loaded on it, the second came, the third, the fourth, you made all the dump. This big dump has become of raw, in which there is no processing, this is called a lake. This is called a data lake in technical terms. Now what do we do after this? After that we put people, the people I have kept there, what did they start doing? They started filtering in the potential. Filtering means those who are ripe, those who are not ripe, they were put. Those who are more ripe, they were put. And then there is a category in it, we have Dussheri mango, Langda mango, Chossa mango, which all are Alphanso. So what did they do on the basis of that? They started categorizing them. Means processing, a little transformed it, cleaned it, put ripe ones, put over ripe ones, put raw ones. And finally what did they do? They started storing them in their warehouse. What did they do? They started storing. What did they do in the warehouse? We processed them. Now here I have put AC etc. You can say that the whole roof is there. The whole system is made there so that nothing is spoiled here. So actually dump, data lake, a big area, a godown, where there is nothing, you just kept the dump. You made all of them separate, made a separate category. And after that, what did you do? You put proper big racks inside, put AC etc. and whatever lighting you did, you kept it all properly. What has become your warehouse? That is your data warehouse. Now what is a subset of this data warehouse? Your data mart. Means if there is a demand that someone in a store, in a Reliance store, or in a wedding, you have to supply Alphanso mangoes, then you took out one thing from it. You took out only one subset. You took out one from the whole warehouse. That is your data mart. That is the story. Apart from this, there is nothing. Data lake, warehouse and mart. Rest all are theories which you can easily read. So this is the process structure. But what is this? This is only raw, unstructured. Nothing is done on it. Here, enterprise analysis can be done. When we have decorated them properly, now whatever analysis you have to do on it, how good is this, which mango is good, all these analysis you can do easily because you have cleaned it properly. Here, department specific. Means if we have to target Alphanso, then I can do that. Or if we have to target Dusheri mango, then based on that you must have understood it. This is big data IIML. This is a big dump. After this, I have to do some queries on it. I have to do some analysis. I have to put some machine learning algorithm. I have to put some neural network algorithm. Or like chat gpt open AI, which has to train such big LLM models. So I can train them on these marts, on these lakes. Now look at the storage, high cost. Obviously for this, you have put the whole AC for mango. You have put the whole system. It has become a little less in it but there is nothing here. There is an empty space in the warehouse. You have filled all of it in it. Then after that data processing has been transformed. Now I think you have easily understood the whole story because you have understood it from one example. And if I talk about the real life case, then like Amazon's sales data, customer data is so much online, it is being sold on a multiple daily basis. Different location wise, different product wise, all of them were combined. All of them were processed. And after that, I just have to extract the marketing data or just have to extract the sales data or just have to extract the sales data of India. So it became a mart. And let's suppose Netflix says that I have to lower all the activity of users. Who are they clicking on, who are they using. I have stored all of them once. Later on, I will process it and run the recommendations according to it. So that the user can see things according to them. So this is used for some impurposes in real time. So there is nothing else in it. You can ask anywhere, you can easily answer the difference. Thank you."
+}

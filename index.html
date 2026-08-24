@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎓 RAG AI Teaching Assistant</title>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #0d0a18;
+            --panel-bg: #141125;
+            --border-color: rgba(255, 255, 255, 0.08);
+            --accent-purple: #8A2BE2;
+            --accent-blue: #4A90E2;
+            --text-color: #f1f0f7;
+            --text-muted: #9f9bbf;
+            --success-color: #10B981;
+            --info-color: #3B82F6;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            height: 100vh;
+            display: flex;
+            overflow: hidden;
+        }
+
+        /* Split Pane Layout */
+        .sidebar {
+            width: 380px;
+            background-color: var(--panel-bg);
+            border-right: 1px solid var(--border-color);
+            display: flex;
+            flex-direction: column;
+            padding: 1.5rem;
+            overflow-y: auto;
+        }
+
+        .main-content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            background: radial-gradient(circle at top right, rgba(138, 43, 226, 0.05), transparent);
+        }
+
+        /* Titles and Headers */
+        h2 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: var(--text-color);
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .app-title {
+            background: linear-gradient(135deg, var(--accent-purple), var(--accent-blue));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-weight: 700;
+            font-size: 1.8rem;
+            padding: 1.5rem 1.5rem 0.5rem 1.5rem;
+        }
+
+        .app-subtitle {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            padding: 0 1.5rem 1.5rem 1.5rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        /* Dropdowns & Selects */
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+
+        label {
+            display: block;
+            font-size: 0.85rem;
+            font-weight: 500;
+            color: var(--text-muted);
+            margin-bottom: 0.5rem;
+        }
+
+        select {
+            width: 100%;
+            padding: 0.75rem;
+            background-color: rgba(255, 255, 255, 0.04);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            color: var(--text-color);
+            outline: none;
+            cursor: pointer;
+            transition: border-color 0.2s;
+        }
+
+        select:focus {
+            border-color: var(--accent-purple);
+        }
+
+        /* Text Area */
+        .transcript-text {
+            width: 100%;
+            height: 180px;
+            background-color: rgba(255, 255, 255, 0.02);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 0.75rem;
+            color: var(--text-color);
+            font-size: 0.85rem;
+            resize: none;
+            margin-bottom: 1.5rem;
+            line-height: 1.4;
+        }
+
+        /* Timestamped Chunks */
+        .chunks-list {
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+        }
+
+        .chunk-card {
+            background-color: rgba(255, 255, 255, 0.03);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 0.75rem;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .chunk-card:hover {
+            transform: translateX(4px);
+            border-color: var(--accent-purple);
+        }
+
+        .chunk-header {
+            font-size: 0.8rem;
+            font-weight: 600;
+            color: var(--text-muted);
+            margin-bottom: 0.4rem;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .chunk-body {
+            font-size: 0.85rem;
+            line-height: 1.4;
+        }
+
+        /* HIGHLIGHT MATCH STYLES */
+        .chunk-card.match {
+            border-color: var(--success-color);
+            background-color: rgba(16, 185, 129, 0.08);
+            animation: pulseHighlight 2s infinite alternate;
+        }
+
+        .chunk-card.match .chunk-header {
+            color: var(--success-color);
+        }
+
+        @keyframes pulseHighlight {
+            from { box-shadow: 0 0 4px rgba(16, 185, 129, 0.2); }
+            to { box-shadow: 0 0 12px rgba(16, 185, 129, 0.5); }
+        }
+
+        /* Chat History Section */
+        .chat-history {
+            flex: 1;
+            padding: 2rem;
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+
+        .chat-message {
+            display: flex;
+            gap: 1rem;
+            max-width: 80%;
+            animation: fadeInUp 0.4s cubic-bezier(0.16, 1, 0.3, 1) both;
+        }
+
+        .chat-message.user {
+            align-self: flex-end;
+            flex-direction: row-reverse;
+        }
+
+        .chat-message.assistant {
+            align-self: flex-start;
+        }
+
+        .avatar {
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 0.9rem;
+            flex-shrink: 0;
+        }
+
+        .user .avatar {
+            background-color: var(--accent-blue);
+            color: white;
+        }
+
+        .assistant .avatar {
+            background-color: var(--accent-purple);
+            color: white;
+        }
+
+        .message-bubble {
+            padding: 0.85rem 1.2rem;
+            border-radius: 14px;
+            font-size: 0.95rem;
+            line-height: 1.5;
+        }
+
+        .user .message-bubble {
+            background-color: var(--accent-blue);
+            color: white;
+            border-bottom-right-radius: 2px;
+        }
+
+        .assistant .message-bubble {
+            background-color: rgba(255, 255, 255, 0.05);
+            border: 1px solid var(--border-color);
+            border-bottom-left-radius: 2px;
+            white-space: pre-wrap;
+        }
+
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(12px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Chat Input Container */
+        .chat-input-container {
+            padding: 1.5rem 2rem;
+            border-top: 1px solid var(--border-color);
+            background-color: rgba(13, 10, 24, 0.5);
+            backdrop-filter: blur(8px);
+        }
+
+        .input-wrapper {
+            display: flex;
+            background-color: rgba(255, 255, 255, 0.03);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            overflow: hidden;
+            transition: all 0.3s;
+        }
+
+        .input-wrapper:focus-within {
+            border-color: var(--accent-purple);
+            box-shadow: 0 0 12px rgba(138, 43, 226, 0.2);
+        }
+
+        .chat-input {
+            flex: 1;
+            background: none;
+            border: none;
+            outline: none;
+            padding: 1rem;
+            color: var(--text-color);
+            font-size: 0.95rem;
+        }
+
+        .send-btn {
+            background: none;
+            border: none;
+            padding: 0 1.5rem;
+            color: var(--text-muted);
+            cursor: pointer;
+            font-weight: 600;
+            transition: color 0.2s;
+        }
+
+        .send-btn:hover {
+            color: var(--accent-purple);
+        }
+
+        /* Spinner */
+        .spinner {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 3px solid rgba(255,255,255,0.1);
+            border-radius: 50%;
+            border-top-color: var(--accent-purple);
+            animation: spin 1s ease-in-out infinite;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        .loading-container {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            margin-top: 0.5rem;
+            align-self: flex-start;
+            padding-left: 3rem;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Sidebar Transcript Browser -->
+    <div class="sidebar">
+        <h2>📚 Lecture Browser</h2>
+        
+        <div class="form-group">
+            <label for="video-select">Choose a video:</label>
+            <select id="video-select">
+                <option value="">Select a transcript...</option>
+            </select>
+        </div>
+
+        <label>Full Translated Text:</label>
+        <textarea class="transcript-text" id="full-text-area" readonly placeholder="Transcript contents will load here..."></textarea>
+
+        <label>Timestamped Chunks:</label>
+        <div class="chunks-list" id="chunks-container">
+            <div style="color: var(--text-muted); font-size: 0.85rem; text-align: center; padding: 2rem 0;">
+                Select a video above to inspect individual timeline chunks.
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Chat Window -->
+    <div class="main-content">
+        <div class="app-header">
+            <div class="app-title">🎓 RAG AI Teaching Assistant</div>
+            <div class="app-subtitle">Ask course-related questions and browse lecture context side-by-side.</div>
+        </div>
+
+        <!-- Chat History -->
+        <div class="chat-history" id="chat-history">
+            <div class="chat-message assistant">
+                <div class="avatar">AI</div>
+                <div class="message-bubble">Hello! Ask me any question related to the course lectures, and I will retrieve the exact timestamps and video segments.</div>
+            </div>
+        </div>
+
+        <!-- Chat Input Form -->
+        <div class="chat-input-container">
+            <form id="chat-form">
+                <div class="input-wrapper">
+                    <input type="text" class="chat-input" id="user-input" placeholder="Ask a question about the course..." autocomplete="off">
+                    <button type="submit" class="send-btn" id="send-button">Send</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        const videoSelect = document.getElementById("video-select");
+        const fullTextArea = document.getElementById("full-text-area");
+        const chunksContainer = document.getElementById("chunks-container");
+        const chatHistory = document.getElementById("chat-history");
+        const chatForm = document.getElementById("chat-form");
+        const userInput = document.getElementById("user-input");
+
+        let matchedChunks = []; // Stores the latest query's matches (for highlighting)
+
+        // 1. Fetch transcript list on load
+        async function loadTranscriptsList() {
+            try {
+                const response = await fetch("/api/transcripts");
+                const files = await response.json();
+                files.forEach(file => {
+                    const option = document.createElement("option");
+                    option.value = file;
+                    // Remove extension for clean option labels
+                    option.textContent = file.replace(".json", "");
+                    videoSelect.appendChild(option);
+                });
+            } catch (err) {
+                console.error("Error loading transcripts:", err);
+            }
+        }
+
+        // 2. Fetch specific transcript detail
+        videoSelect.addEventListener("change", async (e) => {
+            const file = e.target.value;
+            if (!file) {
+                fullTextArea.value = "";
+                chunksContainer.innerHTML = `<div style="color: var(--text-muted); font-size: 0.85rem; text-align: center; padding: 2rem 0;">Select a video above to inspect individual timeline chunks.</div>`;
+                return;
+            }
+
+            try {
+                const response = await fetch(`/api/transcript/${file}`);
+                const data = await response.json();
+                fullTextArea.value = data.text || "";
+                renderChunks(data.chunks || []);
+            } catch (err) {
+                console.error("Error loading transcript detail:", err);
+            }
+        });
+
+        // 3. Render chunks inside the sidebar
+        function renderChunks(chunks) {
+            chunksContainer.innerHTML = "";
+            chunks.forEach(chunk => {
+                const startMin = Math.floor(chunk.start / 60);
+                const startSec = Math.floor(chunk.start % 60);
+                const endMin = Math.floor(chunk.end / 60);
+                const endSec = Math.floor(chunk.end % 60);
+
+                const formatTime = (m, s) => `${String(m).padStart(2, '0')}:${String(s).padStart(2, '0')}`;
+
+                const card = document.createElement("div");
+                card.className = "chunk-card";
+                
+                // Highlight matches if this chunk (number and start time) is in matchedChunks
+                const isMatch = matchedChunks.some(m => 
+                    String(m.number).trim() === String(chunk.number).trim() && 
+                    Math.abs(Number(m.start) - Number(chunk.start)) < 0.1
+                );
+
+                if (isMatch) {
+                    card.classList.add("match");
+                }
+
+                card.innerHTML = `
+                    <div class="chunk-header">
+                        <span>🎬 Video ${chunk.number}</span>
+                        <span>⏳ ${formatTime(startMin, startSec)} - ${formatTime(endMin, endSec)}</span>
+                    </div>
+                    <div class="chunk-body">${chunk.text}</div>
+                `;
+                chunksContainer.appendChild(card);
+            });
+        }
+
+        // 4. Handle Chat Query
+        chatForm.addEventListener("submit", async (e) => {
+            e.preventDefault();
+            const query = userInput.value.trim();
+            if (!query) return;
+
+            // Clear input
+            userInput.value = "";
+
+            // Render User Message
+            appendMessage("user", "U", query);
+
+            // Render Loading Spinner
+            const loadingDiv = document.createElement("div");
+            loadingDiv.className = "loading-container";
+            loadingDiv.id = "chat-loading";
+            loadingDiv.innerHTML = `<div class="spinner"></div><span>Searching vector database...</span>`;
+            chatHistory.appendChild(loadingDiv);
+            chatHistory.scrollTop = chatHistory.scrollHeight;
+
+            try {
+                const response = await fetch("/api/query", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({ query: query })
+                });
+                const data = await response.json();
+
+                // Remove loading spinner
+                document.getElementById("chat-loading").remove();
+
+                if (response.ok) {
+                    // Update global matchedChunks state
+                    matchedChunks = data.chunks || [];
+                    
+                    // Render Assistant Message
+                    appendMessage("assistant", "AI", data.response);
+
+                    // Re-render sidebar if a video is currently loaded to highlight matches
+                    if (videoSelect.value) {
+                        const activeFile = videoSelect.value;
+                        const res = await fetch(`/api/transcript/${activeFile}`);
+                        const activeData = await res.json();
+                        renderChunks(activeData.chunks || []);
+                    }
+                } else {
+                    appendMessage("assistant", "AI", `Error: ${data.detail || "Query execution failed."}`);
+                }
+            } catch (err) {
+                document.getElementById("chat-loading").remove();
+                appendMessage("assistant", "AI", `Connection error: ${err.message}`);
+            }
+        });
+
+        function appendMessage(role, avatarText, text) {
+            const msgDiv = document.createElement("div");
+            msgDiv.className = `chat-message ${role}`;
+            msgDiv.innerHTML = `
+                <div class="avatar">${avatarText}</div>
+                <div class="message-bubble">${text}</div>
+            `;
+            chatHistory.appendChild(msgDiv);
+            chatHistory.scrollTop = chatHistory.scrollHeight;
+        }
+
+        // Initialize lists
+        loadTranscriptsList();
+    </script>
+</body>
+</html>

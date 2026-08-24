@@ -1,0 +1,1538 @@
+{
+  "chunks": [
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 0.0,
+      "end": 2.0,
+      "text": " Dear students, welcome to Kids Measures"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 2.02,
+      "end": 4.0200000000000005,
+      "text": " In today's video I am going to explain"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 4.04,
+      "end": 7.04,
+      "text": " Difference between OLTP and OLAP system"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 7.0600000000000005,
+      "end": 9.06,
+      "text": " And I will explain this with a very good example"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 9.08,
+      "end": 11.58,
+      "text": " I will explain it with a real life example, it will be fun in this video"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 11.6,
+      "end": 14.8,
+      "text": " See, first of all we will start with a simple example"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 14.82,
+      "end": 18.82,
+      "text": " Let's assume that I have a company whose name is ABC Electronics"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 18.84,
+      "end": 22.34,
+      "text": " And we sell electronic items online"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 22.36,
+      "end": 26.36,
+      "text": " Like mobiles, computers, laptops, we sell them online"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 26.38,
+      "end": 28.580000000000002,
+      "text": " Now I have a website, a mobile app"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 28.58,
+      "end": 30.58,
+      "text": " On which users come, like you are users"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 30.599999999999998,
+      "end": 35.6,
+      "text": " You come and search on my app or desktop application"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 35.62,
+      "end": 37.62,
+      "text": " And then you buy a particular product"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 37.64,
+      "end": 39.64,
+      "text": " So you must be understanding this simple scenario"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 39.66,
+      "end": 43.66,
+      "text": " And when you buy, I get a copy of that data"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 43.68,
+      "end": 45.68,
+      "text": " I mean I get that transaction"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 45.7,
+      "end": 47.7,
+      "text": " And at the end of the year, I know"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 47.72,
+      "end": 49.72,
+      "text": " At the end of the financial year"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 49.739999999999995,
+      "end": 51.739999999999995,
+      "text": " That how much total sale I got"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 51.76,
+      "end": 53.76,
+      "text": " How much profit or loss I got"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 53.78,
+      "end": 55.78,
+      "text": " Or what things happened"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 56.0,
+      "end": 58.0,
+      "text": " So this is a simple example of the first model"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 58.02,
+      "end": 60.02,
+      "text": " You must be understanding this"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 60.04,
+      "end": 62.04,
+      "text": " Now here OLTP, where did OLAP come in?"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 62.06,
+      "end": 64.06,
+      "text": " And where did the difference come in between this?"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 64.08,
+      "end": 66.08,
+      "text": " So see, it is a very simple example"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 66.1,
+      "end": 68.1,
+      "text": " You can see this card"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 68.12,
+      "end": 70.12,
+      "text": " Now there are two faces of this card"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 70.14,
+      "end": 72.14,
+      "text": " If I take the same company example"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 72.16,
+      "end": 74.16,
+      "text": " Now there are two faces of this card"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 74.18,
+      "end": 76.18,
+      "text": " This face is towards you and this face is towards me"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 76.2,
+      "end": 78.2,
+      "text": " This face is towards you"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 78.22,
+      "end": 80.22,
+      "text": " This is OLTP"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 80.24000000000001,
+      "end": 82.24000000000001,
+      "text": " Online Transaction Processing"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 82.26,
+      "end": 84.26,
+      "text": " Where you come"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 84.26,
+      "end": 86.26,
+      "text": " There is a user interface, an application is made"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 86.28,
+      "end": 88.28,
+      "text": " There is a database"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 88.30000000000001,
+      "end": 90.30000000000001,
+      "text": " You open the application or desktop"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 90.32000000000001,
+      "end": 92.32000000000001,
+      "text": " Or open the mobile"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 92.34,
+      "end": 94.34,
+      "text": " And there you search for a particular product"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 94.36,
+      "end": 96.36,
+      "text": " Then you put it in the cart, buy it"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 96.38000000000001,
+      "end": 98.38000000000001,
+      "text": " You do the payment, all those things"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 98.4,
+      "end": 100.4,
+      "text": " You are doing at this end"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 100.42,
+      "end": 102.42,
+      "text": " That is the OLTP"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 102.44,
+      "end": 104.44,
+      "text": " And this face which I can see"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 104.46000000000001,
+      "end": 106.46000000000001,
+      "text": " This is OLAP"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 106.48,
+      "end": 108.48,
+      "text": " Means at the end of the month"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 108.5,
+      "end": 110.5,
+      "text": " I check that how much product sale I got"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 110.52000000000001,
+      "end": 112.52000000000001,
+      "text": " Where did I sell more products"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 112.82,
+      "end": 114.82,
+      "text": " How much total profit I got"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 114.83999999999999,
+      "end": 116.84,
+      "text": " What happened if I lost"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 116.86,
+      "end": 118.86,
+      "text": " So I am checking all these things at my end"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 118.88,
+      "end": 120.88,
+      "text": " So this is towards you, this OLTP"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 120.89999999999999,
+      "end": 122.89999999999999,
+      "text": " This is towards me, this OLAP"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 122.92,
+      "end": 124.92,
+      "text": " That is the Analysis Processing"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 124.94,
+      "end": 126.94,
+      "text": " Now you have understood all the stories"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 126.96,
+      "end": 128.96,
+      "text": " Now see"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 128.98,
+      "end": 130.98,
+      "text": " Current data, historical data"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 131.0,
+      "end": 133.0,
+      "text": " Means OLTP"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 133.01999999999998,
+      "end": 135.01999999999998,
+      "text": " On which data will you work"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 135.04,
+      "end": 137.04,
+      "text": " On current data, which product is available today"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 137.06,
+      "end": 139.06,
+      "text": " How much you can say is going on off"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 139.07999999999998,
+      "end": 141.07999999999998,
+      "text": " Like it comes that on Amazon, Flipkart"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 141.68,
+      "end": 143.68,
+      "text": " So you are working on current data"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 143.70000000000002,
+      "end": 145.70000000000002,
+      "text": " The sale which was done 6 months ago"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 145.72,
+      "end": 147.72000000000003,
+      "text": " That is not going on you today"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 147.74,
+      "end": 149.74,
+      "text": " You are working on today's data"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 149.76000000000002,
+      "end": 151.76000000000002,
+      "text": " And on whom am I working"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 151.78,
+      "end": 153.78,
+      "text": " I am working on historical data"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 153.8,
+      "end": 155.8,
+      "text": " How much sale happened today, I don't have to take it now"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 155.82000000000002,
+      "end": 157.82000000000002,
+      "text": " Maybe I should check after a week"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 157.84,
+      "end": 159.84,
+      "text": " Or after a month or after a quarter"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 159.86,
+      "end": 161.86,
+      "text": " Like big companies say"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 161.88000000000002,
+      "end": 163.88000000000002,
+      "text": " After quarter 1, I got this much revenue"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 163.9,
+      "end": 165.9,
+      "text": " So I am checking that"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 165.92000000000002,
+      "end": 167.92000000000002,
+      "text": " Through OLAP system"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 167.94,
+      "end": 169.94,
+      "text": " I am checking on historical data"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 169.94,
+      "end": 171.94,
+      "text": " Because current data amount will be less"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 171.96,
+      "end": 173.96,
+      "text": " But historical data will be in large volume"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 173.98,
+      "end": 175.98,
+      "text": " Multidimensional data will be there"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 176.0,
+      "end": 178.0,
+      "text": " Multidimensional means"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 178.02,
+      "end": 180.02,
+      "text": " Like as an example"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 180.04,
+      "end": 182.04,
+      "text": " I will tell you"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 182.06,
+      "end": 184.06,
+      "text": " Like if I have to draw this"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 184.07999999999998,
+      "end": 186.07999999999998,
+      "text": " You can draw it like this"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 186.1,
+      "end": 188.1,
+      "text": " 3 dimensional data"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 188.12,
+      "end": 190.12,
+      "text": " One dimension is my time"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 190.14,
+      "end": 192.14,
+      "text": " Here how much happened in 2021"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 192.16,
+      "end": 194.16,
+      "text": " How much happened in 2022"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 194.18,
+      "end": 196.18,
+      "text": " How much is happening in 2023"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 196.2,
+      "end": 198.2,
+      "text": " One dimension means what can I have in one axis"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 198.5,
+      "end": 200.5,
+      "text": " Region means like how much sale happened in India"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 200.51999999999998,
+      "end": 202.51999999999998,
+      "text": " How much happened in Japan"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 202.54,
+      "end": 204.54,
+      "text": " How much happened in America"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 204.56,
+      "end": 206.56,
+      "text": " And on one side what can be my product"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 206.57999999999998,
+      "end": 208.57999999999998,
+      "text": " X axis, Y axis, Z axis"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 208.6,
+      "end": 210.6,
+      "text": " On one side product means how much mobile is sold"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 210.61999999999998,
+      "end": 212.61999999999998,
+      "text": " How much computer is sold"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 212.64,
+      "end": 214.64,
+      "text": " How much laptop is sold"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 214.66,
+      "end": 216.66,
+      "text": " So I work on multidimensional data"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 216.67999999999998,
+      "end": 218.67999999999998,
+      "text": " This is your OLAP system"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 218.7,
+      "end": 220.7,
+      "text": " And you work on simple data"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 220.72,
+      "end": 222.72,
+      "text": " Day to day transactions"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 222.73999999999998,
+      "end": 224.73999999999998,
+      "text": " You come daily to daily and do transactions"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 224.76,
+      "end": 226.76,
+      "text": " Your work is only this"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 226.76,
+      "end": 228.76,
+      "text": " I do all these things and then I do decision making"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 228.78,
+      "end": 230.78,
+      "text": " Based on what data I have"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 230.79999999999998,
+      "end": 232.79999999999998,
+      "text": " That which product should I put sale on"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 232.82,
+      "end": 234.82,
+      "text": " Which product should not be put on"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 234.84,
+      "end": 236.84,
+      "text": " Who is giving me more benefit"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 236.85999999999999,
+      "end": 238.85999999999999,
+      "text": " Who is giving me less benefit"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 238.88,
+      "end": 240.88,
+      "text": " Sometimes what happens is we are doing a lot of ads"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 240.89999999999998,
+      "end": 242.89999999999998,
+      "text": " But it is not selling"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 242.92,
+      "end": 244.92,
+      "text": " And we are doing less of someone's ad and it is selling more"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 244.94,
+      "end": 246.94,
+      "text": " So all these things have to be taken decision"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 246.95999999999998,
+      "end": 248.95999999999998,
+      "text": " Normalized data structure"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 248.98,
+      "end": 250.98,
+      "text": " The data you are working on is normalized data"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 251.0,
+      "end": 253.0,
+      "text": " Simple like you can say structured data"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 253.01999999999998,
+      "end": 255.01999999999998,
+      "text": " Data can be in table and form"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 255.32000000000002,
+      "end": 257.32,
+      "text": " So there will be a structure"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 257.34000000000003,
+      "end": 259.34000000000003,
+      "text": " The data I am working on in OLAP"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 259.36,
+      "end": 261.36,
+      "text": " That is a star schema or snowflake schema"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 261.38,
+      "end": 263.38,
+      "text": " I have already defined that"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 263.40000000000003,
+      "end": 265.40000000000003,
+      "text": " You will get the link of that"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 265.42,
+      "end": 267.42,
+      "text": " So these are your data models"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 267.44,
+      "end": 269.44,
+      "text": " Based on data warehouse"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 269.46000000000004,
+      "end": 271.46000000000004,
+      "text": " Because my data is in warehouses"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 271.48,
+      "end": 273.48,
+      "text": " Large volume of data is there"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 273.5,
+      "end": 275.5,
+      "text": " Simple queries"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 275.52,
+      "end": 277.52,
+      "text": " Obviously if I give you complex"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 277.54,
+      "end": 279.54,
+      "text": " You will get stuck somewhere"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 279.56,
+      "end": 281.56,
+      "text": " Now see my front end"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 281.58000000000004,
+      "end": 283.58000000000004,
+      "text": " The employees working on it"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 283.58,
+      "end": 285.58,
+      "text": " Many employees are doing"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 285.59999999999997,
+      "end": 287.59999999999997,
+      "text": " They are putting daily product"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 287.62,
+      "end": 289.62,
+      "text": " Today I put this product or tomorrow I will put this product"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 289.64,
+      "end": 291.64,
+      "text": " And I am putting in so much sale"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 291.65999999999997,
+      "end": 293.65999999999997,
+      "text": " So these employees who are working in front line"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 293.68,
+      "end": 295.68,
+      "text": " For my company"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 295.7,
+      "end": 297.7,
+      "text": " They are using this data"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 297.71999999999997,
+      "end": 299.71999999999997,
+      "text": " And then you are seeing that data"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 299.74,
+      "end": 301.74,
+      "text": " But the data I am working on"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 301.76,
+      "end": 303.76,
+      "text": " That data only executive"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 303.78,
+      "end": 305.78,
+      "text": " The founders of the company"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 305.79999999999995,
+      "end": 307.79999999999995,
+      "text": " They can use that data"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 307.82,
+      "end": 309.82,
+      "text": " Or you can say that executives"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 309.84,
+      "end": 311.84,
+      "text": " Or analysts"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 312.14,
+      "end": 314.14,
+      "text": " Or scientists are using that data"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 314.15999999999997,
+      "end": 316.15999999999997,
+      "text": " So you will understand the main story"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 316.17999999999995,
+      "end": 318.17999999999995,
+      "text": " So that's why simple queries are there"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 318.2,
+      "end": 320.2,
+      "text": " But at my end there are complex queries"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 320.21999999999997,
+      "end": 322.21999999999997,
+      "text": " We have to aggregate, integrate"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 322.23999999999995,
+      "end": 324.23999999999995,
+      "text": " We have to join the data"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 324.26,
+      "end": 326.26,
+      "text": " So this is a simple fund"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 326.28,
+      "end": 328.28,
+      "text": " Then I told you that who is using this data"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 328.29999999999995,
+      "end": 330.29999999999995,
+      "text": " The employees of the front line"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 330.32,
+      "end": 332.32,
+      "text": " They are putting daily data"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 332.34,
+      "end": 334.34,
+      "text": " How much sale has happened, they are collecting that data"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 334.35999999999996,
+      "end": 336.35999999999996,
+      "text": " Managers are on their head"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 336.38,
+      "end": 338.38,
+      "text": " And then finally you are seeing that data"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 338.4,
+      "end": 340.4,
+      "text": " Because you are generating that data"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 340.97999999999996,
+      "end": 342.97999999999996,
+      "text": " And we are actually putting that data"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 343.0,
+      "end": 345.0,
+      "text": " My employees are putting that data"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 345.02,
+      "end": 347.02,
+      "text": " So that you can see that data"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 347.03999999999996,
+      "end": 349.03999999999996,
+      "text": " But the OLAP"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 349.06,
+      "end": 351.06,
+      "text": " As I told you earlier"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 351.08,
+      "end": 353.08,
+      "text": " Analysts, executive, decision makers"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 353.09999999999997,
+      "end": 355.09999999999997,
+      "text": " And those who are sitting in the big position of the company"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 355.12,
+      "end": 357.12,
+      "text": " They use it"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 357.14,
+      "end": 359.14,
+      "text": " Require faster response time"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 359.15999999999997,
+      "end": 361.15999999999997,
+      "text": " Obviously"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 361.17999999999995,
+      "end": 363.17999999999995,
+      "text": " You need faster response on OLTP"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 363.2,
+      "end": 365.2,
+      "text": " Otherwise you"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 365.21999999999997,
+      "end": 367.21999999999997,
+      "text": " Instead of XYZ company"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 367.23999999999995,
+      "end": 369.23999999999995,
+      "text": " You will go to ABC company"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 369.24,
+      "end": 371.24,
+      "text": " Then you will have a faster response"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 371.26,
+      "end": 373.26,
+      "text": " But here"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 373.28000000000003,
+      "end": 375.28000000000003,
+      "text": " Because I am not doing daily analysis"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 375.3,
+      "end": 377.3,
+      "text": " I may be after 1 week"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 377.32,
+      "end": 379.32,
+      "text": " After 2 weeks, after 1 month"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 379.34000000000003,
+      "end": 381.34000000000003,
+      "text": " I am doing that data analysis"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 381.36,
+      "end": 383.36,
+      "text": " So the response time can be a little more"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 383.38,
+      "end": 385.38,
+      "text": " Data in OLTP system is updated in the real time"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 385.40000000000003,
+      "end": 387.40000000000003,
+      "text": " You did the transaction"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 387.42,
+      "end": 389.42,
+      "text": " Minus from your account, plus from mine"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 389.44,
+      "end": 391.44,
+      "text": " So this will happen in real time"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 391.46000000000004,
+      "end": 393.46000000000004,
+      "text": " It's not like it's happening after a day"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 393.48,
+      "end": 395.48,
+      "text": " I will go crazy for a day"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 395.5,
+      "end": 397.5,
+      "text": " You do the transaction on Paytm or Google Pay"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 397.8,
+      "end": 399.8,
+      "text": " So at the end, do not refresh"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 399.82,
+      "end": 401.82,
+      "text": " Or don't press the back button"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 401.84,
+      "end": 403.84,
+      "text": " Till then everyone is stuck"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 403.86,
+      "end": 405.86,
+      "text": " When will my transaction be complete"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 405.88,
+      "end": 407.88,
+      "text": " Till it is not complete"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 407.9,
+      "end": 409.9,
+      "text": " Till then it is not like that"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 409.92,
+      "end": 411.92,
+      "text": " It should be done from my account"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 411.94,
+      "end": 413.94,
+      "text": " As soon as it is complete, then a relief comes"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 413.96,
+      "end": 415.96,
+      "text": " But what will happen at my end"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 415.98,
+      "end": 417.98,
+      "text": " Means what will happen in OLAP system"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 418.0,
+      "end": 420.0,
+      "text": " Periodically"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 420.02,
+      "end": 422.02,
+      "text": " After 1 day, after 10 days"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 422.04,
+      "end": 424.04,
+      "text": " It depends on the company's policy"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 424.06,
+      "end": 426.06,
+      "text": " It may be updated after a month"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 426.06,
+      "end": 428.06,
+      "text": " Oracle, MySQL, SQL Server, DB2"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 428.08,
+      "end": 430.08,
+      "text": " RDBMS"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 430.1,
+      "end": 432.1,
+      "text": " Simple Structure Data"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 432.12,
+      "end": 434.12,
+      "text": " Normalized Data"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 434.14,
+      "end": 436.14,
+      "text": " But the analysis that is happening here"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 436.16,
+      "end": 438.16,
+      "text": " For that I need"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 438.18,
+      "end": 440.18,
+      "text": " Tableau, R Programming"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 440.2,
+      "end": 442.2,
+      "text": " Python, Power BI"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 442.22,
+      "end": 444.22,
+      "text": " SAP, these tools are needed"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 444.24,
+      "end": 446.24,
+      "text": " So that I can properly analyze"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 446.26,
+      "end": 448.26,
+      "text": " Make graphs, charts"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 448.28,
+      "end": 450.28,
+      "text": " So that I can know what is the trend"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 450.3,
+      "end": 452.3,
+      "text": " I can check the business well"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 452.32,
+      "end": 454.32,
+      "text": " And according to that I can take a decision"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 454.32,
+      "end": 456.32,
+      "text": " About OLAP vs OLTP"
+    },
+    {
+      "number": "7",
+      "title": "OLAP vs OLTP _ Difference between OLAP vs OLTP with Real Life Examples",
+      "start": 456.34,
+      "end": 458.34,
+      "text": " That's it"
+    }
+  ],
+  "text": " Dear students, welcome to Kids Measures In today's video I am going to explain Difference between OLTP and OLAP system And I will explain this with a very good example I will explain it with a real life example, it will be fun in this video See, first of all we will start with a simple example Let's assume that I have a company whose name is ABC Electronics And we sell electronic items online Like mobiles, computers, laptops, we sell them online Now I have a website, a mobile app On which users come, like you are users You come and search on my app or desktop application And then you buy a particular product So you must be understanding this simple scenario And when you buy, I get a copy of that data I mean I get that transaction And at the end of the year, I know At the end of the financial year That how much total sale I got How much profit or loss I got Or what things happened So this is a simple example of the first model You must be understanding this Now here OLTP, where did OLAP come in? And where did the difference come in between this? So see, it is a very simple example You can see this card Now there are two faces of this card If I take the same company example Now there are two faces of this card This face is towards you and this face is towards me This face is towards you This is OLTP Online Transaction Processing Where you come There is a user interface, an application is made There is a database You open the application or desktop Or open the mobile And there you search for a particular product Then you put it in the cart, buy it You do the payment, all those things You are doing at this end That is the OLTP And this face which I can see This is OLAP Means at the end of the month I check that how much product sale I got Where did I sell more products How much total profit I got What happened if I lost So I am checking all these things at my end So this is towards you, this OLTP This is towards me, this OLAP That is the Analysis Processing Now you have understood all the stories Now see Current data, historical data Means OLTP On which data will you work On current data, which product is available today How much you can say is going on off Like it comes that on Amazon, Flipkart So you are working on current data The sale which was done 6 months ago That is not going on you today You are working on today's data And on whom am I working I am working on historical data How much sale happened today, I don't have to take it now Maybe I should check after a week Or after a month or after a quarter Like big companies say After quarter 1, I got this much revenue So I am checking that Through OLAP system I am checking on historical data Because current data amount will be less But historical data will be in large volume Multidimensional data will be there Multidimensional means Like as an example I will tell you Like if I have to draw this You can draw it like this 3 dimensional data One dimension is my time Here how much happened in 2021 How much happened in 2022 How much is happening in 2023 One dimension means what can I have in one axis Region means like how much sale happened in India How much happened in Japan How much happened in America And on one side what can be my product X axis, Y axis, Z axis On one side product means how much mobile is sold How much computer is sold How much laptop is sold So I work on multidimensional data This is your OLAP system And you work on simple data Day to day transactions You come daily to daily and do transactions Your work is only this I do all these things and then I do decision making Based on what data I have That which product should I put sale on Which product should not be put on Who is giving me more benefit Who is giving me less benefit Sometimes what happens is we are doing a lot of ads But it is not selling And we are doing less of someone's ad and it is selling more So all these things have to be taken decision Normalized data structure The data you are working on is normalized data Simple like you can say structured data Data can be in table and form So there will be a structure The data I am working on in OLAP That is a star schema or snowflake schema I have already defined that You will get the link of that So these are your data models Based on data warehouse Because my data is in warehouses Large volume of data is there Simple queries Obviously if I give you complex You will get stuck somewhere Now see my front end The employees working on it Many employees are doing They are putting daily product Today I put this product or tomorrow I will put this product And I am putting in so much sale So these employees who are working in front line For my company They are using this data And then you are seeing that data But the data I am working on That data only executive The founders of the company They can use that data Or you can say that executives Or analysts Or scientists are using that data So you will understand the main story So that's why simple queries are there But at my end there are complex queries We have to aggregate, integrate We have to join the data So this is a simple fund Then I told you that who is using this data The employees of the front line They are putting daily data How much sale has happened, they are collecting that data Managers are on their head And then finally you are seeing that data Because you are generating that data And we are actually putting that data My employees are putting that data So that you can see that data But the OLAP As I told you earlier Analysts, executive, decision makers And those who are sitting in the big position of the company They use it Require faster response time Obviously You need faster response on OLTP Otherwise you Instead of XYZ company You will go to ABC company Then you will have a faster response But here Because I am not doing daily analysis I may be after 1 week After 2 weeks, after 1 month I am doing that data analysis So the response time can be a little more Data in OLTP system is updated in the real time You did the transaction Minus from your account, plus from mine So this will happen in real time It's not like it's happening after a day I will go crazy for a day You do the transaction on Paytm or Google Pay So at the end, do not refresh Or don't press the back button Till then everyone is stuck When will my transaction be complete Till it is not complete Till then it is not like that It should be done from my account As soon as it is complete, then a relief comes But what will happen at my end Means what will happen in OLAP system Periodically After 1 day, after 10 days It depends on the company's policy It may be updated after a month Oracle, MySQL, SQL Server, DB2 RDBMS Simple Structure Data Normalized Data But the analysis that is happening here For that I need Tableau, R Programming Python, Power BI SAP, these tools are needed So that I can properly analyze Make graphs, charts So that I can know what is the trend I can check the business well And according to that I can take a decision About OLAP vs OLTP That's it"
+}

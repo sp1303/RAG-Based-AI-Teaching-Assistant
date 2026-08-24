@@ -1,0 +1,838 @@
+{
+  "chunks": [
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 0.0,
+      "end": 4.5,
+      "text": " Dear students, welcome to GITsmeasures, welcome to the series of Data Warehouse."
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 4.5,
+      "end": 9.5,
+      "text": " In today's video, we are going to talk about ETL vs ELT."
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 9.5,
+      "end": 14.5,
+      "text": " In Data Warehouse, we have already studied about ETL."
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 14.5,
+      "end": 17.5,
+      "text": " You must have heard about it if you haven't seen that video."
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 17.5,
+      "end": 19.5,
+      "text": " Extract, Transformation and Loading."
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 19.5,
+      "end": 22.5,
+      "text": " This is a very important and popular topic."
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 22.5,
+      "end": 28.0,
+      "text": " How to extract data from multiple resources, transform it and then load it."
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 28.0,
+      "end": 36.0,
+      "text": " But recently, another technique or name is becoming popular."
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 36.0,
+      "end": 38.0,
+      "text": " That is ELT."
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 38.0,
+      "end": 41.0,
+      "text": " You will say that earlier it was ETL and now it is ELT."
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 41.0,
+      "end": 42.0,
+      "text": " What is the concept?"
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 42.0,
+      "end": 43.0,
+      "text": " It is a simple thing."
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 43.0,
+      "end": 45.0,
+      "text": " It is about demand and supply."
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 45.0,
+      "end": 50.0,
+      "text": " The way our demand changes, we have to supply things in the same way."
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 50.0,
+      "end": 57.0,
+      "text": " The main difference here is that in ETL, we extract data first."
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 57.0,
+      "end": 64.0,
+      "text": " We extract multiple resources and then we integrate it and transform it."
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 64.0,
+      "end": 66.0,
+      "text": " What happens in transformation?"
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 66.0,
+      "end": 69.0,
+      "text": " For example, duplicate data, missing data, which is called data cleaning."
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 69.0,
+      "end": 73.0,
+      "text": " Duplicate data, missing data, errors, remove them from there."
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 73.0,
+      "end": 75.0,
+      "text": " Then transform that data."
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 75.0,
+      "end": 78.0,
+      "text": " In the transform, we normalize it, do discretization."
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 78.0,
+      "end": 83.0,
+      "text": " After cleaning a lot of things, finally we load it."
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 83.0,
+      "end": 88.0,
+      "text": " After loading, whoever wants to use it on a daily basis,"
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 88.0,
+      "end": 94.0,
+      "text": " can put that data in Power BI or Tableau and do analysis."
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 94.0,
+      "end": 98.0,
+      "text": " On top of that, any insights can be taken from it so that it can take a decision."
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 98.0,
+      "end": 100.0,
+      "text": " This is a simple story."
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 100.0,
+      "end": 102.0,
+      "text": " But here a little change has happened."
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 102.0,
+      "end": 107.0,
+      "text": " If someone asks you ETL vs ELT, you can say in a simple line."
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 107.0,
+      "end": 112.0,
+      "text": " First, we are extracting data and then we are loading it directly."
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 112.0,
+      "end": 116.0,
+      "text": " Without transforming, without cleaning the data,"
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 116.0,
+      "end": 119.0,
+      "text": " we load it directly in the warehouse."
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 119.0,
+      "end": 124.0,
+      "text": " After loading, what are we doing later?"
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 124.0,
+      "end": 125.0,
+      "text": " We are transforming it."
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 125.0,
+      "end": 127.0,
+      "text": " Here comes a new term."
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 127.0,
+      "end": 129.0,
+      "text": " We have heard of data warehouse."
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 129.0,
+      "end": 136.0,
+      "text": " Data warehouse means a place where we extract our data from different places."
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 136.0,
+      "end": 140.0,
+      "text": " For example, there are 1000 stores in a company all over the world."
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 140.0,
+      "end": 143.0,
+      "text": " So, we extract all the data of each store,"
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 143.0,
+      "end": 147.0,
+      "text": " all the inventory sales, and integrate it."
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 147.0,
+      "end": 150.0,
+      "text": " Then we clean it and load it in the warehouse."
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 150.0,
+      "end": 154.0,
+      "text": " After that, we can use it as we want."
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 154.0,
+      "end": 157.0,
+      "text": " Here comes a new term, data lake."
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 157.0,
+      "end": 161.0,
+      "text": " In data lake, we say that transformation is done later."
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 161.0,
+      "end": 163.0,
+      "text": " We don't want to do transformation."
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 163.0,
+      "end": 168.0,
+      "text": " We have to load raw data, unstructured data first."
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 168.0,
+      "end": 173.0,
+      "text": " After loading, we will transform it later."
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 173.0,
+      "end": 177.0,
+      "text": " Based on our requirement, we use this or that."
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 177.0,
+      "end": 180.0,
+      "text": " If someone asks you, in which case?"
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 180.0,
+      "end": 181.0,
+      "text": " Majorly, this is used."
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 181.0,
+      "end": 184.0,
+      "text": " But now, this is also used more."
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 184.0,
+      "end": 187.0,
+      "text": " Because data is being generated a lot."
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 187.0,
+      "end": 193.0,
+      "text": " If we start transforming it, there is a delay."
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 193.0,
+      "end": 197.0,
+      "text": " To stop that delay, we say that first load it and then transform it."
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 197.0,
+      "end": 198.0,
+      "text": " There is nothing else in it."
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 198.0,
+      "end": 201.0,
+      "text": " All the theories are related to this."
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 201.0,
+      "end": 203.0,
+      "text": " So, performed before loading."
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 203.0,
+      "end": 206.0,
+      "text": " Our transformation is done first and then later."
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 206.0,
+      "end": 210.0,
+      "text": " Here, we load processed data."
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 210.0,
+      "end": 215.0,
+      "text": " Here, we load raw data directly."
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 215.0,
+      "end": 219.0,
+      "text": " Obviously, this is generally used for structured data."
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 219.0,
+      "end": 222.0,
+      "text": " This is mainly used for unstructured data."
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 222.0,
+      "end": 225.0,
+      "text": " If we talk about ATL tools,"
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 225.0,
+      "end": 226.0,
+      "text": " Because we have to transform."
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 226.0,
+      "end": 228.0,
+      "text": " So, I need multiple tools."
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 228.0,
+      "end": 230.0,
+      "text": " Like Informatica company, their tools."
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 230.0,
+      "end": 232.0,
+      "text": " Or Talent, Apache, Nifi."
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 232.0,
+      "end": 234.0,
+      "text": " These multiple tools are used."
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 234.0,
+      "end": 239.0,
+      "text": " So that data can be integrated first, transformed, cleaned and then loaded."
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 239.0,
+      "end": 242.0,
+      "text": " Here, we don't need such tools."
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 242.0,
+      "end": 244.0,
+      "text": " We will load directly."
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 244.0,
+      "end": 245.0,
+      "text": " We integrated it and loaded it."
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 245.0,
+      "end": 249.0,
+      "text": " When we have to transform, we do cloud-based analysis."
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 249.0,
+      "end": 253.0,
+      "text": " Why is cloud-based introduction here?"
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 253.0,
+      "end": 256.0,
+      "text": " Because we are loading huge amount of data here."
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 256.0,
+      "end": 258.0,
+      "text": " We didn't cut it."
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 258.0,
+      "end": 261.0,
+      "text": " Like in ATL case, if you haven't seen the video,"
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 261.0,
+      "end": 264.0,
+      "text": " You must know that I gave the example of potatoes."
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 264.0,
+      "end": 267.0,
+      "text": " Potatoes have a big warehouse."
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 267.0,
+      "end": 270.0,
+      "text": " So, multiple farmers keep potatoes from all over the place."
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 270.0,
+      "end": 273.0,
+      "text": " After that, what do they do before loading it?"
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 273.0,
+      "end": 276.0,
+      "text": " Those who have become bad, rotten, they are first locked."
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 276.0,
+      "end": 277.0,
+      "text": " Those who are clean, they are locked."
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 277.0,
+      "end": 282.0,
+      "text": " So, because of these things, my size gets reduced somewhere."
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 282.0,
+      "end": 285.0,
+      "text": " But here we say nothing."
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 285.0,
+      "end": 288.0,
+      "text": " Whatever is coming, let all the potatoes come, load it first."
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 288.0,
+      "end": 290.0,
+      "text": " We will transform it later."
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 290.0,
+      "end": 293.0,
+      "text": " So, because of this, you need a huge area here."
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 293.0,
+      "end": 297.0,
+      "text": " Storage is needed because of which cloud and big data introduction has taken place."
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 297.0,
+      "end": 302.0,
+      "text": " Then after that, if you are asking the name of the tools, you can use it."
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 302.0,
+      "end": 304.0,
+      "text": " Because cloud-based work will be done here."
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 304.0,
+      "end": 307.0,
+      "text": " So, Big Query, whether you use Google or AWS,"
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 307.0,
+      "end": 311.0,
+      "text": " Use Redshift of Amazon Web Services."
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 311.0,
+      "end": 314.0,
+      "text": " Apart from this, if I tell you the real-life scenario,"
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 314.0,
+      "end": 315.0,
+      "text": " In which case is this?"
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 315.0,
+      "end": 318.0,
+      "text": " For example, the example of banking or healthcare,"
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 318.0,
+      "end": 320.0,
+      "text": " You cannot put raw data directly there."
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 320.0,
+      "end": 323.0,
+      "text": " Because if data is coming in the case of banking,"
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 323.0,
+      "end": 325.0,
+      "text": " It is necessary to clean it first."
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 325.0,
+      "end": 327.0,
+      "text": " Because many entries will be like this,"
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 327.0,
+      "end": 329.0,
+      "text": " Some fraud-based entry, some wrong entry."
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 329.0,
+      "end": 332.0,
+      "text": " If you load the wrong entry and do analysis on it,"
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 332.0,
+      "end": 334.0,
+      "text": " Then the work will be messed up."
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 334.0,
+      "end": 336.0,
+      "text": " Obviously, all my answers will be wrong."
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 336.0,
+      "end": 337.0,
+      "text": " Outliers will come."
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 337.0,
+      "end": 339.0,
+      "text": " So, in that case, I have healthcare,"
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 339.0,
+      "end": 341.0,
+      "text": " Patient's data, disease-related data."
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 341.0,
+      "end": 343.0,
+      "text": " So, you cannot load the wrong data."
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 343.0,
+      "end": 346.0,
+      "text": " But here, what is the scenario?"
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 346.0,
+      "end": 349.0,
+      "text": " Like IoT, smart cities, many sensors are installed,"
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 349.0,
+      "end": 351.0,
+      "text": " Data is being collected."
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 351.0,
+      "end": 353.0,
+      "text": " So, we will transform them later on."
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 353.0,
+      "end": 358.0,
+      "text": " First, load them quickly in the data lakes."
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 358.0,
+      "end": 361.0,
+      "text": " Raw, and later on, by doing analysis on it,"
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 361.0,
+      "end": 363.0,
+      "text": " We can find out the insights."
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 363.0,
+      "end": 367.0,
+      "text": " So, based on the scenario, you can use this or this."
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 367.0,
+      "end": 369.0,
+      "text": " So, if you are asked anywhere in the interview,"
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 369.0,
+      "end": 371.0,
+      "text": " In the University exam,"
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 371.0,
+      "end": 373.0,
+      "text": " You can easily differentiate."
+    },
+    {
+      "number": "10",
+      "title": "ETL vs ELT in Data Warehouse 🏭",
+      "start": 373.0,
+      "end": 375.0,
+      "text": " Thank you."
+    }
+  ],
+  "text": " Dear students, welcome to GITsmeasures, welcome to the series of Data Warehouse. In today's video, we are going to talk about ETL vs ELT. In Data Warehouse, we have already studied about ETL. You must have heard about it if you haven't seen that video. Extract, Transformation and Loading. This is a very important and popular topic. How to extract data from multiple resources, transform it and then load it. But recently, another technique or name is becoming popular. That is ELT. You will say that earlier it was ETL and now it is ELT. What is the concept? It is a simple thing. It is about demand and supply. The way our demand changes, we have to supply things in the same way. The main difference here is that in ETL, we extract data first. We extract multiple resources and then we integrate it and transform it. What happens in transformation? For example, duplicate data, missing data, which is called data cleaning. Duplicate data, missing data, errors, remove them from there. Then transform that data. In the transform, we normalize it, do discretization. After cleaning a lot of things, finally we load it. After loading, whoever wants to use it on a daily basis, can put that data in Power BI or Tableau and do analysis. On top of that, any insights can be taken from it so that it can take a decision. This is a simple story. But here a little change has happened. If someone asks you ETL vs ELT, you can say in a simple line. First, we are extracting data and then we are loading it directly. Without transforming, without cleaning the data, we load it directly in the warehouse. After loading, what are we doing later? We are transforming it. Here comes a new term. We have heard of data warehouse. Data warehouse means a place where we extract our data from different places. For example, there are 1000 stores in a company all over the world. So, we extract all the data of each store, all the inventory sales, and integrate it. Then we clean it and load it in the warehouse. After that, we can use it as we want. Here comes a new term, data lake. In data lake, we say that transformation is done later. We don't want to do transformation. We have to load raw data, unstructured data first. After loading, we will transform it later. Based on our requirement, we use this or that. If someone asks you, in which case? Majorly, this is used. But now, this is also used more. Because data is being generated a lot. If we start transforming it, there is a delay. To stop that delay, we say that first load it and then transform it. There is nothing else in it. All the theories are related to this. So, performed before loading. Our transformation is done first and then later. Here, we load processed data. Here, we load raw data directly. Obviously, this is generally used for structured data. This is mainly used for unstructured data. If we talk about ATL tools, Because we have to transform. So, I need multiple tools. Like Informatica company, their tools. Or Talent, Apache, Nifi. These multiple tools are used. So that data can be integrated first, transformed, cleaned and then loaded. Here, we don't need such tools. We will load directly. We integrated it and loaded it. When we have to transform, we do cloud-based analysis. Why is cloud-based introduction here? Because we are loading huge amount of data here. We didn't cut it. Like in ATL case, if you haven't seen the video, You must know that I gave the example of potatoes. Potatoes have a big warehouse. So, multiple farmers keep potatoes from all over the place. After that, what do they do before loading it? Those who have become bad, rotten, they are first locked. Those who are clean, they are locked. So, because of these things, my size gets reduced somewhere. But here we say nothing. Whatever is coming, let all the potatoes come, load it first. We will transform it later. So, because of this, you need a huge area here. Storage is needed because of which cloud and big data introduction has taken place. Then after that, if you are asking the name of the tools, you can use it. Because cloud-based work will be done here. So, Big Query, whether you use Google or AWS, Use Redshift of Amazon Web Services. Apart from this, if I tell you the real-life scenario, In which case is this? For example, the example of banking or healthcare, You cannot put raw data directly there. Because if data is coming in the case of banking, It is necessary to clean it first. Because many entries will be like this, Some fraud-based entry, some wrong entry. If you load the wrong entry and do analysis on it, Then the work will be messed up. Obviously, all my answers will be wrong. Outliers will come. So, in that case, I have healthcare, Patient's data, disease-related data. So, you cannot load the wrong data. But here, what is the scenario? Like IoT, smart cities, many sensors are installed, Data is being collected. So, we will transform them later on. First, load them quickly in the data lakes. Raw, and later on, by doing analysis on it, We can find out the insights. So, based on the scenario, you can use this or this. So, if you are asked anywhere in the interview, In the University exam, You can easily differentiate. Thank you."
+}
